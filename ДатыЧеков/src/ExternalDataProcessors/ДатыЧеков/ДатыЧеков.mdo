@@ -10,9 +10,19 @@
   </synonym>
   <comment>Фильтрация данных из регистра сведений, документов &quot;ЧекиККМ&quot;</comment>
   <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="21b2bcb0-2d8f-4585-9679-f20c11d55323"/>
+  <defaultForm>ExternalDataProcessor.ДатыЧеков.Form.ФормаЧекиКкм</defaultForm>
   <help>
     <pages>
       <lang>ru</lang>
     </pages>
   </help>
+  <forms uuid="8dcdcd42-15ea-45a8-ba76-149c6293942d">
+    <name>ФормаЧекиКкм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма чеки ккм</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:ExternalDataProcessor>
