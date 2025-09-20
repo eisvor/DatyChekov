@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c482d699-2f9b-421e-88e5-c4ec9038a1fb">
+  <name>УдалитьОптовоПроизводственныйКонтур</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Оптово-производственный контур</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <subsystems>УдалитьТовародвижение</subsystems>
+  <subsystems>УдалитьИнвентаризация</subsystems>
+  <subsystems>УдалитьПроизводство</subsystems>
+  <subsystems>УдалитьИмпортЭкспорт</subsystems>
+  <parentSubsystem>Subsystem.МаркировкаИСМПТК</parentSubsystem>
+</mdclass:Subsystem>

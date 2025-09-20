@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c393c172-b932-4ac5-9049-6f2016f2ef39">
+  <producedTypes>
+    <objectType typeId="e5b0a22d-108a-4c87-a5dc-a7f8f4c7bc4f" valueTypeId="150c8fa4-e9b8-42d4-bccc-1b935e20a660"/>
+    <managerType typeId="4604d697-c1e3-464e-8309-f518fee48579" valueTypeId="54c82266-0b06-464d-b488-ecc01275fc58"/>
+  </producedTypes>
+  <name>ПанельОбменИСЦЭДМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маркировка и прослеживаемость ЛС (ИС ЦЭДМ)</value>
+  </synonym>
+  <comment>Настройки ИСЦЭДМ</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПанельОбменИСЦЭДМ.Form.Форма</defaultForm>
+  <forms uuid="edb23eb7-978a-4671-abc2-927fbb98a3f9">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <comment>Рабочее место ИС ЦЭДМ</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="8a3414fd-3db9-4909-9c9e-b6667b8f9e14">
+    <name>РММаркировкаИПрослеживаемостьТоваровИСЦЭДМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маркировка и прослеживаемость лекарственной продукции (ИС ЦЭДМ)</value>
+    </synonym>
+    <group>NavigationPanelSeeAlso</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Общее рабочее место модуля маркировки</value>
+    </toolTip>
+  </commands>
+</mdclass:DataProcessor>

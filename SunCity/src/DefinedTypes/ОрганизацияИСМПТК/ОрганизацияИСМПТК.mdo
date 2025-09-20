@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64daad55-6f7f-4675-9cdf-5ede0e295085">
+  <producedTypes>
+    <containerType typeId="31930936-d96f-4755-b331-328d48c644a9" valueTypeId="b5b307aa-93cd-438b-abcb-1efd2a1416a1"/>
+  </producedTypes>
+  <name>ОрганизацияИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Организация ИСМПТК</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Организации</types>
+  </type>
+</mdclass:DefinedType>

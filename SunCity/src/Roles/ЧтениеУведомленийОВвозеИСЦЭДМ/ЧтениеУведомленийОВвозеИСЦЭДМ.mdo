@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78e46004-2a02-4c73-8af3-a0db62985485">
+  <name>ЧтениеУведомленийОВвозеИСЦЭДМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение Уведомлений о ввозе (ЕАЭС и третьи страны) (ИС ЦЭДМ)</value>
+  </synonym>
+</mdclass:Role>

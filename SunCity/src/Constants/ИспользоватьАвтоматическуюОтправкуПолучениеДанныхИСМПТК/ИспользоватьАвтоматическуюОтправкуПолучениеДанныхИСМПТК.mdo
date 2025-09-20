@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db8914b2-f876-41ea-a008-d2467278b892">
+  <producedTypes>
+    <managerType typeId="1f89a338-aad3-486d-b538-5963e707ccdc" valueTypeId="438adffb-a115-47cf-a834-9a4184430547"/>
+    <valueManagerType typeId="20d8926e-d292-41fb-a4f1-f3492c2f61d5" valueTypeId="34b61f10-9cdd-4e90-b13b-0bff65459fb0"/>
+    <valueKeyType typeId="b5b3f937-bf94-57a2-9b6b-aac544bfeb6a" valueTypeId="bd821d13-fa09-5497-b0e9-83172cfa6769"/>
+  </producedTypes>
+  <name>ИспользоватьАвтоматическуюОтправкуПолучениеДанныхИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автоматически обновлять статусы документов СУЗ</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Использовать автоматическую отправку и получение данных МОТП</value>
+  </synonym>
+  <comment>Получать статусы документов СУЗ в автоматическом режиме</comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

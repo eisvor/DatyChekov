@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef7dfdde-6812-421f-b4c0-72ea0e333ae7">
+  <producedTypes>
+    <containerType typeId="8e978a2a-bfd3-4348-be39-a881bb5f76cd" valueTypeId="e22f9649-49ff-4102-a69b-cd6cd59335c4"/>
+  </producedTypes>
+  <name>ЕдиницаИзмеренияИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единица измерения ИСМПТК</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Единица измерения ИСМПТК</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.БазовыеЕдиницыИзмерения</types>
+    <types>CatalogRef.УпаковкиНоменклатуры</types>
+  </type>
+</mdclass:DefinedType>

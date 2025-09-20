@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5953cc3c-f72d-41c3-97d7-7087a0ca696e">
+  <producedTypes>
+    <refType typeId="13f0f96b-87a8-44cf-91ef-54c9198deda0" valueTypeId="5d9dcd7f-15ec-4d84-a499-7132d54b7e42"/>
+    <listType typeId="7d23df9f-8dd0-46e3-aa88-4fc5dbe4282e" valueTypeId="07a7986b-acae-4853-8ad5-8b3944a2f1c7"/>
+    <managerType typeId="6a38ff51-28ea-4a88-a5e5-ff264d0597a2" valueTypeId="793ae798-d3a2-450c-8c17-1e12d50a2f79"/>
+  </producedTypes>
+  <name>ШаблоныКодовМаркировкиСУЗИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблоны кодов маркировки СУЗИСМПТК</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Шаблоны кодов маркировки СУЗИСМПТК</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d27e1271-5115-4480-99ca-96268e67faf8">
+    <name>Обувь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обувь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Обувь</value>
+    </synonym>
+    <comment>(1) в СУЗ: 01 + gtin + 21 + serial (13 chars) </comment>
+  </enumValues>
+  <enumValues uuid="8cd9aa9d-987d-46cb-8571-c2b35700e484">
+    <name>БлокТабачныхПачек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сигареты, блоки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Блок табачных пачек</value>
+    </synonym>
+    <comment>(3) в СУЗ: 01 + gtin + 21 + serial (7 chars)</comment>
+  </enumValues>
+  <enumValues uuid="c26edbb8-718b-411e-8684-c2ffc5e39c2e">
+    <name>ТабачнаяПачка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сигареты, пачки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Табачная пачка</value>
+    </synonym>
+    <comment>(4) в СУЗ: gtin + serial (7 chars)</comment>
+  </enumValues>
+  <enumValues uuid="e2df94d5-5fbb-44b1-85b2-33be09980f38">
+    <name>МолочнаяПродукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Молочная продукция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="43cd875c-42fd-4049-ad9b-3845c87233dc">
+    <name>ЛегкаяПромышленность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Легкая промышленность</value>
+    </synonym>
+    <comment>(10) в СУЗ: 01 + gtin + 21 + serial (13 chars)</comment>
+  </enumValues>
+  <enumValues uuid="51c784d3-b459-4117-a6e0-21c0423d6d8f">
+    <name>УпакованнаяВодаИНапитки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упакованная вода и напитки</value>
+    </synonym>
+    <comment>(16) в СУЗ: 01 + gtin + 21 + serial (13 chars) </comment>
+  </enumValues>
+  <enumValues uuid="21b21566-2a25-49d4-85a8-b579ac6fc9bf">
+    <name>ЛекарственныеПрепараты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лекарственная продукция</value>
+    </synonym>
+    <comment>(5) в СУЗ: 01 + gtin + 21 + serial (13 chars)</comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99688da2-3aa6-4638-8d73-e5ef4f2418b7">
+  <producedTypes>
+    <objectType typeId="ea7e2f5e-4444-4c72-9c10-677e2462774a" valueTypeId="798933ec-e4d2-4191-95b2-f112f3c5dccb"/>
+    <managerType typeId="c6a74ac3-37ee-48e1-b9d7-2e2431bdb372" valueTypeId="71d2311a-0aa4-4c35-bea9-c7a8258e9119"/>
+  </producedTypes>
+  <name>ПечатьКодовМаркировкиИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать кодов маркировки ИСМПТК</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="730ce624-c473-4fcf-9d38-ad4a47ae39fd">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ОрганизацияИСМПТК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4622964d-55fe-4cc9-83b8-46b57c55adec">
+    <name>ШаблонЭтикетки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон этикетки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХранилищеШаблоновИСМПТК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <createOnInput>Use</createOnInput>
+  </attributes>
+  <attributes uuid="8e0d3ac3-fc93-45be-8117-978489b7d7e1">
+    <name>КоличествоЭкземпляров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество экземпляров</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество экземпляров этикеток(ценников), выводимых на печать.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="3efab402-845c-4a51-a312-bbab01fe0b14">
+    <name>НазначениеШаблона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение шаблона</value>
+    </synonym>
+    <type>
+      <types>EnumRef.НазначенияШаблоновЭтикетокИСМПТК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="f016ff71-f5e3-4c5b-bdfd-6a3f0d54ff20">
+    <name>ФормаПечатиИзПула</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать кодов маркировки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма печати из пула</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="c6cb1a1d-c009-4e85-9594-883ae24bc543">
+    <name>Эталон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эталон</value>
+    </synonym>
+  </templates>
+  <templates uuid="440192fc-b201-4acb-80ca-6908086e89cb">
+    <name>ПоляШаблонаШтрихкодыУпаковок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поля шаблона штрихкоды упаковок</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="323e49f1-4169-4bbd-b953-f7bf37736b31">
+    <name>ПоляШаблонаИСМП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поля шаблона ИСМП</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>LTIS template fields</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="dcf43468-d2f1-437d-a17d-2853ae6c9903">
+    <name>ЭталонРазмерыЯчеек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эталон размеры ячеек</value>
+    </synonym>
+  </templates>
+  <templates uuid="7bdca5ed-396b-4fd9-89a5-8b01ed009ced">
+    <name>SSCC</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон этикетки 100х100 для SSCC</value>
+    </synonym>
+  </templates>
+  <templates uuid="0446ba95-ecee-4e15-a44c-259ee6b5c97a">
+    <name>КомпонентаПечатиШтрихкодовИСМПТК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компонента печати штрихкодов ИСМПТК</value>
+    </synonym>
+    <comment>Компонента использует библиотеку ImageMagick, разработанную ImageMagick Studio LLC. Лицензия http://www.imagemagick.org/script/license.php</comment>
+    <templateType>AddIn</templateType>
+  </templates>
+</mdclass:DataProcessor>

@@ -1,0 +1,10 @@
+<Patch xmlns="http://www.v8.1c.ru/ssl/patch" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Name>EF_00_00060815</Name>
+	<Description>При формировании чека ККМ из ПКО, в переданных на ФР данных сворачивается информация по количеству, информация по количеству в строке всегда 1, а цена приравнивается к сумме. Итоговые суммовые показатели остаются корректными.</Description>
+	<UUID>11fcbd03-76d6-45f1-aa9c-73cd1cfc1492</UUID>
+	<ModifiedMetadata>ОбщийМодуль.ФорматноЛогическийКонтрольВызовСервера</ModifiedMetadata>
+	<AppliedFor>
+		<ConfigurationName>РозницаДляКазахстана</ConfigurationName>
+		<Versions>2.3.10.3</Versions>
+	</AppliedFor>
+</Patch>

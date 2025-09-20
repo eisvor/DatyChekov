@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0cf0283d-0bcb-413b-8e35-2c4f7d137348">
+  <producedTypes>
+    <containerType typeId="dd8d6db2-df50-4853-b611-15fdd7222e12" valueTypeId="4052d0df-2f7a-444d-a6cd-2d715a9e38d8"/>
+  </producedTypes>
+  <name>ИсточникЗаполненияПалитрыРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источник заполнения палитры РМК</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

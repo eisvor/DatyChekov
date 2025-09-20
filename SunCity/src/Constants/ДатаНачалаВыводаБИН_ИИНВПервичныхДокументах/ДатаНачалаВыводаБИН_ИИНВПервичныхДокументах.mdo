@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc9169de-5523-4b76-8a8e-e247cc069878">
+  <producedTypes>
+    <managerType typeId="42fbb15e-51c6-4e86-8213-573da39004fa" valueTypeId="6e7decdc-b6e1-49ba-bc19-1d9cdd59c896"/>
+    <valueManagerType typeId="29e1c25d-f3f6-47df-a572-ade09530a730" valueTypeId="638db430-e726-4251-949b-b9260950bd90"/>
+    <valueKeyType typeId="5ee0e273-0992-5960-b4f3-f64e2b735ff0" valueTypeId="51332dfe-b504-5708-9bde-38be30591d86"/>
+  </producedTypes>
+  <name>ДатаНачалаВыводаБИН_ИИНВПервичныхДокументах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дата начала вывода БИН ИИНВПервичных документах</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

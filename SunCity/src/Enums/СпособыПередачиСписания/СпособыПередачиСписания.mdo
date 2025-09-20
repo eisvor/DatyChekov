@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="943003f1-3120-4dc1-b934-017ee7715d84">
+  <producedTypes>
+    <refType typeId="8b653074-396e-4836-a97d-e4c68bfec9d2" valueTypeId="442a7012-556e-4523-a1c4-a503d7732202"/>
+    <listType typeId="c1e3d751-9528-4f62-adf9-18c40749a727" valueTypeId="1abcb1ca-a13e-4f49-b71c-30968bb0c927"/>
+    <managerType typeId="095760e0-6b07-41ba-9bd6-fc612aa60a29" valueTypeId="c3e8f3bf-9c23-45ed-994a-89a6e75a2dd6"/>
+  </producedTypes>
+  <name>СпособыПередачиСписания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы передачи списания</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5ce55777-c9f8-4a35-862a-ebcbd2e4f0ac">
+    <name>ВСписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружать в документ &quot;Списание товаров&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="feb1cb7c-acdb-4b6e-8440-54fcf0d785fb">
+    <name>ВТребованиеНакладную</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружать в документ &quot;Требование накладная&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="05ec7a70-c662-4d04-8414-1adac9e47cd8">
+    <name>Автоматически</name>
+    <synonym>
+      <key>ru</key>
+      <value>Определять автоматически</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

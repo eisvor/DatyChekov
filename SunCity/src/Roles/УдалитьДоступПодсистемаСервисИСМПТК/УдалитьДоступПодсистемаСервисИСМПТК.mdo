@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b9c2196-5298-4342-8ff6-7a5881f61e3c">
+  <name>УдалитьДоступПодсистемаСервисИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Не используется) Доступ к подсистеме Сервис (ИС МПТ)</value>
+  </synonym>
+</mdclass:Role>

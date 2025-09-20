@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36ca84f4-5d4e-41ad-9290-b7c3397de190">
+  <producedTypes>
+    <managerType typeId="e1acb7c4-6bdc-44e3-82c5-47763572c84c" valueTypeId="7ea07959-29bb-477a-ba7a-17136529c534"/>
+    <valueManagerType typeId="7d1282b1-0192-464e-b09f-87498691f189" valueTypeId="c3526362-ed84-41d6-8758-2469e8e698ee"/>
+    <valueKeyType typeId="a4373ec9-e44c-5a72-b5e2-30a4bed1fba1" valueTypeId="795974f5-1578-52d4-864e-76f0e88248a6"/>
+  </producedTypes>
+  <name>ВестиУчетМаркируемогоАлкоголяИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маркировка алкоголя</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

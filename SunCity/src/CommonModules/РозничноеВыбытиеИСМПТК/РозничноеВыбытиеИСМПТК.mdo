@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c4f46e6d-4ad2-4f83-9a59-b751067a5e38">
+  <name>РозничноеВыбытиеИСМПТК</name>
+  <synonym>
+    <key>en</key>
+    <value>Розничное выбытие ИСМПТК</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a77ab0a-ea7b-474b-a005-cc6b5cf9f1ef">
+  <producedTypes>
+    <selectionType typeId="8db8a24e-0f9e-4bf0-ae68-85be05fefe20" valueTypeId="335aaf73-ee4b-47de-84e8-c778b187e3ab"/>
+    <listType typeId="01fab2d5-a531-4ce7-b22f-8af2417a2f8d" valueTypeId="daedb3e2-de38-4e90-9648-44c87e4cf7e9"/>
+    <managerType typeId="ba3eca4d-7406-4ca2-b01e-cf7ec26f8567" valueTypeId="be0e3ba3-fa0a-4562-9703-83245aa7b504"/>
+    <recordSetType typeId="673e4233-9fba-4e9d-bb96-293577c6b031" valueTypeId="76ac9c10-c931-4fb2-8a6f-ed21d4d37db5"/>
+    <recordKeyType typeId="fb05f779-4823-4de9-8379-a83a2160e4ab" valueTypeId="3044ece8-1c07-40f3-a8ac-9d3d4fdc3cf6"/>
+    <recordType typeId="36f12df2-799a-4244-b721-5d70aaf28227" valueTypeId="f704f1ca-8508-4425-b1e3-49a40b984464"/>
+    <recordManagerType typeId="8f5e8d95-645c-4366-bb73-98b2740ccbc6" valueTypeId="0f0bbc07-46e3-497e-b138-87c48103031c"/>
+  </producedTypes>
+  <name>ШтрихкодыSSCCИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сгенерированные коды транспортных упаковок (SSCC)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ШтрихкодыSSCCИСМПТК.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ШтрихкодыSSCCИСМПТК.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1748ecc6-40d0-40b3-a564-a9231359b6ed">
+    <name>Штрихкод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкод</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <attributes uuid="27858387-a533-4b16-9b6f-c67abce4915a">
+    <name>ТипШтрихкода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип штрихкода</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыШтрихкодовИСМПТК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="89cdbf6d-0560-4bba-9cbf-3e2605b6dbad">
+    <name>ТипУпаковки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип упаковки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыУпаковокИСМПТК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7c7cb3d7-fab7-46c5-82e2-75ea26a3bc6e">
+    <name>ДатаГенерации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата генерации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="cb6dc085-ca37-401a-8ee2-3147f2112d50">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ОрганизацияИСМПТК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a67e3d0e-7865-4d7e-bbf5-bbe548f1d82e">
+    <name>СерийныйНомерSSCC</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серийный номер</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>7</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2809685e-fcf5-41cb-8104-134345401556">
+    <name>ПрефиксКомпанииGS1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Префикс компании GS1</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f10a8623-b9dd-4c4e-bd85-60ee1adfef09">
+    <name>ЦифраРасширения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цифра расширения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="3077044b-4f0b-4ca8-be62-87ef68761594">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1692a6f2-f6cf-4c21-863a-5bb97fa3dbcf">
+    <name>ФормаПодбораКода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма подбора кода</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3d00ead7-2138-4084-8e81-659fdcff2fac">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

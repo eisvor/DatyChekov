@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="457b5a34-ee8d-4f8f-9cfa-f8eccba4a127">
+  <producedTypes>
+    <managerType typeId="59090502-e536-4caa-adc0-bde3854f6715" valueTypeId="4f231e4c-9f3e-4bf8-8101-5b1a7a41e1dd"/>
+    <valueManagerType typeId="d663de12-9ab3-41d7-8519-a6ee465e339a" valueTypeId="bbd4f59f-e118-49de-809e-4336096d9cf9"/>
+    <valueKeyType typeId="eb326137-ef65-4fd5-bd37-f026b9579bbd" valueTypeId="55553b9e-23c9-46e9-89d4-cafb10f0bf07"/>
+  </producedTypes>
+  <name>НеЗапрашиватьКМТабачнойПродукцииВРозничномКонтуреИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Не запрашивать коды маркировки табачной продукции в Чеках ККМ</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

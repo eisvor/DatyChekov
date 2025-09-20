@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b2a5f13-baf5-4a44-bfa9-e42a4715d950">
+  <producedTypes>
+    <containerType typeId="d9f7b5d2-c961-418f-988e-68e43a4e32b9" valueTypeId="7724d77f-f815-4662-9a8b-45d0a4655f87"/>
+  </producedTypes>
+  <name>ОснованиеУведомлениеОВводеВОборотИСЦЭДМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основание уведомление о вводе в оборот</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.ВозвратТоваровОтПокупателя</types>
+    <types>DocumentRef.ОприходованиеТоваров</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3820f237-1b93-4230-b904-89518f823bdc">
+  <producedTypes>
+    <refType typeId="c09a4272-4008-4258-877d-b01f22759cb9" valueTypeId="2cbff327-75f1-4b74-930e-4bcccc5fd746"/>
+    <listType typeId="a3854104-aac7-43e3-97b9-0c9e645065c4" valueTypeId="94658686-91b8-4345-9c3f-b0054b8d9b79"/>
+    <managerType typeId="ee83dd1a-196d-459d-a290-49faf6a56f1a" valueTypeId="81ce2548-99f0-47b8-b5d5-39a11129d584"/>
+  </producedTypes>
+  <name>ТипДокументаТаможенногоОформленияИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип документа таможенного оформления ИСМПТК</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ebd91bf5-95b5-484b-b6ec-65c7b5651947">
+    <name>ДекларацияНаТовары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Декларация на товары</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="acb3632f-2d23-4a72-99f1-05cac2003543">
+    <name>ЗаявлениеОВыпускеТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявление о выпуске товаров до подачи декларации на товары</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

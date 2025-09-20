@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9766f0e0-a420-425c-943e-ad5a04ce2d26">
+  <name>РМКНоваяСоставнаяСтрокаШаблона</name>
+  <synonym>
+    <key>ru</key>
+    <value>РМК новая составная строка шаблона</value>
+  </synonym>
+</mdclass:CommonPicture>

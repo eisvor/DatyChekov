@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91992b58-5c86-47c7-804a-aca5a04e427a">
+  <name>СхемаАПП_XML_API_ИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Схема АПП XML API ИСМПТК</value>
+  </synonym>
+  <templateType>TextDocument</templateType>
+</mdclass:CommonTemplate>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae77283a-18c2-47b0-90d3-ac23c1b64fa7">
+  <producedTypes>
+    <refType typeId="1869502e-a9b1-40ec-85cf-94e1b87df983" valueTypeId="6b14a157-68a9-463b-b962-e192d3a4364d"/>
+    <listType typeId="5ff9edfc-e096-4122-b8bb-0a404b6b87c3" valueTypeId="36df9644-5de7-46c3-8d79-89e20e40a58c"/>
+    <managerType typeId="754e95ff-fb2a-4c88-8263-93f238853822" valueTypeId="3b9bf3dc-422a-4a0e-965d-a8bab35ee4a4"/>
+  </producedTypes>
+  <name>НаправленияДокументовИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Направления документов ИСМПТК</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f1a8d1b1-cde5-4db6-8cb6-01f492563077">
+    <name>Входящий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входящий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bf405f53-03a1-48f7-9a72-3428b4e406c5">
+    <name>Исходящий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходящий</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7cf50e8e-5b40-444b-b64c-716d21f8b7b7">
+  <name>ПФ_MXL_ИНВ10</name>
+  <synonym>
+    <key>ru</key>
+    <value>ИНВ-10</value>
+  </synonym>
+  <comment>Инвентаризационная опись товарно-материальных ценностей (унифицированная форма № ИНВ-10)</comment>
+</mdclass:CommonTemplate>

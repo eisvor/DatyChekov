@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="801b6ee2-7787-4888-9d10-4d72e1e39045">
+  <producedTypes>
+    <managerType typeId="0a4198b8-9753-4629-a37b-2a6a890b128f" valueTypeId="edeeecfa-bc7b-416f-b68f-ca1bdce508bc"/>
+    <valueManagerType typeId="a9a884ce-b347-482d-b6d5-35f57aab0a86" valueTypeId="19d38016-eebf-4097-861e-24a4c4391428"/>
+    <valueKeyType typeId="32524004-1f04-40fb-8dd5-2eb24449664b" valueTypeId="9fd35047-adec-4a79-a980-4b4b0b691973"/>
+  </producedTypes>
+  <name>ПровайдерКриптографии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Провайдер криптографии</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ТипПровайдераКриптографии</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

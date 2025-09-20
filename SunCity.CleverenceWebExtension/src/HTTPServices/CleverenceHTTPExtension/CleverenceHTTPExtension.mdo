@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c141fec-f3ff-4295-86b4-56b0b6fc4ef3">
+  <name>CleverenceHTTPExtension</name>
+  <synonym>
+    <key>ru</key>
+    <value>Cleverence HTTPExtension</value>
+  </synonym>
+  <rootURL>clevhs</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>300</sessionMaxAge>
+  <urlTemplates uuid="d882f6cd-5fdd-4fde-bd84-db1482371b1e">
+    <name>clevhs</name>
+    <synonym>
+      <key>ru</key>
+      <value>Clevhs</value>
+    </synonym>
+    <template>/{MethodName}</template>
+    <methods uuid="ba7bee29-44e6-4ec2-a194-eb4389292382">
+      <name>InvokePost</name>
+      <synonym>
+        <key>ru</key>
+        <value>Invoke post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>clevhsInvokePost</handler>
+    </methods>
+    <methods uuid="c7eaaa35-1c03-4ead-8d5b-17a1b2cdc960">
+      <name>Test</name>
+      <synonym>
+        <key>ru</key>
+        <value>Test</value>
+      </synonym>
+      <handler>clevhsTest</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

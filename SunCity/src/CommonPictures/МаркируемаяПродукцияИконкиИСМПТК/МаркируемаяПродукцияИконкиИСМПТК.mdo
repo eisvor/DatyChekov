@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93622d2e-a077-4e99-92d3-f361122e72a6">
+  <name>МаркируемаяПродукцияИконкиИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка наличия табака ИС МП</value>
+  </synonym>
+</mdclass:CommonPicture>

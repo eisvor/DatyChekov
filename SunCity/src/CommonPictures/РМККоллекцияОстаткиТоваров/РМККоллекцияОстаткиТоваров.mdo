@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="522fd76b-f5dc-4f1f-8cf5-55e22d9b825b">
+  <name>РМККоллекцияОстаткиТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>РМККоллекция остатки товаров</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+  <availabilityForAppearance>true</availabilityForAppearance>
+</mdclass:CommonPicture>

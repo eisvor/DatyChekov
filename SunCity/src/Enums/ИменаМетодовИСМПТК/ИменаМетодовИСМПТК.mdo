@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="edaffdc2-99be-495f-92e3-88eba1ca3b5c">
+  <producedTypes>
+    <refType typeId="f6fb5ab1-809c-49ed-b83d-ae787a93905c" valueTypeId="1b93b6a8-c972-4e11-b072-3ef51ef51998"/>
+    <listType typeId="93fcd98f-6a1b-4d87-b0cc-1d7065a395a8" valueTypeId="ca5b8d98-a87f-49cb-bfd5-39ba1270e1ca"/>
+    <managerType typeId="1f7c9448-5d16-407d-9ef6-b8fd3b522f9d" valueTypeId="f28c8147-00f9-4376-bba0-8ec44d7efa46"/>
+  </producedTypes>
+  <name>ИменаМетодовИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Имена методов ИС МПТК / ЦЭДМ</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="926df18e-a793-464f-ba81-a7dc5ef46731">
+    <name>ВходящиеАктыППИСМПТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входящие Акты ПП ИСМПТ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9b0b9e8a-66be-434b-b93e-c5ef58e1ad7f">
+    <name>ВходящиеУведомленияОВвозеИзЕАЭСИСМПТК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входящие Уведомления о ввозе из ЕАЭС ИСМПТК</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a5b8a647-1321-436f-a592-85621188c5e2">
+    <name>ВходящиеУведомленияОВвозеИмпортИСМПТК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входящие Уведомления о ввозе импорт ИСМПТК</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="949875ff-acdd-4bbe-b337-47f710604471">
+    <name>ВходящиеУведомленияОбОтгрузкеИСМПТК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входящие Уведомления об отгрузке ИСМПТК</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6332fde0-a48b-470a-9470-61edb4700613">
+    <name>ВходящиеАктыППИСЦЭДМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входящие Акты ПП ИС ЦЭДМ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ec08352f-369a-44c7-bddb-09076b9ffa4b">
+    <name>ВходящиеАктыВнутреннегоПеремещенияИСЦЭДМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входящие Акты внутреннего перемещения ИС ЦЭДМ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f9481467-1f40-4c86-9cb1-08a34b34d37b">
+    <name>ВходящиеОтчетыОПередачиКИОтНерезедентаИСЦЭДМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входящие Отчеты о передачи КИ от нерезедента ИС ЦЭДМ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="153007d6-d577-41d8-95b4-7a8bc80fc518">
+    <name>ВходящиеУведомленияОРасхожденияхИСЦЭДМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входящие Уведомления о расхождениях ИС ЦЭДМ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aaac6228-424f-49d8-834b-4e86c981c865">
+    <name>ВходящиеУведомленияОВвозеИзЕАЭСИСЦЭДМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входящие Уведомления о ввозе из ЕАЭС ИС ЦЭДМ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

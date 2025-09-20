@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c565cbaa-cbf3-414b-a3b4-7623320883b0">
+  <name>ВажностьСообщенийИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Важность сообщений ИСМПТК</value>
+  </synonym>
+</mdclass:CommonPicture>

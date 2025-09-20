@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef4c2b62-8e79-48e3-b5e7-d86cee1ad299">
+  <name>ОчисткаПулаКодовМаркировкиИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очистка пула кодов маркировки ИС МПТ</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Очистка пула кодов маркировки ИСМПТК</value>
+  </synonym>
+  <methodName>CommonModule.ИнтеграцияИСМПТК.ОчисткаПулаКодовМаркировкиРегламентноеЗадание</methodName>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

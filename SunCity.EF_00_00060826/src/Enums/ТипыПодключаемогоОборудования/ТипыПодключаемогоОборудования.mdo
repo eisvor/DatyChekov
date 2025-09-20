@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5ccead3f-158e-4597-9375-bc5b5655bbae" extendedConfigurationObject="e6919888-090e-444a-b674-039f79814fe6">
+  <producedTypes>
+    <refType typeId="1437a4a1-82b6-4831-9abb-652ce1ca6d9f" valueTypeId="b213bad0-496b-4def-ba90-85b11161766a"/>
+    <listType typeId="6363f49c-0d25-4dd2-8576-f105b66bf250" valueTypeId="5cebca0b-1a3d-4e89-841d-17c45f838ad5"/>
+    <managerType typeId="225198ef-4b81-4365-9551-016ff4b61105" valueTypeId="caf0d908-8e03-495d-bf00-a8860d951861"/>
+  </producedTypes>
+  <name>ТипыПодключаемогоОборудования</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="ed9cbf78-afe5-4796-b7c0-a0ff79d78137" extendedConfigurationObject="faf25fcb-0835-4e6c-baed-69603a753312">
+    <name>ККТ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2f21be0-e00c-4671-b863-8d153a0a2669">
+  <name>КриптографияПредупреждение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Криптография предупреждение</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2f273b58-df68-496a-ac3d-80690c79cfc7">
+  <name>EF_00_00061054</name>
+  <synonym>
+    <key>ru</key>
+    <value>E f 00 00061054</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="11920b77-0f95-4614-b3c4-41dfffb99616"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="59d3fda1-70b2-4315-a3a6-437a69fa5bfe"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="5cbed605-5604-45e4-b445-7221cd809f46"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="e406ae37-38cc-47fc-9e67-0eeaa7755cce"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="0e834ebd-a402-45f0-8c80-2f8a1c59ce70"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="d07f8b04-d72b-4cc3-8ccc-288b6168e6a1"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="69c180fe-ffb9-4e4d-a2a6-f452df8f8291"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>EF_00_00061054_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <compatibilityMode>8.3.25</compatibilityMode>
+  <languages uuid="e64bc720-5834-41fb-98ae-6a51690a8df1">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <styleItems>StyleItem.ВыборСтандартногоПериодаФонКнопкиИСМПТК</styleItems>
+  <roles>Role.EF_00_00061054_ОсновнаяРоль</roles>
+  <commonTemplates>CommonTemplate.EF_00_00061054</commonTemplates>
+  <commonModules>CommonModule.РаботаСДокументамиИСМПТК</commonModules>
+  <commonModules>CommonModule.ИнтеграцияИСМПТКВызовСервера</commonModules>
+  <commonModules>CommonModule.ИнтеграцияИСМПТККлиент</commonModules>
+  <commonModules>CommonModule.ИнтеграцияИСМПТК</commonModules>
+  <dataProcessors>DataProcessor.РабочиеМестаИСМПТК</dataProcessors>
+</mdclass:Configuration>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81ff48f9-6f6e-4966-85e8-defe8347519c">
+  <producedTypes>
+    <refType typeId="fee7a006-f3a4-4826-98ee-72a4f2c57d55" valueTypeId="49357068-c917-4b56-b1da-5a78fdc02ec3"/>
+    <listType typeId="b444cfe0-0e72-4f37-ab4e-681e6f5db872" valueTypeId="b593c5b4-8128-485d-8063-e3cb8e955307"/>
+    <managerType typeId="d07e277c-9c6c-4670-a541-a6f38b00851e" valueTypeId="614cf409-6f7b-4c76-8245-31623bdd3db1"/>
+  </producedTypes>
+  <name>СтатусыСверкиКодаИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы сверки кода ИСМПТК</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="048fe51c-3cf3-4fdf-b412-54b5ede9fa0d">
+    <name>НеНайден</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не найден</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5bfb967f-8cce-45ae-90a6-9681c636fdd8">
+    <name>Найден</name>
+    <synonym>
+      <key>ru</key>
+      <value>Найден</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8ccf956d-0573-4a25-970c-ba134b362a26">
+    <name>Исключен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f0c83239-05c9-4607-ad63-e6c153e15a6d">
+    <name>Добавлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавлен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

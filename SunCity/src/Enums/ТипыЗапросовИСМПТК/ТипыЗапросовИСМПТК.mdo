@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9adae6e6-39ba-4299-9da9-32ed957c1752">
+  <producedTypes>
+    <refType typeId="1166b0d2-8b75-4db0-a237-1fd15eb1e3f4" valueTypeId="33b9b88c-e34e-43eb-98b5-42f868b5f18a"/>
+    <listType typeId="dcb6204e-eb5d-4064-8a4a-5ee2b5f4ff80" valueTypeId="e36d4af3-45a8-4809-b535-9f36a613b5c7"/>
+    <managerType typeId="50c379da-276f-4efc-b6d4-4fe75a13ac38" valueTypeId="9c4a8643-4ff7-4b93-833b-2d435b595f58"/>
+  </producedTypes>
+  <name>ТипыЗапросовИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип запроса</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Тип запроса</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Типы запросов</value>
+  </listPresentation>
+  <listPresentation>
+    <key>en</key>
+    <value>Типы запросов</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Типы запросов</value>
+  </extendedListPresentation>
+  <extendedListPresentation>
+    <key>en</key>
+    <value>Типы запросов</value>
+  </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Типы запросов при обмене с внешними информационными системами: исходящий, входящий</value>
+  </explanation>
+  <explanation>
+    <key>en</key>
+    <value>Типы запросов при обмене с внешними информационными системами: исходящий, входящий</value>
+  </explanation>
+  <enumValues uuid="7e3df90e-3a17-4dec-b696-e8b8024b3cde">
+    <name>Входящий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входящий</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Входящий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="523d1265-2dc3-40f7-ba22-6b4250626859">
+    <name>Исходящий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходящий</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Исходящий</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

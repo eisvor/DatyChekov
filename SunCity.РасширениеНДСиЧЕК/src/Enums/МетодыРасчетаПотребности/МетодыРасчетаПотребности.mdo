@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="dd10c912-ce79-4d5f-89a3-c72be705ac38" extendedConfigurationObject="a3cf46a7-9b04-4dbc-bdbf-201ceb1655ea">
+  <producedTypes>
+    <refType typeId="d6d16c1f-faaa-4667-961d-f094a237b40e" valueTypeId="c21910f4-ffdc-456c-9484-3da9f3674ab5"/>
+    <listType typeId="99b6ee1b-50f5-44ea-9498-90b308df649a" valueTypeId="cb355123-098f-4f3c-939b-3fbc2de1d729"/>
+    <managerType typeId="385fdce1-7017-4912-ae2c-6207f0813cac" valueTypeId="4af0cd82-875c-4b48-a70f-5f7917f9203b"/>
+  </producedTypes>
+  <name>МетодыРасчетаПотребности</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

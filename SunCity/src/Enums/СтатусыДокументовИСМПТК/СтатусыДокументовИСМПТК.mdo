@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7b03ef0-5f5a-40fd-8a81-1913c866a1df">
+  <producedTypes>
+    <refType typeId="8656f0d8-5cc9-4518-9b7e-5b5268a893e0" valueTypeId="a2838f37-efd1-448d-8954-d4f54874de5c"/>
+    <listType typeId="3bff85d7-ea70-4df4-b389-cdbf9f6d88fe" valueTypeId="3e418f71-c01d-49ea-86a9-98ef0fe6e874"/>
+    <managerType typeId="a6da1dcb-d5ef-4c5f-a1ae-e05a881f6edb" valueTypeId="064beabf-cdfc-4383-a2a5-542016e999f5"/>
+  </producedTypes>
+  <name>СтатусыДокументовИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы документов ИСМПТК</value>
+  </synonym>
+  <comment>(Сервер)</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8cdf6929-26c4-4f64-b4cd-2ae9911cc7b3">
+    <name>Черновик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черновик</value>
+    </synonym>
+    <comment>0</comment>
+  </enumValues>
+  <enumValues uuid="8c39c60d-ebff-418d-9029-fb137485c9ce">
+    <name>Отправлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлен</value>
+    </synonym>
+    <comment>1</comment>
+  </enumValues>
+  <enumValues uuid="c2112316-c43b-4fe4-81da-bd7ab2e0c612">
+    <name>ОжидаетПриемку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидает подтверждения</value>
+    </synonym>
+    <comment>3</comment>
+  </enumValues>
+  <enumValues uuid="8e0a1ced-25da-483c-b388-4ff8c7452cc2">
+    <name>ПринятПодтвержден</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтвержден</value>
+    </synonym>
+    <comment>4</comment>
+  </enumValues>
+  <enumValues uuid="d2625abc-4c4f-4155-ba8b-34a37304ba6f">
+    <name>Отклонен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонен</value>
+    </synonym>
+    <comment>5</comment>
+  </enumValues>
+  <enumValues uuid="c6fed860-933a-45cc-bdd9-ca180962dced">
+    <name>Отозван</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отозван</value>
+    </synonym>
+    <comment>16</comment>
+  </enumValues>
+  <enumValues uuid="0e700e4b-8c74-4317-ad6f-6ebd0680896b">
+    <name>Аннулирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аннулирован</value>
+    </synonym>
+    <comment>17</comment>
+  </enumValues>
+  <enumValues uuid="1472b68e-381e-4bc2-b09e-aaf17ff946ba">
+    <name>НаСогласовании</name>
+    <synonym>
+      <key>ru</key>
+      <value>На согласовании</value>
+    </synonym>
+    <comment>8</comment>
+  </enumValues>
+  <enumValues uuid="c264fa4c-edce-4355-8ad1-bfb364416cd6">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+    <comment>10</comment>
+  </enumValues>
+  <enumValues uuid="37d8124e-126a-44d4-99cb-d8bae8c5b3e2">
+    <name>Проверяется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверяется</value>
+    </synonym>
+    <comment>IN_PROGRESS</comment>
+  </enumValues>
+  <enumValues uuid="ef942870-914a-4f9f-9410-32d57fd65be2">
+    <name>Оформлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оформлен</value>
+    </synonym>
+    <comment>CHECKED_OK</comment>
+  </enumValues>
+  <enumValues uuid="6f676757-52ea-47df-98ac-0c5f117d8507">
+    <name>ОшибкаПриПроверке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка при проверке</value>
+    </synonym>
+    <comment>CHECKED_NOT_OK</comment>
+  </enumValues>
+  <enumValues uuid="2bc61d03-89ae-433e-b963-d549d0230fc1">
+    <name>ОшибкаПриОбработке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка при обработке</value>
+    </synonym>
+    <comment>PROCESSING_ERROR</comment>
+  </enumValues>
+  <enumValues uuid="1c85f6a7-c157-4bde-8c3c-e1dd3aad9dfe">
+    <name>НеОпределен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черновик</value>
+    </synonym>
+    <comment>UNDEFINED</comment>
+  </enumValues>
+  <enumValues uuid="a513f65e-caa7-4ccc-83d8-356c4522c272">
+    <name>Новое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новое</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

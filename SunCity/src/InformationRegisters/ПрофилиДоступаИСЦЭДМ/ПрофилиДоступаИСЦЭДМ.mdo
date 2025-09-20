@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="294b3408-e291-4eaf-acf3-ee6e75b49e13">
+  <producedTypes>
+    <selectionType typeId="efe1d565-155a-4fbc-9d7b-41e56b29b153" valueTypeId="d2d5de33-5a69-4c73-8d23-5400b223797c"/>
+    <listType typeId="c5bce9c1-ee95-4f41-92aa-431f5e2ae0e5" valueTypeId="e7a98f85-9f88-4e2c-afc2-6217707fd940"/>
+    <managerType typeId="7e2b4b34-8685-44d8-b946-9b4bf4b3ca17" valueTypeId="4cc3534d-6414-498f-9423-f9797b471f25"/>
+    <recordSetType typeId="0914fc85-39e1-4209-a885-d5b5742975d5" valueTypeId="c8414e1d-67ee-45af-8b8c-c5b3e9f687eb"/>
+    <recordKeyType typeId="42eafa09-3322-468c-990f-3ca37d6f9a9f" valueTypeId="8e744366-659a-49e7-af76-262f0f395fbc"/>
+    <recordType typeId="be6f588d-0f57-4dde-a608-f11bfcaa55c2" valueTypeId="47eaa677-4544-4c36-a99e-5c2b4b32745f"/>
+    <recordManagerType typeId="ca1002a7-4530-481b-a686-9127324fde38" valueTypeId="aa56eb53-00f3-4cb6-9699-56d80b3bcf3f"/>
+  </producedTypes>
+  <name>ПрофилиДоступаИСЦЭДМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Профили доступа к ИС ЦЭДМ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ПрофилиДоступаИСЦЭДМ.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ПрофилиДоступаИСЦЭДМ.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2ba67268-a869-4520-9de9-c9e71d4bbfbb">
+    <name>ИмяАутентификацииИСЦЭДМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя для входа в ИС ЦЭДМ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя пользователя для входа в ИС ЦЭДМ</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="a05b1c99-07c1-47ba-afb8-3d3aacee7b26">
+    <name>ПарольАутентификацииИСЦЭДМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль для входа в ИС ЦЭДМ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <passwordMode>true</passwordMode>
+    <toolTip>
+      <key>ru</key>
+      <value>Пароль пользователя для входа в ИС ЦЭДМ</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="b9700fa3-ba79-4dec-b603-113051ad5d0e">
+    <name>ИИНЭЦПФизическогоЛица</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИИН владельца ЭЦП физ.лица</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="ec6aceb4-0c66-4ab1-a3a4-b9ffc21c8e02">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ПользователиИСМПТК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="eebdfc23-f11b-43fa-9b13-77ef594c4823">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ОрганизацияИСМПТК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="be3975d0-9d49-4126-9b0a-6e194a9548de">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="39b66ee1-ef98-4af8-a472-9e2ae7d4611f">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01a3f903-1bb0-41ab-baf2-9fc0926e3af8">
+  <producedTypes>
+    <containerType typeId="8f8e3a2f-0d78-4994-adf3-e0284e31f5bb" valueTypeId="6ca99aac-3bc4-49f0-a616-deef5719b6e1"/>
+  </producedTypes>
+  <name>ГруппаДоступаРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группа доступа РМК</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

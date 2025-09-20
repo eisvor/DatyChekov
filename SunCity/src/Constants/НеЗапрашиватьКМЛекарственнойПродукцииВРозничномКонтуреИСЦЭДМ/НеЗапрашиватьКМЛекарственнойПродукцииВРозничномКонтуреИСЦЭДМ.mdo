@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3ea3c93-f70c-4ad4-9e47-cee8bfaa6977">
+  <producedTypes>
+    <managerType typeId="f633e582-052f-4e86-86fd-f6f666040701" valueTypeId="8cf1d0f2-88dd-428a-8e8b-3a862eec9a16"/>
+    <valueManagerType typeId="6ca03064-834b-4271-9307-b8664fa0d06f" valueTypeId="c7c64306-f683-46ad-9015-c8de42b74726"/>
+    <valueKeyType typeId="f539aca1-bf9e-4e01-9899-e7c1c41b1051" valueTypeId="2ef8d224-2bef-4c92-a5cd-97aa436c8a1a"/>
+  </producedTypes>
+  <name>НеЗапрашиватьКМЛекарственнойПродукцииВРозничномКонтуреИСЦЭДМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Не запрашивать коды маркировки лекарственной продукции в Чеках ККМ</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

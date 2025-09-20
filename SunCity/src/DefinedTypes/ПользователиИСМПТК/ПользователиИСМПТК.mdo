@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f735bdd-d49c-4ffb-898f-dddc4bd22ea3">
+  <producedTypes>
+    <containerType typeId="f1eed50b-ea73-44f0-be9b-447d2ca8b324" valueTypeId="982b70f7-db5f-496b-bc14-e766913aceb8"/>
+  </producedTypes>
+  <name>ПользователиИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи ИСМПТК</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Пользователи</types>
+  </type>
+</mdclass:DefinedType>

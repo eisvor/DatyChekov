@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32ab713c-14a5-4545-a3d8-f4fb50521cc9">
+  <name>ЛоготипСервисаМаркировкиМиниЦветнойИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логотип сервиса маркировки мини цветной ИСМПТК</value>
+  </synonym>
+</mdclass:CommonPicture>

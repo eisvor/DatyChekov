@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4984d958-8731-4c70-a855-bd4e86988abe">
+  <producedTypes>
+    <containerType typeId="2850075c-bffa-4407-b5b1-95d5d9d727f7" valueTypeId="e75b0301-b45a-492f-83ab-063648ae390f"/>
+  </producedTypes>
+  <name>КонтрагентИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагент ИСМПТК</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Контрагенты</types>
+  </type>
+</mdclass:DefinedType>

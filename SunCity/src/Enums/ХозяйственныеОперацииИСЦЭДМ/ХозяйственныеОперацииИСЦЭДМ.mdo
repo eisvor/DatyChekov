@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e8c4417-00f6-4e1e-8fb8-0d673206cb3c">
+  <producedTypes>
+    <refType typeId="5fa7c967-ed96-4e07-99f1-d8c1de14b417" valueTypeId="b2de48fa-fd41-4e8a-bc88-3eb0984c58f5"/>
+    <listType typeId="759d3a68-b902-4f37-bb3b-4421d2e01a5c" valueTypeId="64bd7ac2-7772-4dfe-88aa-050490da6acb"/>
+    <managerType typeId="d657be33-7c1b-4590-a48c-853a1828e94b" valueTypeId="977072ec-d4e6-4234-adab-b2e1bfe5034d"/>
+  </producedTypes>
+  <name>ХозяйственныеОперацииИСЦЭДМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хозяйственные операции ИСЦЭДМ</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0df2c7ff-7302-471e-a5bc-7425a44c1cf2">
+    <name>Реализация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реализация от Единого дистрибьютора</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e5116a03-9cbd-41fd-b801-e6007a2235d5">
+    <name>РеализацияОтКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реализация от прочих контрагентов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e4e74f25-e022-4e6e-a898-a6ebaa8e7c83">
+    <name>ВнутреннееПеремещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутреннее перемещение товаров между складами</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9d0d16e0-3e85-4370-8a13-b5c4b19ea56b">
+    <name>ВнутреннееПеремещениеЕД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутреннее перемещение товаров Единого дистрибьютора между складами</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

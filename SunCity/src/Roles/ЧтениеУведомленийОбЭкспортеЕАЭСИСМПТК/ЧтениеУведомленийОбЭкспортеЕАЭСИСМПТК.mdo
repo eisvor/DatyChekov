@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0c6baf0-609f-4a1f-a528-b421bad52305">
+  <name>ЧтениеУведомленийОбЭкспортеЕАЭСИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение Уведомлений об экспорте (ЕАЭС) (ИС МПТ)</value>
+  </synonym>
+</mdclass:Role>

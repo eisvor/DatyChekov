@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0a18366-6990-4655-8b67-7f369370592f">
+  <producedTypes>
+    <selectionType typeId="bd6d72e7-1e72-475f-acd2-5818d631b6ab" valueTypeId="37a66c86-7a66-4e45-a692-a1f2da05fd90"/>
+    <listType typeId="7b551175-1bb2-4647-bad4-4183dd2db8a5" valueTypeId="7e35ef28-e8f6-4a41-bc41-a3ac8f6638cc"/>
+    <managerType typeId="49f3ba08-c1fa-488e-a48b-7cb0c8758434" valueTypeId="eba80c31-cce4-4186-8518-9b138facda90"/>
+    <recordSetType typeId="d2198833-9fa9-4376-ad2b-13d26335c169" valueTypeId="d1dc35a1-fb1e-447a-818e-b1c25b249397"/>
+    <recordKeyType typeId="059c7319-aa9e-4d1b-863d-d1e098c8d792" valueTypeId="cb545f45-f45e-41af-9cae-5ccbde6010af"/>
+    <recordType typeId="3746da2f-fdb1-40f6-a180-e2228f70296a" valueTypeId="d3e567fe-274e-4aed-baae-930e14060623"/>
+    <recordManagerType typeId="bfa04824-dabc-46c3-9a4b-d0574d37c3c3" valueTypeId="bb8e0e15-e2a7-4e16-8278-bc31b70aa815"/>
+  </producedTypes>
+  <name>ПулКодовМаркировкиСУЗИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пул кодов </value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Пул кодов маркировки СУЗИСМПТК</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>InformationRegister.ПулКодовМаркировкиСУЗИСМПТК.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>Просмотр пула эмитированных кодов маркировки и печать этикеток.</value>
+  </explanation>
+  <resources uuid="e5af2843-21b4-4069-9f68-b521459bdb21">
+    <name>GTIN</name>
+    <synonym>
+      <key>ru</key>
+      <value>GTIN</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>GTIN</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>14</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="145a1ccd-c31c-4cf4-9eb4-5fecf65e19f0">
+    <name>КодИдентификации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код идентификации</value>
+    </synonym>
+    <comment>Строка без кодировки и спецсимволов</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="69d967cf-d4bd-45e4-aaa3-3548032fa852">
+    <name>КодМаркировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код маркировки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Код маркировки</value>
+    </synonym>
+    <comment>Строка в формате Base64 с символами каретки</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="c806452a-cc37-4eae-8824-541cb47c2b5c">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыКодовМаркировкиСУЗИСМПТК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c23e47aa-6e11-4723-82ea-88e3c0e6a8c7">
+    <name>ДатаЭмиссии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата эмиссии</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Дата эмиссии</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ccaf2c92-d386-4d21-8507-1fcf039dae08">
+    <name>ДатаПечати</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата печати</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Дата печати</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0fa2a3ab-955c-4fde-97b9-7ddc6002c497">
+    <name>ДатаВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выгрузки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Дата выгрузки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="da8922dd-f5f5-43b0-bf52-1bb6f0bc6acb">
+    <name>УдалитьСтанцияУправленияЗаказами</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не используется) Станция управления заказами</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Удалить станция управления заказами</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтанцииУправленияЗаказамиИСМПТК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c446772b-23ed-4ee3-9f57-26c6d2664b7c">
+    <name>EAN</name>
+    <synonym>
+      <key>ru</key>
+      <value>EAN</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="cc957386-3798-442d-91fb-74de3fbdf4bb">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>DefinedType.НоменклатураИСМПТК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d4ce38b8-1566-41dd-942e-5c5b465b58aa">
+    <name>Характеристика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Характеристика</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ХарактеристикаНоменклатурыИСМПТК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9b668812-1aa3-4196-b24c-8ae3edf8743d">
+    <name>СпособВводаВОборот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ ввода в оборот</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Способ ввода в оборот</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыВводаВОборотСУЗИСМПТК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e3dd3e8c-cf26-4411-a17f-639830eede99">
+    <name>ТипШтрихкода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип штрихкода</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Тип штрихкода</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыШтрихкодовИСМПТК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4f8ba12a-d4ea-4ded-a857-fbe874ad5607">
+    <name>ВидПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид продукции</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Вид продукции</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыПродукцииИСМПТК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="b2e8c08f-ba43-4b61-97b5-a8a6005fa689">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ОрганизацияИСМПТК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="cfe5b57e-70ba-4d09-a7fa-ad31d986dd5f">
+    <name>ЗаказНаЭмиссию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ на эмиссию</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Заказ на эмиссию</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказКодовМаркировкиСУЗИСМПТК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="3ebb8fc4-118d-4f6a-9d7d-cac6fef69cfc">
+    <name>ХешСуммаКодаИдентификации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хеш сумма кода идентификации</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Хеш сумма кода идентификации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </dimensions>
+  <dimensions uuid="e2815c54-d8b0-4961-9c0b-f9db998a98e7">
+    <name>Шаблон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Шаблон</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ШаблоныКодовМаркировкиСУЗИСМПТК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="b29f10d8-d6bb-4ab7-9c3f-1fa3cbbadfab">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="dc5953b2-c2a7-4b33-b2e5-e95eb3840ede">
+    <name>СброситьФлагПечатиПоЗаказу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сбросить дату печати</value>
+    </synonym>
+    <group>FormNavigationPanelSeeAlso</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Разрешает повторную печать кодов по выбранному Заказу (команда выполняется сразу для всех ранее распечатанных GTIN).</value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Refresh</picture>
+    </picture>
+  </commands>
+</mdclass:InformationRegister>

@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6ef640b-85ff-4603-995a-77a31c573ba0">
+  <producedTypes>
+    <objectType typeId="f72b959a-6db1-4b69-b4d3-e210eee9a298" valueTypeId="f4e9f5a3-cd22-414a-8962-6937e5a66271"/>
+    <refType typeId="2c146e97-f1f9-4ba6-94b4-5fc7c5dd3e7c" valueTypeId="38b8091c-12f9-4dd6-894a-e9c3037f350c"/>
+    <selectionType typeId="b79396cf-fbd5-4f67-aa22-6437c2a98d5f" valueTypeId="fa966373-fdc7-4e7f-b407-671e34e433f3"/>
+    <listType typeId="e6d827ee-9cff-4fde-85f2-a87cb7c16ce9" valueTypeId="5dd1654d-3932-4a55-afff-0cf512ae3664"/>
+    <managerType typeId="b93ec4ee-1004-4886-a5c3-6c44f85b61e4" valueTypeId="41ce5a08-8309-445a-842f-54d22af5762d"/>
+  </producedTypes>
+  <name>ЗаказКодовМаркировкиСУЗИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказ на эмиссию кодов маркировки (СУЗ)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Заказ на эмиссию кодов маркировки СУЗ ИСМП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗаказКодовМаркировкиСУЗИСМПТК.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>en</key>
+    <value>Заказ на эмиссию кодов маркировки СУЗ</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Заказ на эмиссию кодов маркировки (СУЗ)</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>en</key>
+    <value>Заказы на эмиссию кодов маркировки СУЗ</value>
+  </listPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Заказы на эмиссию кодов маркировки (СУЗ)</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ЗаказКодовМаркировкиСУЗИСМПТК.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ЗаказКодовМаркировкиСУЗИСМПТК.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.ЗаказКодовМаркировкиСУЗИСМПТК.Form.ФормаВыбора</defaultChoiceForm>
+  <posting>Deny</posting>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="f7b4e658-ad4c-4afd-8a22-837ebab0ca49">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ОрганизацияИСМПТК</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация, от имени которой оформляется заказ на эмиссию кодов маркировки</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Организация, от имени которой оформляется заказ на эмиссию кодов маркировки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fa973330-ccb6-4ed0-abb1-ecccd8ece3f7">
+    <name>ВидПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид продукции</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Вид продукции</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыПродукцииИСМПТК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9ca5f553-2adc-47e2-8995-86210b46e652">
+    <name>ИдентификаторПроизводственногоЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор производственного заказа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Идентификатор производственного заказа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a7d261d4-2262-4597-ae0a-0d80303e69a8">
+    <name>СпособВводаВОборот</name>
+    <synonym>
+      <key>en</key>
+      <value>Способ ввода в оборот</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Способ выпуска товаров в оборот</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыВводаВОборотСУЗИСМПТК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a728fbfa-7ced-49e8-8dab-a2423cb08086">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Комментарий причины, по которой КиЗ не может быть принят.</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b00d0329-6d00-4304-a1c0-f21934b4d339">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ПользователиИСМПТК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ee7c5763-5c0f-4da1-860b-2d2c94c9f73e">
+    <name>КонтактноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактное лицо</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6cb93446-4219-4c4d-86e2-bce2b39fbe89">
+    <name>СпособИзготовленияСИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ изготовления</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыИзготовленияСредствИдентификацииСУЗИСМПТК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b7d7f1d7-4c6c-4b9d-a22c-16e6751ca301">
+    <name>OrderID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер в СУЗ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b64f2cca-cae8-459c-90d1-fcbfded1afc1">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыОбработкиЗаказовНаЭмиссиюКодовМаркировкиИСМПТК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9734aa4a-d0e4-42b0-84d5-b2ed8fb33be0">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СостоянияДокументовСУЗИСМПТК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f6b975bb-3e24-4dba-879c-14f4213af7e3">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ-основание</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ОснованиеЗаказКодовМаркировкиСУЗИСМПТК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c76b27be-ef36-4b85-add4-65ab08d9f396">
+    <name>ВыполненоНанесениеКМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнено нанесение КМ</value>
+    </synonym>
+    <comment>Для ТГ Молочная продукция, устанавливается после оформления отчета Нанесение КМ </comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3549ed09-fa19-40e3-816c-d5af005bd706">
+    <name>НомерПакета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер пакета</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a1605a27-26a4-4848-baec-4caaca448619">
+    <name>ЗаказРодитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ родитель</value>
+    </synonym>
+    <comment>Используется в механизме разбития заказов на части</comment>
+    <type>
+      <types>DocumentRef.ЗаказКодовМаркировкиСУЗИСМПТК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="218fc586-1bc4-4ef3-8cc4-925855556ad8">
+    <name>ИдентификаторПроизводства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор производства</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8c2c3d72-2cf7-4d96-bb7a-f0dad2a63c7a">
+    <name>СтранаПроизводителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страна производителя</value>
+    </synonym>
+    <type>
+      <types>DefinedType.СтраныМираИСМПТК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="37966439-557a-40d8-97c8-0cc2175b526c">
+    <name>ИдентификаторПроизводственнойЛинии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор производственной линии</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e781b5aa-4e4d-4963-bdf5-c8b2f3d4abf8">
+    <name>КодПродукта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код продукта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a8abfc62-975a-4b7d-8b5c-526e84e5dac0">
+    <name>ОписаниеПродукта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание продукта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bf5d93fa-d7e1-4a13-98f8-a8c87fb8a00a">
+    <name>ПричинаОтклонения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина отклонения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f57dee98-a39f-4b37-b97f-ad4d8383ce7e">
+    <name>СтранаПроизводства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страна производства</value>
+    </synonym>
+    <type>
+      <types>DefinedType.СтраныМираИСМПТК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="a8aae56b-7634-49e3-8d07-eab03468123e">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a3924839-9ce2-4900-8c67-2de91e5d1c99">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4f636488-de57-4eee-a146-067905f10998">
+    <name>ФормаВыбораСерий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора серий</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма выбора серий</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b213e3a8-b451-4893-8ab1-c175653ce120">
+    <name>ФормаПолученияКодовМаркировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма получения кодов маркировки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="057a492d-2683-4f5e-87e0-086559787f65">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="230fe06e-2e3b-4149-a2b5-f0d63cf69860">
+    <producedTypes>
+      <objectType typeId="187cfaee-52f0-4d5b-88b8-0c174dd27bdd" valueTypeId="1ec93164-d340-421c-8f66-237f2d684694"/>
+      <rowType typeId="d7cf424c-add4-4b8e-93cc-b996feebbd61" valueTypeId="862d53bb-f297-42fb-bd05-6d41c7d810d1"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Товары</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="810d021b-ed2f-4cf8-bdc3-d8e4b471f59a">
+      <name>ИдентификаторСтроки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор строки</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Идентификатор строки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="baaa8b6f-800f-42aa-8f31-3277a06aa292">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>DefinedType.НоменклатураИСМПТК</types>
+      </type>
+      <toolTip>
+        <key>en</key>
+        <value>Наименование номенклатурной позиции</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="587430b0-a86b-4491-a2b3-c7b974d3d648">
+      <name>Характеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Характеристика</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Характеристика</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ХарактеристикаНоменклатурыИСМПТК</types>
+      </type>
+      <toolTip>
+        <key>en</key>
+        <value>Характеристика номенклатуры, если есть</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Номенклатура</name>
+        <changeMode>DontChange</changeMode>
+        <field>Document.ЗаказКодовМаркировкиСУЗИСМПТК.TabularSection.Товары.Attribute.Номенклатура</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="993bdc34-b2e0-48e7-93ea-528aad32d33b">
+      <name>Упаковка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Упаковка</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Упаковка</value>
+      </synonym>
+      <type>
+        <types>DefinedType.УпаковкаИСМПТК</types>
+      </type>
+      <toolTip>
+        <key>en</key>
+        <value>Если у выбранной номенклатуры используются упаковки, то можно выбрать упаковку номенклатуры.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Номенклатура</name>
+        <changeMode>DontChange</changeMode>
+        <field>Document.ЗаказКодовМаркировкиСУЗИСМПТК.TabularSection.Товары.Attribute.Номенклатура</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c773ea83-b73d-4c7e-bfde-f39c52203e8f">
+      <name>GTIN</name>
+      <synonym>
+        <key>ru</key>
+        <value>GTIN</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>GTIN</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>14</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0b7587f2-47a8-4cae-9a63-e96e1cb9261d">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество кодов к заказу</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>en</key>
+        <value>Количество заказываемых КиЗ.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b8db0212-2575-48cc-9b15-5f4d23df3fd8">
+      <name>КоличествоУпаковок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество в выбранных единицах измерения</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Количество упаковок</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>en</key>
+        <value>Необходимо указать количество упаковок номенклатуры. Если для выбранной номенклатуры не используются упаковки, то следует указать количество единиц номенклатуры.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d0ed3178-0328-4629-b627-33029fce99a6">
+      <name>Шаблон</name>
+      <synonym>
+        <key>ru</key>
+        <value>Шаблон</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Шаблон</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ШаблоныКодовМаркировкиСУЗИСМПТК</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3f6aef9c-5914-48e4-a521-9906b60b6f8a">
+      <name>МаксимальнаяРозничнаяЦена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Максимальная розничная цена</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Максимальная розничная цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="219c8515-b681-4244-9a97-b5d0da4f7dd9">
+      <name>СпособФормированияСерийногоНомера</name>
+      <synonym>
+        <key>ru</key>
+        <value>Способ формирования серийного номера</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Способ формирования серийного номера</value>
+      </synonym>
+      <type>
+        <types>EnumRef.СпособыФормированияСерийногоНомераСУЗИСМПТК</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="850ac9ff-41a9-41ea-bc4a-caa1a00a4c90">
+      <name>СтатусУказанияСерии</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус указания серии</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Статус указания серии</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="47a4e83a-5e1f-42cb-a8fa-ce893bd8d74d">
+      <name>КодТНВЭД</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код ТНВЭД</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Код ТНВЭД</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <mask>9999999999</mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="65daf71a-6230-4263-9164-0502c67063ef">
+      <name>СпособВводаВОборот</name>
+      <synonym>
+        <key>ru</key>
+        <value>Способ ввода в оборот</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Способ ввода в оборот</value>
+      </synonym>
+      <type>
+        <types>EnumRef.СпособыВводаВОборотСУЗИСМПТК</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="b68e0f8e-298a-40e3-a8ac-34e7b4e04a76">
+    <producedTypes>
+      <objectType typeId="fd4e0d1b-f0f4-428c-a4f0-aec7372653ea" valueTypeId="fee2598d-0f01-4a46-85e0-93dd60e89983"/>
+      <rowType typeId="a3630bb5-9c87-4dac-a6b4-ca04280cb74c" valueTypeId="aea99e95-a57b-4323-aa59-cf7c16ec3635"/>
+    </producedTypes>
+    <name>СерийныеНомера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серийные номера</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Серийные номера</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="2bca8f84-f289-49d4-b7a8-1e0cadf3d85a">
+      <name>ИдентификаторСтроки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор строки</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Идентификатор строки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1ac0e4c3-752a-4a65-8a28-90a6e002e2f0">
+      <name>СерийныйНомер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Серийный номер</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Серийный номер</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <commands uuid="071422e4-7b21-4037-b68a-8c7d108b0099">
+    <name>Отправить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправить</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ЗаказКодовМаркировкиСУЗИСМПТК</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.WriteChanges</picture>
+    </picture>
+  </commands>
+  <commands uuid="c1ae071f-8ae0-4151-beb7-d476cf8c476f">
+    <name>Обновить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновить</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ЗаказКодовМаркировкиСУЗИСМПТК</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Refresh</picture>
+    </picture>
+  </commands>
+  <commands uuid="85d624e9-2d5f-44b0-a544-752ee43f258a">
+    <name>ПолучитьКМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить коды маркировки</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ЗаказКодовМаркировкиСУЗИСМПТК</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.ЗаполнитьФормуИСМПТК</picture>
+    </picture>
+  </commands>
+  <commands uuid="b3f4951e-0a26-4e3a-ae0b-3113dcbee247">
+    <name>Проверить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверить</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ЗаказКодовМаркировкиСУЗИСМПТК</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.ОперацияВыполненаУспешноИСМПТК</picture>
+    </picture>
+  </commands>
+  <commands uuid="61c3c874-5961-4b1b-bda9-3965d1e5a6b6">
+    <name>СоздатьЗаказКМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать Заказ на эмиссию кодов маркировки (СУЗ)</value>
+    </synonym>
+    <group>CommandGroup.ИСМПТК</group>
+    <commandParameterType>
+      <types>DefinedType.ОснованиеЗаказКодовМаркировкиСУЗИСМПТК</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.CreateListItem</picture>
+    </picture>
+  </commands>
+  <commands uuid="29c1fa75-9056-4330-8973-39ca1ff4f17d">
+    <name>РазбитьНаНесколькоДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разбить документ</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ЗаказКодовМаркировкиСУЗИСМПТК</types>
+    </commandParameterType>
+    <representation>PictureAndText</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Разделить документ на части </value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.DataCompositionNewNestedScheme</picture>
+    </picture>
+  </commands>
+  <commands uuid="efcd5e4c-acf8-45ee-8962-78fa99bbb5f8">
+    <name>ВосстановлениеЗависшихОпераций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Восстановление зависших операций в Заказах</value>
+    </synonym>
+    <group>NavigationPanelSeeAlso</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Просмотр списка Заказов на эмиссию кодов маркировки, в которых не завершился процесс получения марок или возникли ошибки при закрытии заказа.
+Для возобновления операций требуется роль Администрирование (ИС МПТ). </value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.SwitchActivity</picture>
+    </picture>
+  </commands>
+</mdclass:Document>

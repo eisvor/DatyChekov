@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b56a0df2-42fc-4606-a215-f78f31c03716">
+  <name>УдалитьВзаимноеПризнаниеКМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) С признанием кодов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Действующая схема взаимного признания кодов маркировки между странами</value>
+  </explanation>
+  <parentSubsystem>Subsystem.МаркировкаИСМПТК.Subsystem.УдалитьОптовоПроизводственныйКонтур.Subsystem.УдалитьИмпортЭкспорт</parentSubsystem>
+</mdclass:Subsystem>

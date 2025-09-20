@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0f9c2de-c0b3-4997-ae7e-ffa1a986e9bb">
+  <name>ИнвентаризацияМаркируемойПродукцииИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инвентаризация маркируемой продукции</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.УведомлениеОВыводеИзОборотаИСМПТК</content>
+  <content>Document.УведомлениеОВводеВОборотИСМПТК</content>
+  <content>Document.ЗаказКодовМаркировкиСУЗИСМПТК</content>
+  <content>Document.НанесениеКодовМаркировкиСУЗИСМПТК</content>
+  <content>Document.АгрегацияКодовМаркировкиСУЗИСМПТК</content>
+  <content>DataProcessor.ПанельОбменИСМПТК</content>
+  <content>Document.УведомлениеОВыводеИзОборотаИСЦЭДМ</content>
+  <content>Document.УведомлениеОВводеВОборотИСЦЭДМ</content>
+  <content>Document.АгрегацияВнеПроизводстваИСЦЭДМ</content>
+  <content>Document.АктВнутреннегоПеремещенияИСЦЭДМ</content>
+  <content>Document.УведомлениеОРасхожденияхИСЦЭДМ</content>
+  <content>DataProcessor.ПанельОбменИСЦЭДМ</content>
+  <parentSubsystem>Subsystem.Склад</parentSubsystem>
+</mdclass:Subsystem>

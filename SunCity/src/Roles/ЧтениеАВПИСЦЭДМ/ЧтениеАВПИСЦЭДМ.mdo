@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf625661-27d6-4382-8315-293d479f068a">
+  <name>ЧтениеАВПИСЦЭДМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение Актов внутреннего перемещения (ИС ЦЭДМ)</value>
+  </synonym>
+</mdclass:Role>

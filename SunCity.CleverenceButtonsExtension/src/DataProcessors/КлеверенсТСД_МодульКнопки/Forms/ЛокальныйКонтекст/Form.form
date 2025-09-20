@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <horizontalAlign>Left</horizontalAlign>
+    <autoFill>true</autoFill>
+  </autoCommandBar>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
+  <autoTitle>true</autoTitle>
+  <autoUrl>true</autoUrl>
+  <group>Vertical</group>
+  <autoFillCheck>true</autoFillCheck>
+  <allowFormCustomize>true</allowFormCustomize>
+  <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
+  <attributes>
+    <name>Объект</name>
+    <id>1</id>
+    <valueType>
+      <types>DataProcessorObject.КлеверенсТСД_МодульКнопки</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <main>true</main>
+  </attributes>
+  <attributes>
+    <name>_ГлКонтекстАдрес</name>
+    <title>
+      <key>ru</key>
+      <value>Гл контекст адрес</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Гл контекст адрес</value>
+    </title>
+    <title>
+      <key>kk</key>
+      <value>Гл контекст адрес</value>
+    </title>
+    <title>
+      <key>uz</key>
+      <value>Гл контекст адрес</value>
+    </title>
+    <title>
+      <key>be</key>
+      <value>Гл контекст адрес</value>
+    </title>
+    <title>
+      <key>uk</key>
+      <value>Гл контекст адрес</value>
+    </title>
+    <id>13</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>_ИнтеграционнаяОбработкаАдрес</name>
+    <title>
+      <key>ru</key>
+      <value>Интеграционная обработка адрес</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Интеграционная обработка адрес</value>
+    </title>
+    <title>
+      <key>kk</key>
+      <value>Интеграционная обработка адрес</value>
+    </title>
+    <title>
+      <key>uz</key>
+      <value>Интеграционная обработка адрес</value>
+    </title>
+    <title>
+      <key>be</key>
+      <value>Интеграционная обработка адрес</value>
+    </title>
+    <title>
+      <key>uk</key>
+      <value>Интеграционная обработка адрес</value>
+    </title>
+    <id>14</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ИнтеграционнаяОбработкаПодключена</name>
+    <title>
+      <key>ru</key>
+      <value>Интеграционная обработка подключена</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Интеграционная обработка подключена</value>
+    </title>
+    <title>
+      <key>kk</key>
+      <value>Интеграционная обработка подключена</value>
+    </title>
+    <title>
+      <key>uz</key>
+      <value>Интеграционная обработка подключена</value>
+    </title>
+    <title>
+      <key>be</key>
+      <value>Интеграционная обработка подключена</value>
+    </title>
+    <title>
+      <key>uk</key>
+      <value>Интеграционная обработка подключена</value>
+    </title>
+    <id>15</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПолноеИмяОбъекта</name>
+    <title>
+      <key>ru</key>
+      <value>Полное имя объекта</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Полное имя объекта</value>
+    </title>
+    <title>
+      <key>kk</key>
+      <value>Полное имя объекта</value>
+    </title>
+    <title>
+      <key>uz</key>
+      <value>Полное имя объекта</value>
+    </title>
+    <title>
+      <key>be</key>
+      <value>Полное имя объекта</value>
+    </title>
+    <title>
+      <key>uk</key>
+      <value>Полное имя объекта</value>
+    </title>
+    <id>16</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ИмяИнтеграционнойОбработки</name>
+    <title>
+      <key>ru</key>
+      <value>Имя интеграционной обработки</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Имя интеграционной обработки</value>
+    </title>
+    <title>
+      <key>kk</key>
+      <value>Имя интеграционной обработки</value>
+    </title>
+    <title>
+      <key>uz</key>
+      <value>Имя интеграционной обработки</value>
+    </title>
+    <title>
+      <key>be</key>
+      <value>Имя интеграционной обработки</value>
+    </title>
+    <title>
+      <key>uk</key>
+      <value>Имя интеграционной обработки</value>
+    </title>
+    <id>17</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ЕстьЧастнаяБаза</name>
+    <title>
+      <key>ru</key>
+      <value>Есть частная база</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Есть частная база</value>
+    </title>
+    <title>
+      <key>kk</key>
+      <value>Есть частная база</value>
+    </title>
+    <title>
+      <key>uz</key>
+      <value>Есть частная база</value>
+    </title>
+    <title>
+      <key>be</key>
+      <value>Есть частная база</value>
+    </title>
+    <title>
+      <key>uk</key>
+      <value>Есть частная база</value>
+    </title>
+    <id>18</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>АдресаПеременных</name>
+    <title>
+      <key>ru</key>
+      <value>Адреса переменных</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Адреса переменных</value>
+    </title>
+    <title>
+      <key>kk</key>
+      <value>Адреса переменных</value>
+    </title>
+    <title>
+      <key>uz</key>
+      <value>Адреса переменных</value>
+    </title>
+    <title>
+      <key>be</key>
+      <value>Адреса переменных</value>
+    </title>
+    <title>
+      <key>uk</key>
+      <value>Адреса переменных</value>
+    </title>
+    <id>19</id>
+    <valueType/>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ТипОбработки</name>
+    <title>
+      <key>ru</key>
+      <value>Тип обработки</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Тип обработки</value>
+    </title>
+    <title>
+      <key>kk</key>
+      <value>Тип обработки</value>
+    </title>
+    <title>
+      <key>uz</key>
+      <value>Тип обработки</value>
+    </title>
+    <title>
+      <key>be</key>
+      <value>Тип обработки</value>
+    </title>
+    <title>
+      <key>uk</key>
+      <value>Тип обработки</value>
+    </title>
+    <id>2</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ХранениеФайлаОбработки</name>
+    <title>
+      <key>ru</key>
+      <value>Хранение файла обработки</value>
+    </title>
+    <id>3</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ДоступноВыполнениеВФоне</name>
+    <title>
+      <key>ru</key>
+      <value>Доступно выполнение в фоне</value>
+    </title>
+    <id>4</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ОбъектСсылка</name>
+    <title>
+      <key>ru</key>
+      <value>Объект ссылка</value>
+    </title>
+    <id>5</id>
+    <valueType>
+      <types>CatalogRef</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>АдресРеквизитОбъект</name>
+    <title>
+      <key>ru</key>
+      <value>Адрес реквизит объект</value>
+    </title>
+    <id>6</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ИспользуемоеИмяФайла</name>
+    <title>
+      <key>ru</key>
+      <value>Используемое имя файла</value>
+    </title>
+    <id>7</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ИмяОбъекта</name>
+    <title>
+      <key>ru</key>
+      <value>Имя объекта</value>
+    </title>
+    <id>8</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>СписокТаблицВыгружаемыхВФоне</name>
+    <title>
+      <key>ru</key>
+      <value>Список таблиц выгружаемых в фоне</value>
+    </title>
+    <id>9</id>
+    <valueType>
+      <types>ValueList</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <extInfo xsi:type="form:ValueListExtInfo">
+      <itemValueType/>
+    </extInfo>
+  </attributes>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+  <extInfo xsi:type="form:ObjectFormExtInfo"/>
+</form:Form>

@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d67460d0-5de7-4d91-8a43-bc612016aa7a">
+  <producedTypes>
+    <objectType typeId="d0d410d5-009f-465f-a987-fe616aa4c3be" valueTypeId="85773598-451e-4e34-9370-ce22419bebec"/>
+    <refType typeId="4e5d1ab9-9704-49eb-af69-b7407b0a99f4" valueTypeId="f3919e9c-abe2-4909-8648-4afb1f0eb9bf"/>
+    <selectionType typeId="de7bf530-f127-4c7a-998b-fd788ac40b32" valueTypeId="57b2eda2-37b1-4325-bf94-8d2f92d6e858"/>
+    <listType typeId="89bfa159-d337-46d5-92a2-36a841abc2ac" valueTypeId="c0cbfdee-5249-4e34-aac3-145dcdadb7f0"/>
+    <managerType typeId="46e33679-2707-471a-a69a-70e58df8e0c9" valueTypeId="3326d4c5-ccc8-4ff6-adfc-9e1830e8e3e6"/>
+  </producedTypes>
+  <name>ХранилищеШаблоновИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблоны печати кодов маркировки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ХранилищеШаблоновИСМПТК.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа шаблонов</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Несколько шаблонов, объединенных по какому-либо признаку.</value>
+    </toolTip>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.ХранилищеШаблоновИСМПТК.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Используется для быстрой визуальной идентификации элементов в процессе работы с программой</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ХранилищеШаблоновИСМПТК.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.ХранилищеШаблоновИСМПТК.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.ХранилищеШаблоновИСМПТК.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ХранилищеШаблоновИСМПТК.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="c9402573-5343-4741-863a-2829de9d1e8d">
+    <name>Шаблон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Табличный документ или структура, сохраненные в виде двоичных данных</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5b9794f2-b32f-4967-b42b-58da7d71c947">
+    <name>ДатаСоздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата создания шаблона</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="557cde4c-4066-4e6f-8d9a-76241be0fcce">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата последнего изменения шаблона</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="85ddcc6d-e163-40f4-aebd-579af8f22bbd">
+    <name>ПользовательСоздал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь создал</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ПользователиИСМПТК</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, создавший шаблон</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ffd8cc2a-a850-46c4-a98a-f86248fcb2e2">
+    <name>ПользовательИзменил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь изменил</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ПользователиИСМПТК</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, изменивший шаблон</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b8a3e310-0be5-4561-b8bb-91b6256a49f5">
+    <name>КоличествоПоВертикали</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество по вертикали</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество печатаемых экземпляров, которое необходимо разместить на одной странице по вертикали</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c5f5bcbd-af6c-4881-a915-a90abef97993">
+    <name>КоличествоПоГоризонтали</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество по горизонтали</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество печатаемых экземпляров, которое необходимо разместить на одной странице по горизонтали</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2edc1ddc-47b1-4993-b3fc-3b628e32e3ff">
+    <name>СхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема компоновки данных</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Используемая схема компоновки данных</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="97795875-d095-4a34-91d5-24f56ee28eae">
+    <name>НеGS1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не формат GS1</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>БИ=Да</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>БИ=Да</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e74b3151-967d-4241-8df8-b6a057bf6c85">
+    <name>РазмерМакета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер макета</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>7</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="24556187-cb79-430c-a43e-1208b56239b8">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="414f7bd8-e044-49eb-aa43-e608d3f7d0ba">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="36e82052-689c-445a-aa10-6cfb1e5547c3">
+    <name>ФормаРедактированияШаблона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактирования шаблона</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2a327dbd-8aec-4e70-b262-422730dacde5">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="09638134-b6ce-421c-af33-b1785e024301">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="453a5475-a564-45cf-b771-f48d6a3160f8">
+    <name>ФормаВыбораШаблона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора шаблона</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Template selection form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cf920eca-461b-4edc-b9d9-641b291486ad">
+    <name>ФормаПомощникЗаполненияШаблоновЭтикеток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма помощник заполнения шаблонов этикеток</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма помощник заполнения шаблонов этикеток</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="60a345d7-0a1c-4e80-8026-4120988e2cc0">
+    <name>КартинкаШтрихкода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картинка штрихкода</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="f8b462b2-4160-4914-b34b-49d878fe68fe">
+    <name>ТабличныйШаблон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличный шаблон</value>
+    </synonym>
+  </templates>
+  <templates uuid="52d41ae0-352e-4aa3-99cf-8185cf67b6e7">
+    <name>ШаблонЭтикетки_58х40_ИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этикетка 58х40 (виртуальная агрегация)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Label 58х40 (virtual aggregation)</value>
+    </synonym>
+  </templates>
+  <templates uuid="9e8f7994-37df-4d15-b32e-1d9ed1ec9d46">
+    <name>ШаблонЭтикетки_40х58_ИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этикетка 40х58 (виртуальная агрегация)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Label 40х58 (virtual aggregation)</value>
+    </synonym>
+  </templates>
+  <templates uuid="ac1fbeb6-a327-4e95-9478-f8df7e2b75e6">
+    <name>ШаблонЭтикетки_58х34_ИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этикетка 58х34</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Label 58х34</value>
+    </synonym>
+  </templates>
+  <templates uuid="4b69a3f0-ace8-4062-b3c4-fde09e99c221">
+    <name>ШаблонЭтикетки_34х58_ИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этикетка 34х58</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Label 34х58</value>
+    </synonym>
+  </templates>
+  <templates uuid="9934fe71-4c80-4cb3-b5c3-2da7733e006f">
+    <name>ШаблонЭтикетки_144х58_ИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этикетка 144х58</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Label 144х58</value>
+    </synonym>
+  </templates>
+  <templates uuid="5ed9fa81-d3d5-47c6-9c6e-0a415dcb783e">
+    <name>ШаблонЭтикетки_58х40_Пустой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этикетка 58х40 (виртуальная агрегация)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Label 58х40 (virtual aggregation)</value>
+    </synonym>
+  </templates>
+  <templates uuid="f7ab38c8-ce13-4e7e-94d9-1ef8d7566c26">
+    <name>ЭталонШтрихкода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эталон штрихкода</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

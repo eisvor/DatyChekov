@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be445d2c-088e-4879-8c26-f9f300f511f8">
+  <producedTypes>
+    <objectType typeId="36f8fa5c-c2c9-4130-a686-fce7aa6b106e" valueTypeId="f69b3365-7baa-4be4-8d2c-90bfc344b14e"/>
+    <managerType typeId="ec4d894f-9407-4f70-88a1-a3b36dd2e09c" valueTypeId="77cdc71b-94e4-4b70-9d29-cda4bee59b83"/>
+  </producedTypes>
+  <name>НезавершенныеДействияСЧекомРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Незавершенные действия с чеком РМК</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.НезавершенныеДействияСЧекомРМК.Template.ОсновнаяСхемаКомпнонвкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <forms uuid="f7e7cd45-caef-4795-8b81-1c959152dadf">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="1db43c59-ff4a-4668-94e1-1e7bffc99035">
+    <name>ОсновнаяСхемаКомпнонвкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компнонвки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

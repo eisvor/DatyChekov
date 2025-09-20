@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7143aae1-e41e-4e82-bef3-916cf982e5f9">
+  <name>ПечатьКодовМаркировкиИСМПТККлиентПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать этикеток ИС МП Клиент переопределяемый</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Печать этикеток ИС МП Клиент переопределяемый</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

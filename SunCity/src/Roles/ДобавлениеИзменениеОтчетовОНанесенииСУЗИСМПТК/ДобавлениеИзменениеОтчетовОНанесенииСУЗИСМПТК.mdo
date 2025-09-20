@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94de3d77-bc59-42d3-825e-3fe0bf262610">
+  <name>ДобавлениеИзменениеОтчетовОНанесенииСУЗИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение Отчетов о нанесении кодов маркировки в СУЗ (ИС МПТ)</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9be47ec4-93cd-4c23-9527-e4026c62ac81">
+  <producedTypes>
+    <managerType typeId="c5a16941-dc80-43f3-9c9f-cc79cf4b8f5b" valueTypeId="cd5c6b65-4228-4616-a48f-29dee250df87"/>
+    <valueManagerType typeId="19be18a7-58e1-424c-b7d0-5c652569ec72" valueTypeId="4d4af545-decb-42e9-968f-938aee4692d4"/>
+    <valueKeyType typeId="8d9b03d5-3f1c-5384-87f3-8d7e97edd657" valueTypeId="2f4e9226-6760-53fc-91e7-b93b3563fdcc"/>
+  </producedTypes>
+  <name>АвтоПроверкаВалидностиКодаИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автоматически запрашивать состояние и владельца кода с сервера ИС МПТ</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

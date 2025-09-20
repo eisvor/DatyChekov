@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8054aed-fd0e-46ec-a52a-bc0cb39b5aaf">
+  <name>ЧтениеАгрегацийИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение Агрегаций кодов маркировки (ИС МПТ)</value>
+  </synonym>
+</mdclass:Role>

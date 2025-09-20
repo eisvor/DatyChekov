@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2dfcd30e-b9b2-4df0-8107-6f2fc93940c8">
+  <producedTypes>
+    <refType typeId="cc435aaa-e384-4b05-9365-5eeed1fcd1d7" valueTypeId="c7273ab1-cb84-47f8-b34a-587663f0a91d"/>
+    <listType typeId="c69e39c7-e3cb-4500-b439-7fadbcb6f382" valueTypeId="f864b072-47a0-4ed3-863c-9fbe33b45fc4"/>
+    <managerType typeId="ea97c8b6-6ad2-45f5-a87e-889693d746cb" valueTypeId="06e69d10-2386-42f4-b2e4-d222b28875fd"/>
+  </producedTypes>
+  <name>ТипыКонтроля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы контроля</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="64f13573-5334-4cf7-9982-a20ca1898b07">
+    <name>ЗапретПодбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрет подбора</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1ac62b21-b4ec-41a5-bfe2-748b7ced7d78">
+    <name>ПроверкаПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка покупателя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="11f65b6a-3f9d-4479-a737-559b72e37f1e">
+    <name>ЗапретВидаОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрет вида оплаты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="79222492-6436-4453-8b37-45744a60f63d">
+    <name>ЗапретРучнойСкидки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрет ручной скидки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="248e0d9d-d161-45c3-bd63-72a0a9e2e9f2">
+    <name>КонтрольСотрудникомНаКСО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контроль сотрудником на КСО</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ecd94223-8828-4bce-9945-c1cc4b3dafe3">
+    <name>КонтрольОстатков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контроль остатков</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ac67deb-6ee6-455e-b9d2-dcddd762da0f">
+  <producedTypes>
+    <managerType typeId="38a0f40f-7fa2-4ea9-9973-e4cd50529e4c" valueTypeId="716a16c1-de81-4467-a95b-2b302756413d"/>
+    <valueManagerType typeId="ba5fe07c-1c97-4b0e-ba32-e1268aacd240" valueTypeId="a7e3254f-487d-4069-9b88-434e9a91d003"/>
+    <valueKeyType typeId="73c1565c-2cb2-47bb-80bd-f11f1d40a853" valueTypeId="625ef6e1-ae4c-4343-b383-baeb75265ab7"/>
+  </producedTypes>
+  <name>ВыбытиеТоваровВСВЧекахККМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать упрощённый механизм выбытия товаров ВС через Чеки ККМ</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

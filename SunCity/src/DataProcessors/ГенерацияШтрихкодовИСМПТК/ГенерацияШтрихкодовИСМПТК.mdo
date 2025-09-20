@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8db867d0-1306-4e07-be6d-65acdc01497f">
+  <producedTypes>
+    <objectType typeId="5677498b-2a76-46fb-be45-495adc90c03d" valueTypeId="2867f92a-b92e-47ef-b665-a5abb90a2f1b"/>
+    <managerType typeId="39be8ea5-cda5-4c6a-a00d-93f70b13d79b" valueTypeId="ded40407-7b3a-4a99-a8a0-aeb5d6db04c9"/>
+  </producedTypes>
+  <name>ГенерацияШтрихкодовИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Генерация штрихкодов ИСМПТК</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="422af910-004c-4da0-ba0e-4711eeabd659">
+    <name>ФормаГенерацииSSCC</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма генерации SSCC</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="2732b273-6f7b-45f7-bfb0-27adc4fcd3ed">
+    <name>ИдентификаторыПримененияGS1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификаторы применения GS1</value>
+    </synonym>
+  </templates>
+  <commands uuid="25625761-d606-4f75-b7cd-e3c228c77063">
+    <name>СгенерироватьШтрихкод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сгенерировать новый</value>
+    </synonym>
+    <group>FormNavigationPanelSeeAlso</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.МаркироватьУпаковкуИСМПТК</picture>
+    </picture>
+  </commands>
+</mdclass:DataProcessor>

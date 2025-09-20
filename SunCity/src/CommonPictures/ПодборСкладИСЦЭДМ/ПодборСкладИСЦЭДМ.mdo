@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="935b6bc7-0242-429a-b104-84057b38f0a1">
+  <name>ПодборСкладИСЦЭДМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подбор склад ИСЦЭДМ</value>
+  </synonym>
+</mdclass:CommonPicture>

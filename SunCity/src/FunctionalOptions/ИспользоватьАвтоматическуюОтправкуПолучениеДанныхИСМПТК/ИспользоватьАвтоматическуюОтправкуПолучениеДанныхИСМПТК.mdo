@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="536e02bc-af84-48c3-8736-e0692e472283">
+  <name>ИспользоватьАвтоматическуюОтправкуПолучениеДанныхИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнять автоматический обмен данными с СУЗ ИС МПТ</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Использовать автоматическую отправку и получение данных ИС МП</value>
+  </synonym>
+  <location>Constant.ИспользоватьАвтоматическуюОтправкуПолучениеДанныхИСМПТК</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aad3599d-074b-4a23-aae1-74957f053c6d">
+  <producedTypes>
+    <containerType typeId="4addae15-8e4a-4cdb-9272-916b33e2888b" valueTypeId="ba2ac5d1-c9e3-49d1-be02-24ab187f758f"/>
+  </producedTypes>
+  <name>СтавкаНДСИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ставка НДСИСМПТК</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.СтавкиНДС</types>
+  </type>
+</mdclass:DefinedType>

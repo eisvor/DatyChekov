@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ab7150f-5452-4f90-a5e9-e0717bdf8a50">
+  <name>ДобавлениеИзменениеАППИСЦЭДМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение Актов приема/передачи (ИС ЦЭДМ)</value>
+  </synonym>
+</mdclass:Role>

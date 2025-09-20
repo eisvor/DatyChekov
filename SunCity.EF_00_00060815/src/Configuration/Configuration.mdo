@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ee22b30a-b2ce-4feb-ad08-6b2392ee8d57">
+  <name>EF_00_00060815</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <usePurposes>Checked</usePurposes>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="1a785364-fa59-4bbb-b718-527b8cdedfef"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="67f3b398-556c-4c13-b808-70945926e78b"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="33f4e731-6008-4837-aa9c-8f607fb4ad4a"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="36f857b5-f713-4dd3-ba84-a9e6c5a37e2a"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="07279ef0-49f6-421e-8374-e55b2e44c5f7"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="c47fa135-b3e5-47a0-b879-39a9370f3ecc"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="4bb9a3c3-602a-4992-8825-3fd60db066af"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>EF_00_00060815_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <compatibilityMode>8.3.25</compatibilityMode>
+  <languages uuid="06a81bc1-4329-45ae-86f1-9270bd33506e">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <commonTemplates>CommonTemplate.EF_00_00060815</commonTemplates>
+  <commonModules>CommonModule.ФорматноЛогическийКонтроль</commonModules>
+</mdclass:Configuration>

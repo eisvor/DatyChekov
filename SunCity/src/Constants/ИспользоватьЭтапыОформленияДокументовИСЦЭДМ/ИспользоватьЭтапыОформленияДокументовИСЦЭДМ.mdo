@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="678902f6-fc43-4953-8dd7-4aaad8e839c8">
+  <producedTypes>
+    <managerType typeId="859238ac-6fba-4975-a2b9-9ed81bec731c" valueTypeId="e946a3d7-fa47-4da8-8caf-23d26bd83cac"/>
+    <valueManagerType typeId="5527755f-4360-4f7d-9b9a-410ab5a491a0" valueTypeId="3022136e-6a8d-4674-ae2a-21b0ee3686c4"/>
+    <valueKeyType typeId="9d94b78e-a41a-467f-8222-2119f4266ce9" valueTypeId="96a2cfd0-3f1b-498b-83ea-29d1763e369c"/>
+  </producedTypes>
+  <name>ИспользоватьЭтапыОформленияДокументовИСЦЭДМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать механизм проверки этапов оформления документов</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

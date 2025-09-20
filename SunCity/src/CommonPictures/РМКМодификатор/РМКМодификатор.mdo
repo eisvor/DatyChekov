@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa52de24-60eb-49fd-be09-92eca950bf59">
+  <name>РМКМодификатор</name>
+  <synonym>
+    <key>ru</key>
+    <value>РМКМодификатор</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

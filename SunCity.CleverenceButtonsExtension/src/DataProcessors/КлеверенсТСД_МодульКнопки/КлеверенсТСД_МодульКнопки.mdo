@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae4b7166-3546-4ab5-8e31-583745c43f59">
+  <producedTypes>
+    <objectType typeId="8f0373a9-c566-4dc8-8abf-c0766a4a0255" valueTypeId="881e63d3-f61a-4e92-a91c-100f21287cbd"/>
+    <managerType typeId="e61ce7a1-1618-4a50-a802-62e900e0885c" valueTypeId="24a56fc8-41ca-446a-a8c2-db0bc17ee206"/>
+  </producedTypes>
+  <name>КлеверенсТСД_МодульКнопки</name>
+  <synonym>
+    <key>ru</key>
+    <value>КлеверенсТСД_МодульКнопки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КлеверенсТСД_МодульКнопки.Form.ГлавнаяФорма</defaultForm>
+  <auxiliaryForm>DataProcessor.КлеверенсТСД_МодульКнопки.Form.ГлавнаяФорма</auxiliaryForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="c29b9fa0-b0d5-4da8-90e8-20799efdcf83">
+    <name>ЭтоWebСервис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это web сервис</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ae872c48-c79c-4f70-a2d5-c86ca5f435de">
+    <name>COMЧастнойБазыMS</name>
+    <synonym>
+      <key>ru</key>
+      <value>COMЧастной базы MS</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7838cf51-f219-4e7c-97ce-a30bfea00c35">
+    <name>COMВременнойБазыMS</name>
+    <synonym>
+      <key>ru</key>
+      <value>COMВременной базы MS</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a18fb487-4d7a-4635-ae81-7dce86cfc59a">
+    <name>COMБазыMS</name>
+    <synonym>
+      <key>ru</key>
+      <value>COMБазы MS</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="a54a6425-497d-426d-b881-7a56b9c6caff">
+    <name>ГлавнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Главная форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Главная форма</value>
+    </synonym>
+    <synonym>
+      <key>kk</key>
+      <value>Главная форма</value>
+    </synonym>
+    <synonym>
+      <key>uz</key>
+      <value>Главная форма</value>
+    </synonym>
+    <synonym>
+      <key>be</key>
+      <value>Главная форма</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Главная форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="73709c57-2fc0-44fa-8840-6cd46e590eac">
+    <name>ЛокальныйКонтекст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Локальный контекст</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Локальный контекст</value>
+    </synonym>
+    <synonym>
+      <key>kk</key>
+      <value>Локальный контекст</value>
+    </synonym>
+    <synonym>
+      <key>uz</key>
+      <value>Локальный контекст</value>
+    </synonym>
+    <synonym>
+      <key>be</key>
+      <value>Локальный контекст</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Локальный контекст</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="284d5e0b-0bf7-4996-a390-97fcee701c1a">
+    <name>ФормаСлужебная_ВыборСтрокиИзТаблицы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма служебная выбор строки из таблицы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма служебная выбор строки из таблицы</value>
+    </synonym>
+    <synonym>
+      <key>kk</key>
+      <value>Форма служебная выбор строки из таблицы</value>
+    </synonym>
+    <synonym>
+      <key>uz</key>
+      <value>Форма служебная выбор строки из таблицы</value>
+    </synonym>
+    <synonym>
+      <key>be</key>
+      <value>Форма служебная выбор строки из таблицы</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма служебная выбор строки из таблицы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7f7bdb12-5fb4-4766-94a6-5f48940ae223">
+    <name>ФормаСлужебная_ВыборПользователяИлиГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма служебная выбор пользователя или группы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма служебная выбор пользователя или группы</value>
+    </synonym>
+    <synonym>
+      <key>kk</key>
+      <value>Форма служебная выбор пользователя или группы</value>
+    </synonym>
+    <synonym>
+      <key>uz</key>
+      <value>Форма служебная выбор пользователя или группы</value>
+    </synonym>
+    <synonym>
+      <key>be</key>
+      <value>Форма служебная выбор пользователя или группы</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма служебная выбор пользователя или группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="947dc43d-b5b3-4ed6-8587-3bd2a5d81411">
+    <name>ФормаСлужебная_ВыборДокументаДляЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма служебная выбор документа для загрузки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма служебная выбор документа для загрузки</value>
+    </synonym>
+    <synonym>
+      <key>kk</key>
+      <value>Форма служебная выбор документа для загрузки</value>
+    </synonym>
+    <synonym>
+      <key>uz</key>
+      <value>Форма служебная выбор документа для загрузки</value>
+    </synonym>
+    <synonym>
+      <key>be</key>
+      <value>Форма служебная выбор документа для загрузки</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма служебная выбор документа для загрузки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

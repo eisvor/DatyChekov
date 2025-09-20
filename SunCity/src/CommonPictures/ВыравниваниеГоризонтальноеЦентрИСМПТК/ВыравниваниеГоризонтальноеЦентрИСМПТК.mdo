@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d78ee94-b928-448e-8fde-b34616dabf14">
+  <name>ВыравниваниеГоризонтальноеЦентрИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выравнивание горизонтальное центр ИСМПТК</value>
+  </synonym>
+</mdclass:CommonPicture>

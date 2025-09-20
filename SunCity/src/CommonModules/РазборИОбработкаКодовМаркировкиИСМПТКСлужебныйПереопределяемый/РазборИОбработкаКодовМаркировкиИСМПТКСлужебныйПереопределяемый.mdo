@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0829d0e8-821d-47d9-94f8-df7f0bf32edb">
+  <name>РазборИОбработкаКодовМаркировкиИСМПТКСлужебныйПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разбор и обработка кодов маркировки ИСМПТКСлужебный переопределяемый</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

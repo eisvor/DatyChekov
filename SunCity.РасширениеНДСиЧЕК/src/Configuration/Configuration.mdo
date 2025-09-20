@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1bab5076-d179-49a9-a295-d5a2c8f8e739">
+  <name>РасширениеНДСиЧЕК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расширение НДСи ЧЕК</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="62552400-1019-4117-9f22-fb83aab96f99"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="7223d9cf-8685-4a6e-a75d-10fd5dd71463"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="4c4bedfe-5b7f-40ff-b7c4-e860fd1604f4"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="f197eda9-bdfc-4c84-8465-5a2d2d89d224"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="a7c6b5c1-695b-49a9-ba51-791f5510e690"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="675d05c0-8a73-4533-a875-eedf454818e1"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="2df3e6a2-7fab-4a29-922e-bf22a21bab2c"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>Расш_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>IT Service</vendor>
+  <version>1.0.6</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.25</compatibilityMode>
+  <languages uuid="cc7e9467-aef2-4da1-9488-46517f280840" extendedConfigurationObject="5bdeb511-4dd9-422a-860e-d3632414892f">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <styleItems>StyleItem.ЦветНепроведенногоДокумента</styleItems>
+  <styleItems>StyleItem.ТекстЗапрещеннойЯчейкиЦвет</styleItems>
+  <styleItems>StyleItem.ЦветТекстаОтмененнойСтрокиДокумента</styleItems>
+  <styleItems>StyleItem.ЦветПроведенногоДокумента</styleItems>
+  <styleItems>StyleItem.ФонУправляющегоПоля</styleItems>
+  <styleItems>StyleItem.ПоясняющийТекст</styleItems>
+  <styleItems>StyleItem.ИтогиФонГруппы</styleItems>
+  <commonPictures>CommonPicture.СтатусыДокумента</commonPictures>
+  <commonPictures>CommonPicture.Отчеты</commonPictures>
+  <commonPictures>CommonPicture.СтатусыСерийИПодарочныхСертификатов</commonPictures>
+  <commonPictures>CommonPicture.РассчитатьЦены</commonPictures>
+  <commonPictures>CommonPicture.ПросроченаОплата</commonPictures>
+  <commonPictures>CommonPicture.ЗаполнитьПоШаблону</commonPictures>
+  <commonPictures>CommonPicture.Перейти</commonPictures>
+  <commonModules>CommonModule.МенеджерОборудованияКлиентСервер</commonModules>
+  <commonModules>CommonModule.ЧекККМ_ПолучитьНаименованиеМагазина</commonModules>
+  <catalogs>Catalog.ПравилаЦенообразования</catalogs>
+  <catalogs>Catalog.ВидыЦен</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.ФорматыМагазинов</catalogs>
+  <catalogs>Catalog.СегментыНоменклатуры</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <documents>Document.ПоступлениеТоваров</documents>
+  <documents>Document.ЧекККМ</documents>
+  <enums>Enum.ФормыОплаты</enums>
+  <enums>Enum.МетодыРасчетаПотребности</enums>
+  <enums>Enum.ПорядкиОкругления</enums>
+  <enums>Enum.ЮрФизЛицо</enums>
+  <enums>Enum.СпособыОценкиТоваровВРознице</enums>
+</mdclass:Configuration>

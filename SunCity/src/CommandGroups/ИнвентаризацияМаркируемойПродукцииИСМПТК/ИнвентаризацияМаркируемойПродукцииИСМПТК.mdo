@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a287b11-1ab3-4cac-8aea-770417ad7515">
+  <name>ИнвентаризацияМаркируемойПродукцииИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инвентаризация маркируемой продукции</value>
+  </synonym>
+  <representation>Auto</representation>
+</mdclass:CommandGroup>

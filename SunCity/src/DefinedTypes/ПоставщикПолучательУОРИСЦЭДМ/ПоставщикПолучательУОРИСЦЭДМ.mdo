@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16d2afe4-5097-4b23-87fe-a26f895ad78f">
+  <producedTypes>
+    <containerType typeId="0bfee11c-f7a8-48e5-9791-13e9c13426cc" valueTypeId="218bd9fc-7e52-49e1-b55e-82c3d03036c7"/>
+  </producedTypes>
+  <name>ПоставщикПолучательУОРИСЦЭДМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поставщик получатель УОРИСЦЭДМ</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Контрагенты</types>
+    <types>CatalogRef.Организации</types>
+    <types>CatalogRef.СкладыИСЦЭДМ</types>
+  </type>
+</mdclass:DefinedType>

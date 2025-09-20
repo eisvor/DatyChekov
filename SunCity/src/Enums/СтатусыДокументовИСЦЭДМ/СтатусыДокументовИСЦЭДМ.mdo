@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d33c543-3fbd-4aea-813b-3ce780a64445">
+  <producedTypes>
+    <refType typeId="2e576510-20ae-4d51-9144-9704afded127" valueTypeId="ef88d6c3-fea3-44cc-8dfd-344b42d46067"/>
+    <listType typeId="918aeef7-ffb4-4eee-bb61-1fc737820c02" valueTypeId="5f0295f0-68f3-46f7-8c06-ec4425fe1082"/>
+    <managerType typeId="ecbc07e5-1d6b-4ab9-aaf1-544e47693b1c" valueTypeId="87c1424d-a99c-4564-baee-0c21ec7df0d9"/>
+  </producedTypes>
+  <name>СтатусыДокументовИСЦЭДМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы документов ИСЦЭДМ</value>
+  </synonym>
+  <comment>(Сервер)</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ce202621-cb5d-4803-b982-593ef303c2b3">
+    <name>Черновик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черновик</value>
+    </synonym>
+    <comment>1</comment>
+  </enumValues>
+  <enumValues uuid="5ef53108-d813-4c72-8853-d9740b75a8f2">
+    <name>Отклонен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонен</value>
+    </synonym>
+    <comment>2</comment>
+  </enumValues>
+  <enumValues uuid="c804e2c0-9026-4457-aa3d-c4451cf225d7">
+    <name>ОжидаетПодтверждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидает подтверждения</value>
+    </synonym>
+    <comment>3</comment>
+  </enumValues>
+  <enumValues uuid="0a6eea88-ccd1-47bd-b880-6e403b619cc4">
+    <name>Принят</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принят</value>
+    </synonym>
+    <comment>4</comment>
+  </enumValues>
+  <enumValues uuid="6ec82e5d-d457-4e1f-ae13-8c67c601ae79">
+    <name>ОшибкаПриПроверке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка при проверке</value>
+    </synonym>
+    <comment>12</comment>
+  </enumValues>
+  <enumValues uuid="e6c17e35-367b-44d3-9585-405a70732ffb">
+    <name>Отозван</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отозван</value>
+    </synonym>
+    <comment>16</comment>
+  </enumValues>
+  <enumValues uuid="f3d7fc9f-99b2-4d8b-b544-9066d6aba724">
+    <name>Аннулирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аннулирован</value>
+    </synonym>
+    <comment>17</comment>
+  </enumValues>
+  <enumValues uuid="faeb24e7-1f23-45e3-a230-67a012fb557b">
+    <name>РасчетИтогов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет итогов</value>
+    </synonym>
+    <comment>18</comment>
+  </enumValues>
+  <enumValues uuid="60945996-1dd1-4d64-bcc4-c8c2d8ade3d3">
+    <name>Сформирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сформирован</value>
+    </synonym>
+    <comment>11</comment>
+  </enumValues>
+  <enumValues uuid="dc41de46-01a0-42a4-8029-7f02b56a5313">
+    <name>ЗапрошеноУточнение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрошено уточнение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0518992e-8725-4bb1-b85e-ebd2e5db619d">
+    <name>НеОпределен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не определен в системе</value>
+    </synonym>
+    <comment>14</comment>
+  </enumValues>
+  <enumValues uuid="8c419240-54d7-4acb-ae88-6a021e018eee">
+    <name>УдалитьНаСогласовании</name>
+    <synonym>
+      <key>ru</key>
+      <value>(Не используется) На согласовании</value>
+    </synonym>
+    <comment>8</comment>
+  </enumValues>
+  <enumValues uuid="adf7cab3-2f40-48fe-b3b7-dbd0dde54012">
+    <name>Отправлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлен</value>
+    </synonym>
+    <comment>0</comment>
+  </enumValues>
+  <enumValues uuid="1256fead-46f9-4ca0-bf07-3fcb2365ac67">
+    <name>Проверяется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверяется</value>
+    </synonym>
+    <comment>10</comment>
+  </enumValues>
+  <enumValues uuid="2ce4e951-7826-49d7-b0a2-0231b8902624">
+    <name>УдалитьОшибкаПриОбработке</name>
+    <synonym>
+      <key>ru</key>
+      <value>(Не используется) Ошибка при обработке</value>
+    </synonym>
+    <comment>13</comment>
+  </enumValues>
+  <enumValues uuid="dfc848f9-b2d2-4a76-8e1a-787c9333bf6f">
+    <name>УдалитьГотовКРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не используется) Готов к регистрации</value>
+    </synonym>
+    <comment>19</comment>
+  </enumValues>
+  <enumValues uuid="89827619-581d-4484-8148-0b01a7e11b29">
+    <name>ОшибкаОбработкиПриОтправке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка обработки при отправке</value>
+    </synonym>
+    <comment>20</comment>
+  </enumValues>
+  <enumValues uuid="12ce396e-6094-4a80-867b-9133d8205e64">
+    <name>ОшибкаОбработкиПриПриеме</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка при приеме</value>
+    </synonym>
+    <comment>21</comment>
+  </enumValues>
+  <enumValues uuid="51fea43c-d068-44e8-b02f-df1aab1c69b6">
+    <name>УдалитьПодписан</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не используется) Подписан</value>
+    </synonym>
+    <comment>22</comment>
+  </enumValues>
+  <enumValues uuid="c2fef4cd-0cd5-4599-87ea-160b6b7a3b30">
+    <name>Создан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создан</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

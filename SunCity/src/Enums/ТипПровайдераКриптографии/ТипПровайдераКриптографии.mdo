@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04a06ec7-ee50-4050-98f4-0a560fac92fd">
+  <producedTypes>
+    <refType typeId="d252c995-0592-4021-8b93-4e906af02c78" valueTypeId="c1296260-c9fa-46fb-877c-f14632b88376"/>
+    <listType typeId="4f59298f-ca02-4a02-85ff-84d2ea0b6ac8" valueTypeId="d962920f-97b1-4c4d-93f3-b60caed132c1"/>
+    <managerType typeId="791d95c7-adbb-4809-b6ae-6adc1cec9f89" valueTypeId="30e5cc64-7065-4655-af42-0ac176c8fa6c"/>
+  </producedTypes>
+  <name>ТипПровайдераКриптографии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип провайдера криптографии</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="449ca8ba-34d6-476f-85aa-44a78b38d297">
+    <name>NCALayer</name>
+    <synonym>
+      <key>ru</key>
+      <value>NCALayer</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dfd86f4f-1535-427c-a698-d02cbc3109dd">
+    <name>Kalkan</name>
+    <synonym>
+      <key>ru</key>
+      <value>Kalkan</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

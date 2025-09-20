@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c7f69b9-86c1-4114-bd36-fa97e7c85080">
+  <producedTypes>
+    <refType typeId="3edc3caa-5cbb-4ac7-bb97-9ee672da865b" valueTypeId="db1ed149-9549-4c8a-8739-d36b20b3f83a"/>
+    <listType typeId="47bb4449-1718-412f-8140-d151b759371a" valueTypeId="d1e645aa-1fa7-4a5b-b795-078c8e922c8c"/>
+    <managerType typeId="22f5f769-8412-4a73-8cc3-2f06bf35b163" valueTypeId="001ddc93-d72a-4ce6-b73a-c53d0a43bd0b"/>
+  </producedTypes>
+  <name>ОперацииРабочегоМестаКассира</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операции рабочего места кассира</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0597205e-3961-400a-9737-61420b02e6f4">
+    <name>НачалоПродажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало продажи</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f15de9ca-a324-4d4d-8a81-bd2e67b06933">
+    <name>НачалоВозврата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало возврата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b9ecd29f-b1d9-48a4-9489-e2d4e104e724">
+    <name>НачалоВозвратаСкупки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало возврата скупки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="564ec9e0-5837-49ff-a090-3b9bbeb79332">
+    <name>НачалоКоррекции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало коррекции</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="48d945ee-1b1c-4dea-b1f2-55e04c4557f1">
+    <name>НачалоСкупки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало скупки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f0465c70-c4b4-42a9-ac24-de9669a46a45">
+    <name>ОткладываниеЧека</name>
+    <synonym>
+      <key>ru</key>
+      <value>Откладывание чека</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ee28fe3b-f2a9-41ca-b0d9-7f203aedf051">
+    <name>ОткрытиеОтложенногоЧека</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открытие отложенного чека</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9a3486ab-5ae4-4f3b-a32c-6139868e3506">
+    <name>ОтправкаНаПробитиеЧека</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправка на пробитие чека</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1a689163-7df3-4d7f-a900-dfe63efa8a15">
+    <name>ПробитиеЧека</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пробитие чека</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="db422786-321d-4826-9102-897eee4a9bf6">
+    <name>УдалениеЧека</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удаление чека</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="69dc2dd6-ffdf-4cc2-9fe8-214a59cf4137">
+    <name>АварийноеЗавершениеЧека</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аварийное завершение чека</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="497c3beb-93b5-4334-97cf-ecf8bf48c8d4">
+    <name>ПродолжениеБезРасчетаСкидок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продолжение без расчета скидок</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

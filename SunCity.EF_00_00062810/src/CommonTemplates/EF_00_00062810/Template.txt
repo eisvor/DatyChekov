@@ -1,0 +1,30 @@
+<Patch xmlns="http://www.v8.1c.ru/ssl/patch" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Name>EF_00_00062810</Name>
+	<Description>Реализована возможность указания стоимостных показателей в Актах приема/передачи (ИС МПТ).</Description>
+	<UUID>452808dc-726b-42b4-a91b-29b44b3e0923</UUID>
+	<ModifiedMetadata>ОбщийМодуль.ИнтеграцияИСМПТККлиентСервер</ModifiedMetadata>
+	<AppliedFor>
+		<ConfigurationName>УправлениеТорговлейДляКазахстана</ConfigurationName>
+		<Versions>3.4.5.14</Versions>
+	</AppliedFor>
+	<AppliedFor>
+		<ConfigurationName>КомплекснаяАвтоматизацияБюджетированиеДляКазахстана</ConfigurationName>
+		<Versions>2.4.5.14</Versions>
+	</AppliedFor>
+	<AppliedFor>
+		<ConfigurationName>КомплекснаяАвтоматизацияДляКазахстана</ConfigurationName>
+		<Versions>2.4.5.14</Versions>
+	</AppliedFor>
+	<AppliedFor>
+		<ConfigurationName>УправлениеПредприятиемДляКазахстана</ConfigurationName>
+		<Versions>2.4.5.14</Versions>
+	</AppliedFor>
+	<AppliedFor>
+		<ConfigurationName>БухгалтерияДляКазахстана</ConfigurationName>
+		<Versions>3.0.66.1</Versions>
+	</AppliedFor>
+	<AppliedFor>
+		<ConfigurationName>РозницаДляКазахстана</ConfigurationName>
+		<Versions>2.3.10.3</Versions>
+	</AppliedFor>
+</Patch>

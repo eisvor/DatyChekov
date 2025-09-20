@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f14b86af-fd78-4541-8cd5-b1e482037ca8">
+  <name>РозничноеВыбытиеИСМПТККлиентСервер</name>
+  <synonym>
+    <key>en</key>
+    <value>Штрихкодирование ИС МП клиент сервер</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c02d04eb-5b14-4d2f-9d2e-61555e61750f">
+  <name>НезавершившаясяПроверкаИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Незавершившаяся проверка ИСМПТК</value>
+  </synonym>
+</mdclass:CommonPicture>

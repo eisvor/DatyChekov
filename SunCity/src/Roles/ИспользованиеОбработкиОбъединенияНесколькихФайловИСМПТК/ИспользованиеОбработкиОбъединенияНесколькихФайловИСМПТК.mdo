@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4dd8951-6730-4c76-93b0-f42819450489">
+  <name>ИспользованиеОбработкиОбъединенияНесколькихФайловИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование обработки объединения нескольких файлов с данными кодов маркировки (ИС МПТ)</value>
+  </synonym>
+</mdclass:Role>

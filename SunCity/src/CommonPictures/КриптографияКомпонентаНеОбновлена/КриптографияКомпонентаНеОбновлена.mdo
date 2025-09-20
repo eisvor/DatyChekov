@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bbe1a2a0-28e0-44b6-b70c-3c8a9d5d8bcb">
+  <name>КриптографияКомпонентаНеОбновлена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Криптография компонента не обновлена</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

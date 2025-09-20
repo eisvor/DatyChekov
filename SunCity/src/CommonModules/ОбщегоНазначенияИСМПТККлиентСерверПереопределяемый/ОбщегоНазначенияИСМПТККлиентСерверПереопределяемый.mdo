@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83d5e5da-e079-48ac-94df-58f512e8efae">
+  <name>ОбщегоНазначенияИСМПТККлиентСерверПереопределяемый</name>
+  <synonym>
+    <key>en</key>
+    <value>Интеграция ИС МП (клиент-сервер, переопределяемый)</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Общего назначения ИСМПТККлиент сервер переопределяемый</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

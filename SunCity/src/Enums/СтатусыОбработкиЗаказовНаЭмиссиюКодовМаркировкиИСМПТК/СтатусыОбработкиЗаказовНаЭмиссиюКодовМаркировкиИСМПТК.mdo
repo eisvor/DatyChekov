@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73a3b822-2fde-45e0-92db-f14cff609a62">
+  <producedTypes>
+    <refType typeId="dcdcffbc-b24e-4326-b0e5-82ca3dca690b" valueTypeId="e606de14-beed-4aa7-90ac-eed024058b4e"/>
+    <listType typeId="41f24945-7882-4301-9ef2-f8d1f7725dc4" valueTypeId="6b878f0a-b01a-45a8-9c16-07d7515925de"/>
+    <managerType typeId="771ceaa2-e137-40fd-aeba-514665ce79d0" valueTypeId="eaa43d18-66ac-4337-87bd-4cbb3ca2f4c3"/>
+  </producedTypes>
+  <name>СтатусыОбработкиЗаказовНаЭмиссиюКодовМаркировкиИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы заказов на эмиссию кодов маркировки ИС МП</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Статусы заказов на эмиссию кодов маркировки ИС МП</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cfd16203-c7b3-4c9c-a22e-c55128336fb5">
+    <name>Черновик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черновик</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Черновик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c5090f06-d448-443e-b4be-8c2329671f1e">
+    <name>Создан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создан</value>
+    </synonym>
+    <comment>CREATED</comment>
+  </enumValues>
+  <enumValues uuid="dc61c6a1-1ded-4c7b-9a15-096d12ae3e11">
+    <name>ПринятКОбработке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидает подтверждения в системе маркировки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Обрабатывается в СУЗ (генерация кодов)</value>
+    </synonym>
+    <comment>PENDING</comment>
+  </enumValues>
+  <enumValues uuid="be22ca4a-5380-4981-bb65-6f144f133f7f">
+    <name>ПодтвержденИСМП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтверждён в системе маркировки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>СУЗ (подтвержден ИС МП)</value>
+    </synonym>
+    <comment>APPROVED</comment>
+  </enumValues>
+  <enumValues uuid="767930d5-825f-42b4-8b44-1ac59f60c9eb">
+    <name>НеПодтвержденИСМП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не подтверждён в системе маркировки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>СУЗ (подтвержден ИС МП)</value>
+    </synonym>
+    <comment>DECLINED</comment>
+  </enumValues>
+  <enumValues uuid="89f38c48-bb71-43c3-9186-ba5b62207e5c">
+    <name>ПринятКПроизводству</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обрабатывается в СУЗ (коды готовы к получению)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Обрабатывается в СУЗ (коды готовы к получению)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f6b1aafe-3f75-41df-9fab-95358cfef99c">
+    <name>КодыМаркировкиЭмитированы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Коды маркировки эмитированы</value>
+    </synonym>
+    <comment>READY</comment>
+  </enumValues>
+  <enumValues uuid="41df4f62-31ec-489f-b07b-cf9f5e0ba6fe">
+    <name>КодыМаркировкиЭмитированыЧастично</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коды маркировки эмитированы (частично)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Коды маркировки эмитированы (частично)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e96dcead-e2fe-454e-abda-a483faa406b6">
+    <name>Выполнен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыт</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Выполнен</value>
+    </synonym>
+    <comment>CLOSED</comment>
+  </enumValues>
+</mdclass:Enum>

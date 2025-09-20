@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59bdf8a7-afb4-41ee-ab32-bf3cfc849aec">
+  <producedTypes>
+    <managerType typeId="91d67ec3-423d-40ad-85ae-cd4b44edd327" valueTypeId="40213451-2be5-4af4-9f3d-8404fbc2edaf"/>
+    <valueManagerType typeId="75e1e38d-a6bd-490c-a449-b774febed2e8" valueTypeId="943e4e4e-0e10-4b4c-a8bc-28bb443504d4"/>
+    <valueKeyType typeId="6b98f0fb-ac89-49b5-bf12-4bace63817c7" valueTypeId="9b29f267-ff80-452d-8fcf-d9f6cc2d4b34"/>
+  </producedTypes>
+  <name>ПоддержкаДвойногоФорматаТранспортныхКодовИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поддержка двойного формата транспортных кодов SSCC</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <explanation>
+    <key>ru</key>
+    <value>Включение поддержки временной схемы работы с 18-и и 20-и значными кодами SSCC на сервера ИС МПТ. Позволяет регулировать формат указания кода в документах, т.к. сервер принимает только 18-изначные коды для обуви</value>
+  </explanation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

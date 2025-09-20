@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="603a0f5b-3758-48ad-b335-51a968a03c9a">
+  <producedTypes>
+    <refType typeId="75f715d8-ab7b-4c96-b3d1-ad8edcbc4d93" valueTypeId="d60a8726-1ace-44c5-8344-6d4d38681599"/>
+    <listType typeId="ae8f9ce0-188a-40d2-a9dd-4aca3e824386" valueTypeId="e7ce50ee-37c2-41bc-b82b-f496121b34c7"/>
+    <managerType typeId="2de72135-4484-4232-94a9-18c627be3b10" valueTypeId="b52f045c-f063-4bf9-ade0-5d16bd5a338c"/>
+  </producedTypes>
+  <name>ПричиныВыводаКМИзОборотаИСЦЭДМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины вывода маркированного товара из оборота </value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="581605cc-964e-4702-8aae-767df9801214">
+    <name>Утрата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Утрата</value>
+    </synonym>
+    <comment>2</comment>
+  </enumValues>
+  <enumValues uuid="f200e33b-18a7-4541-ab8a-6ca55050c966">
+    <name>Повреждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Повреждение</value>
+    </synonym>
+    <comment>3</comment>
+  </enumValues>
+  <enumValues uuid="44d71ad9-e730-47aa-978a-20b1e5fd34c1">
+    <name>Уничтожение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уничтожение</value>
+    </synonym>
+    <comment>4</comment>
+  </enumValues>
+  <enumValues uuid="b262dcd2-d7c5-4dc0-9089-5ee5a58b3252">
+    <name>ВнутреннееИспользование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использование для собственных нужд предприятия</value>
+    </synonym>
+    <comment>5</comment>
+  </enumValues>
+  <enumValues uuid="25903149-6966-408a-8ec5-e9411fedb0c0">
+    <name>Образцы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор образцов</value>
+    </synonym>
+    <comment>6</comment>
+  </enumValues>
+  <enumValues uuid="6fb3dbd0-85e1-486c-b50a-572fb3b87d24">
+    <name>ИнтернетТорговля</name>
+    <synonym>
+      <key>ru</key>
+      <value>(Не используется) Вывод из оборота при интернет торговле</value>
+    </synonym>
+    <comment>7</comment>
+  </enumValues>
+  <enumValues uuid="c39510dc-f39d-49ce-a853-eb5e5352a0bf">
+    <name>ВозвратФизЛицу</name>
+    <synonym>
+      <key>ru</key>
+      <value>(Не используется) Возврат физическому лицу</value>
+    </synonym>
+    <comment>8</comment>
+  </enumValues>
+  <enumValues uuid="2027406f-5099-4602-be7b-dbb9eed3cf4e">
+    <name>МедицинскоеНазначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для медицинского назначения</value>
+    </synonym>
+    <comment>9</comment>
+  </enumValues>
+  <enumValues uuid="84481cc5-73c6-442f-9190-838522de7e20">
+    <name>ОтпускПоРецепту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отпуск по бесплатному рецепту</value>
+    </synonym>
+    <comment>10</comment>
+  </enumValues>
+  <enumValues uuid="a33244eb-1635-4bae-bfbe-08812c3c632c">
+    <name>ЭкспортЕАЭС</name>
+    <synonym>
+      <key>ru</key>
+      <value>(Не используется) Экспорт в страны ЕАЭС</value>
+    </synonym>
+    <comment>11</comment>
+  </enumValues>
+  <enumValues uuid="f476b103-89fb-4d8f-955e-5cee0e5308cc">
+    <name>ЭкспортТретьиСтраны</name>
+    <synonym>
+      <key>ru</key>
+      <value>(Не используется) Экспорт за пределы ЕАЭС</value>
+    </synonym>
+    <comment>12</comment>
+  </enumValues>
+  <enumValues uuid="b098b496-9508-49bd-a301-6c215761faff">
+    <name>РозничнаяПродажа</name>
+    <synonym>
+      <key>ru</key>
+      <value>(Не используется) Розничная продажа</value>
+    </synonym>
+    <comment>13</comment>
+  </enumValues>
+  <enumValues uuid="f4cea028-e4cc-43c5-9cd7-d50a2e877e05">
+    <name>ВыбылПереработка</name>
+    <synonym>
+      <key>ru</key>
+      <value>(Не используется) Выбыл (переработка)</value>
+    </synonym>
+    <comment>14</comment>
+  </enumValues>
+  <enumValues uuid="43beffc2-a786-454c-8d1f-0448c85e5644">
+    <name>ПродажаГосПредприятию</name>
+    <synonym>
+      <key>ru</key>
+      <value>(Не используется) Приобретение государственным предприятием</value>
+    </synonym>
+    <comment>15</comment>
+  </enumValues>
+  <enumValues uuid="2a2a8086-d39d-4cfb-9423-93692ea5b11c">
+    <name>ВнутреннееИспользованиеПокупателем</name>
+    <synonym>
+      <key>ru</key>
+      <value>(Не используется) Использование для собственных нужд покупателем</value>
+    </synonym>
+    <comment>16</comment>
+  </enumValues>
+  <enumValues uuid="8fd1c10b-7c30-4c21-a906-e786b6530304">
+    <name>Конфискация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфискация</value>
+    </synonym>
+    <comment>17</comment>
+  </enumValues>
+  <enumValues uuid="31bc59e8-5733-4464-89b9-43ba6e12ecb4">
+    <name>Другое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Другое</value>
+    </synonym>
+    <comment>18</comment>
+  </enumValues>
+  <enumValues uuid="6c57bb2b-7c27-49b6-9219-dc6b82d5fed0">
+    <name>Брак</name>
+    <synonym>
+      <key>ru</key>
+      <value>Брак</value>
+    </synonym>
+    <comment>1</comment>
+  </enumValues>
+  <enumValues uuid="d27ca305-f02c-45d2-88bc-6988811bc2a8">
+    <name>СиловыеСтруктуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Силовые структуры</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

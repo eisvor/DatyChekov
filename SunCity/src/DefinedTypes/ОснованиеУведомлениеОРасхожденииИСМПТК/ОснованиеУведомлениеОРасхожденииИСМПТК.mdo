@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58ae4101-f511-4cca-8cac-a1732452e721">
+  <producedTypes>
+    <containerType typeId="c0159883-5471-470d-8f93-2c00a5c54ffa" valueTypeId="305a0428-d537-435b-93c5-e6453b0f43f3"/>
+  </producedTypes>
+  <name>ОснованиеУведомлениеОРасхожденииИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основание уведомление о расхождении</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.АктПриемаПередачиИСМПТК</types>
+  </type>
+</mdclass:DefinedType>

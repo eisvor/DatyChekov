@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40da0000-f06a-44d8-9e9f-b5e5dd93291b">
+  <producedTypes>
+    <containerType typeId="5753a3e7-4ba1-4d16-bdef-87ee040c3e2b" valueTypeId="47fbe6ec-3959-4e77-904b-3554de481ba3"/>
+  </producedTypes>
+  <name>ТипНоменклатурыИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип номенклатуры ИСМПТК</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ТипыНоменклатуры</types>
+  </type>
+</mdclass:DefinedType>

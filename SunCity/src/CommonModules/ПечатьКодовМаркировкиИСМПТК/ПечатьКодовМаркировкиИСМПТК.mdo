@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cced1682-5d2b-4c0d-82eb-f0e6d8cd1327">
+  <name>ПечатьКодовМаркировкиИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать этикеток ИС МП</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Печать этикеток ИС МП</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

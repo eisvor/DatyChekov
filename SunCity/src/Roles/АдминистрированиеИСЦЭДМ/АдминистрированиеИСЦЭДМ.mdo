@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c50d579-a188-4390-8ba2-0064772827f7">
+  <name>АдминистрированиеИСЦЭДМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администрирование (ИС ЦЭДМ)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Повторная печать кодов маркировки ИС МП</value>
+  </synonym>
+</mdclass:Role>

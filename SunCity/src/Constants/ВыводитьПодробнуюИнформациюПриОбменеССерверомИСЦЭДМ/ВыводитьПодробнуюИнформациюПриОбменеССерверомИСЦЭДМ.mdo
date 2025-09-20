@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e460ed9e-a9ab-43b0-866f-1171ec73ac21">
+  <producedTypes>
+    <managerType typeId="c805ffe1-b8e8-49d4-bd99-656cda867d98" valueTypeId="da45b296-aa29-445b-89f7-b9a42148b391"/>
+    <valueManagerType typeId="a1fd4622-9093-49dd-ad40-9de15ca2a3ac" valueTypeId="28405f91-c59f-4677-b53b-43d382e17175"/>
+    <valueKeyType typeId="fe5ce40b-0c2d-47f9-9842-51ffe3b84552" valueTypeId="31c85ec9-89ac-4238-89ed-6d31c931633d"/>
+  </producedTypes>
+  <name>ВыводитьПодробнуюИнформациюПриОбменеССерверомИСЦЭДМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выводить подробную информацию при обмене с сервером</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

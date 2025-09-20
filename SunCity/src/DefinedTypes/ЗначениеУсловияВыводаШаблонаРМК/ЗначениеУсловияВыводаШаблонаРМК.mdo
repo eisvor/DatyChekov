@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c90497a4-e424-4d02-bc06-5e1d6d9bde76">
+  <producedTypes>
+    <containerType typeId="b626e24b-2304-4e20-a26c-6edd2d82ecad" valueTypeId="e3fcd841-0d7a-4592-92d6-36981619672d"/>
+  </producedTypes>
+  <name>ЗначениеУсловияВыводаШаблонаРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значение условия вывода шаблона РМК</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>3</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>150</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+</mdclass:DefinedType>

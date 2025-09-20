@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0bfc21f4-5e08-4e36-95b8-eeadd67ab74a">
+  <name>ЧтениеАППИСЦЭДМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение Актов приема/передачи (ИС ЦЭДМ)</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7faf3c3-09c9-4f70-be87-f7a1f5eff991">
+  <name>ИспользованиеМобильногоПриложенияИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование мобильного приложения модуля маркировки (ИС МПТ)</value>
+  </synonym>
+</mdclass:Role>

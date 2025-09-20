@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0aad8528-3ae4-4512-a65b-06b9f930a5b2">
+  <producedTypes>
+    <containerType typeId="d9a4a91e-4c1e-42bb-9a19-83c7e65886ad" valueTypeId="cef9e163-5ea7-4bcd-ab71-443eb94be8bd"/>
+  </producedTypes>
+  <name>ОснованиеЗаказКодовМаркировкиСУЗИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основание акт приема передачи</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.ЗаказПоставщику</types>
+  </type>
+</mdclass:DefinedType>

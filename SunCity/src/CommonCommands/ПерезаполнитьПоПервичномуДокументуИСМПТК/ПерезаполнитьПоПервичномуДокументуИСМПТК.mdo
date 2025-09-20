@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d89299d3-b3ae-4ff5-a6ed-b924444bc5dc">
+  <name>ПерезаполнитьПоПервичномуДокументуИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перезаполнить</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>DocumentRef.УведомлениеОВвозеИзЕАЭСИСМПТК</types>
+    <types>DocumentRef.УведомлениеОВыводеИзОборотаИСМПТК</types>
+    <types>DocumentRef.АктВнутреннегоПеремещенияИСЦЭДМ</types>
+    <types>DocumentRef.УведомлениеОВвозеИзТретьихСтранИСЦЭДМ</types>
+    <types>DocumentRef.УведомлениеОВводеВОборотИСМПТК</types>
+    <types>DocumentRef.УведомлениеОВвозеИзЕАЭСИСЦЭДМ</types>
+    <types>DocumentRef.АктПриемаПередачиИСЦЭДМ</types>
+    <types>DocumentRef.УведомлениеОВводеВОборотИСЦЭДМ</types>
+    <types>DocumentRef.АктПриемаПередачиИСМПТК</types>
+    <types>DocumentRef.УведомлениеОВыводеИзОборотаИСЦЭДМ</types>
+    <types>DocumentRef.УведомлениеОВвозеИзТретьихСтранИСМПТК</types>
+  </commandParameterType>
+  <parameterUseMode>Multiple</parameterUseMode>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Перезаполнить данные по первичному документу</value>
+  </toolTip>
+</mdclass:CommonCommand>

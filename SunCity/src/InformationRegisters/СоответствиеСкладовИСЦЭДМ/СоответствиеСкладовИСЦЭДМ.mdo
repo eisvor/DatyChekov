@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6dd0cf7-0e96-44fa-893b-64fcd7065a09">
+  <producedTypes>
+    <selectionType typeId="72d5755e-6197-4190-b8d5-cda9bce3781c" valueTypeId="3c6f1e68-116b-44b2-9031-4139aa603aeb"/>
+    <listType typeId="eea6331a-d96c-43a5-9c9c-73737c51e7ae" valueTypeId="078e4062-d387-4879-b391-303e2cd6d7ca"/>
+    <managerType typeId="9834fb19-dba3-4a98-b2d6-5802beb82500" valueTypeId="300109d7-d355-4974-8234-5c73eb7e98e9"/>
+    <recordSetType typeId="5ad80862-954f-45df-9037-3dd4c33b6c64" valueTypeId="3b31b197-1032-4395-babb-706284986509"/>
+    <recordKeyType typeId="c82eada0-0c02-4dbf-840f-b54879c2d32c" valueTypeId="6f27b75f-6d91-4d3d-8e48-cf0c42287dbe"/>
+    <recordType typeId="e0874b05-13cc-4de6-aa45-b5cc1fe0929a" valueTypeId="c3a50dd1-e4fe-48d0-8db6-6d0507ccc406"/>
+    <recordManagerType typeId="26579c10-6c75-4055-9d1d-d5455cf8aa49" valueTypeId="c51684e8-ab9f-42de-8e53-61e2704f5fad"/>
+  </producedTypes>
+  <name>СоответствиеСкладовИСЦЭДМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие складов ИС ЦЭДМ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.СоответствиеСкладовИСЦЭДМ.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="6e49d844-cbf0-4b2f-9698-45205c3c8da3">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>DefinedType.СкладыИСЦЭДМ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="27d061d0-1ae6-49d1-81b1-c1b6fc371365">
+    <name>СкладИСЦЭДМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад (ИС ЦЭДМ)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СкладыИСЦЭДМ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="09eb8c92-f8cb-48c5-a2bd-e8097273f677">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ОрганизацияИСМПТК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="9b234932-d93a-45e1-a8e2-959a63570aab">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

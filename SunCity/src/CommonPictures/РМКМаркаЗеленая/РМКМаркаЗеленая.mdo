@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e64c515-262b-4d48-975b-5a7f490875ca">
+  <name>РМКМаркаЗеленая</name>
+  <synonym>
+    <key>ru</key>
+    <value>РМК Марка зеленая</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28d694d2-d8f2-4a87-85a8-f03657dff637">
+  <name>РМКМаркаСерая</name>
+  <synonym>
+    <key>ru</key>
+    <value>РМК Марка серая</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

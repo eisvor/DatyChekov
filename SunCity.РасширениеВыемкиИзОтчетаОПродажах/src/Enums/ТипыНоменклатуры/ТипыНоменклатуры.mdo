@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bd6ef927-dfa4-4810-b7cb-131c8fbe1f03" extendedConfigurationObject="9303c72b-7996-482d-819a-de9ad639f3ca">
+  <producedTypes>
+    <refType typeId="3b90a693-e011-490c-8152-9e76d394512d" valueTypeId="6b1fd420-d832-4b3b-866b-4dc3f6930adf"/>
+    <listType typeId="8647f9e6-a5dd-4c11-b7bc-e56a81979590" valueTypeId="9ea70569-fcab-4c3e-89d1-16888c9be30b"/>
+    <managerType typeId="5f93479b-4538-4263-94ba-d598840f1c18" valueTypeId="8494a4fd-206e-4e0e-8a53-dbf6cb4d633e"/>
+  </producedTypes>
+  <name>ТипыНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="42e0dff4-6ea2-4dd0-8a1c-275707ae9ca9" extendedConfigurationObject="1c274e86-dfc6-450f-abe4-41f07142e103">
+    <name>ПодарочныйСертификат</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

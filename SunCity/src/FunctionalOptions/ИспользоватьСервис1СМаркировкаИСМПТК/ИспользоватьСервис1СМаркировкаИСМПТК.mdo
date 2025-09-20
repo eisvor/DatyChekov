@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9645188c-9c2e-4c98-b364-a0cbeddbf113">
+  <name>ИспользоватьСервис1СМаркировкаИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать обмен с ИС МПТ</value>
+  </synonym>
+  <location>Constant.ИспользоватьСервис1СМаркировкаИСМПТК</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.СканированиеТоваровИСМПТК</content>
+  <content>Document.АгрегацияКодовМаркировкиСУЗИСМПТК</content>
+  <content>Document.НанесениеКодовМаркировкиСУЗИСМПТК</content>
+  <content>Document.ЗаказКодовМаркировкиСУЗИСМПТК</content>
+  <content>Document.УведомлениеОбОтгрузкеЕАЭСИСМПТК</content>
+  <content>Document.УведомлениеОПриемкеЕАЭСИСМПТК</content>
+  <content>Document.УведомлениеОбЭкспортеЕАЭСИСМПТК</content>
+  <content>Document.УведомлениеОВвозеИзТретьихСтранИСМПТК</content>
+  <content>Document.УведомлениеОВвозеИзЕАЭСИСМПТК</content>
+  <content>Document.УведомлениеОВыводеИзОборотаИСМПТК</content>
+  <content>Document.УведомлениеОВводеВОборотИСМПТК</content>
+  <content>Document.УведомлениеОРасхожденииИСМПТК</content>
+  <content>Document.АктПриемаПередачиИСМПТК</content>
+  <content>Catalog.СтанцииУправленияЗаказамиИСМПТК</content>
+  <content>Catalog.ХранилищеШаблоновИСМПТК</content>
+  <content>InformationRegister.СтатусыЗаказовИСМПТК</content>
+  <content>InformationRegister.НастройкиОбменаСУЗИСМПТК</content>
+  <content>InformationRegister.ПараметрыМетодовИСМПТК</content>
+  <content>InformationRegister.ШтрихкодыSSCCИСМПТК</content>
+  <content>InformationRegister.НастройкиПодключенияМобильноеПриложениеИСМПТК</content>
+  <content>DataProcessor.ПечатьКодовМаркировкиИСМПТК</content>
+  <content>DataProcessor.ГенерацияШтрихкодовИСМПТК</content>
+  <content>DataProcessor.ПанельОбменИСМПТК</content>
+  <content>DataProcessor.РабочиеМестаИСМПТК</content>
+  <content>Subsystem.МаркировкаИСМПТК</content>
+  <content>InformationRegister.ПулКодовМаркировкиСУЗИСМПТК</content>
+</mdclass:FunctionalOption>

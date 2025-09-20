@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eed118f7-c349-4574-b323-59f5cdb7edf2">
+  <producedTypes>
+    <containerType typeId="74992019-2610-4a31-8540-e2e2ca4ff72f" valueTypeId="753e30d7-743f-450b-a1b3-967ccacbcab1"/>
+  </producedTypes>
+  <name>СтраныМираИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Страны мира ИСМПТК</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.СтраныМира</types>
+  </type>
+</mdclass:DefinedType>

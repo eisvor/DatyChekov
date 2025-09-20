@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ac0c8e2-c51d-451f-9d51-8198346cd8af">
+  <name>УдалитьРозничныйКонтур</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) розничный контур</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <subsystems>УдалитьОсновнойФункционал</subsystems>
+  <subsystems>УдалитьДополнительныйФункционалРозницаИСМПТ</subsystems>
+  <parentSubsystem>Subsystem.МаркировкаИСМПТК</parentSubsystem>
+</mdclass:Subsystem>

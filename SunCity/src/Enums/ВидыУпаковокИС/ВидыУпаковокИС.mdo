@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="758cbe50-8ef6-45a6-a410-26c4a6259a85">
+  <producedTypes>
+    <refType typeId="dfef4184-97a1-4844-a0b6-1937777c63e2" valueTypeId="fbc9c56d-be7c-4f77-a223-d6c168d61a35"/>
+    <listType typeId="2af88ce4-67ba-461b-94aa-88f2701b2a29" valueTypeId="ab7d9222-bfbc-4051-9353-6f65df65dac1"/>
+    <managerType typeId="038d52cf-3a2d-4012-8420-e189450923ad" valueTypeId="d6e6fea1-bf21-4074-8932-c1c5b61c1f3c"/>
+  </producedTypes>
+  <name>ВидыУпаковокИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды упаковок ИС</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f540e6ca-d006-4e35-b600-6cd3ced1df6a">
+    <name>Логистическая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логистическая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c72936d0-6ed7-49e1-9560-5bd919c9c19a">
+    <name>Групповая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Групповая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5b5451c7-f870-407f-b49a-6a41f53069c7">
+    <name>Потребительская</name>
+    <synonym>
+      <key>ru</key>
+      <value>Потребительская</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="06d23829-26e3-4363-addd-80bf7b4411fc">
+    <name>Неопределен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неопределен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f5170f94-13ec-401a-8c03-3d041274eb08">
+    <name>АкцизнаяМаркаСНомеромИСерией</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акцизная марка с номером и серией</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="101d875a-a13e-431a-9fb6-29189c103407">
+    <name>АгрегированныйТаможенныйКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Агрегированный таможенный код</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a9530f5c-9f19-412e-863d-899d4e7482e9">
+    <name>Набор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="72aee070-3c4b-4507-af87-54e2896d7cf2">
+    <name>ОбъемноСортовойУчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объемно сортовой учет</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

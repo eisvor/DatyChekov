@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0b2b672-3919-42de-a80f-48a29570ce46">
+  <name>CleverenceWebExtension</name>
+  <synonym>
+    <key>ru</key>
+    <value>Клеверенс: Расширение для Web-сервиса</value>
+  </synonym>
+  <namespace>http://www.cleverence.ru/CleverenceWebExtension</namespace>
+  <descriptorFileName>CleverenceWebExtension.1cws</descriptorFileName>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>300</sessionMaxAge>
+  <operations uuid="2d962980-e3bf-47d5-934d-ddaa2edd44b2">
+    <name>Invoke</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вычислить команду на сервере</value>
+    </synonym>
+    <comment>Вычислить команду на сервере</comment>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>Invoke</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="03c6ec4f-557b-4ff2-b24f-a3955d801aac">
+      <name>MethodName</name>
+      <synonym>
+        <key>ru</key>
+        <value>Method name</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="c2f3edf1-ec40-4338-b0af-e849cb191a1d">
+      <name>Params</name>
+      <synonym>
+        <key>ru</key>
+        <value>Параметры</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+    <parameters uuid="8e8aca1f-2baf-4dec-8ee0-7c555d0a579a">
+      <name>IdBaseSmarts</name>
+      <synonym>
+        <key>ru</key>
+        <value>Id base smarts</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+  </operations>
+</mdclass:WebService>

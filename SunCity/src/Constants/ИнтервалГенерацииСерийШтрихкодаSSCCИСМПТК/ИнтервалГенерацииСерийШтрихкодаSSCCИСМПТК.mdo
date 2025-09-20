@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5072a83-d966-47f1-9a6b-732da58bfc6e">
+  <producedTypes>
+    <managerType typeId="227dc0e2-eadd-4ab6-9c6c-bee2ace6a6c7" valueTypeId="1cd5d100-2f36-4a33-a711-8326921ec33e"/>
+    <valueManagerType typeId="f2a19af6-359a-4590-a83c-26117acb5efc" valueTypeId="22e344ea-733e-48c3-a73d-70e8eb7cd7f8"/>
+    <valueKeyType typeId="d6f0981b-a0b2-55aa-9725-bcef9f9ac0d0" valueTypeId="620fa356-e2b7-5b93-a453-b6eb320793ea"/>
+  </producedTypes>
+  <name>ИнтервалГенерацииСерийШтрихкодаSSCCИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интервал генерации серий штрихкода SSCCИСМПТК</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

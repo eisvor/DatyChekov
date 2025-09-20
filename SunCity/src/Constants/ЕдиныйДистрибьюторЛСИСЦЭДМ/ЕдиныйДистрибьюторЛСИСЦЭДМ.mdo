@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="899c6a36-9bd0-4751-bfc1-133fea50661f">
+  <producedTypes>
+    <managerType typeId="fc8c1414-3a4b-45ae-8417-d1ad7a0bb379" valueTypeId="287ff911-5670-4855-8706-a92ec980290f"/>
+    <valueManagerType typeId="74e9fd57-5cba-490c-ae53-24c66dc96339" valueTypeId="bf76f061-b348-47f3-b0b6-1d1b397c0c33"/>
+    <valueKeyType typeId="ad9df37e-6922-447d-b6d5-3db4f5b2ad24" valueTypeId="c8e63f2a-e317-4b9f-ac36-7f86db290e92"/>
+  </producedTypes>
+  <name>ЕдиныйДистрибьюторЛСИСЦЭДМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единый дистрибьютор ЛС</value>
+  </synonym>
+  <comment>СК - Фармация</comment>
+  <type>
+    <types>DefinedType.КонтрагентИСМПТК</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

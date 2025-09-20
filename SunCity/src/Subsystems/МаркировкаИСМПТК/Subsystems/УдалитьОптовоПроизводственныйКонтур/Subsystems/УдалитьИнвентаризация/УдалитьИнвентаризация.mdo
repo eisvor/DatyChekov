@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2e8d108-8c4d-453c-813b-069f6b2932af">
+  <name>УдалитьИнвентаризация</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) инвентаризация</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <parentSubsystem>Subsystem.МаркировкаИСМПТК.Subsystem.УдалитьОптовоПроизводственныйКонтур</parentSubsystem>
+</mdclass:Subsystem>

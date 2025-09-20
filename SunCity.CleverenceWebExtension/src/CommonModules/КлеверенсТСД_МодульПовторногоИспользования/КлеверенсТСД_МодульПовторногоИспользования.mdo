@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc805aeb-fafe-4a9f-a612-1f483f8a546c">
+  <name>КлеверенсТСД_МодульПовторногоИспользования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Клеверенс ТСД модуль повторного использования</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

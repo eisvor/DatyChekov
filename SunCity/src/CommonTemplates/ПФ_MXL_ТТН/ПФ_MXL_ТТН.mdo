@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ff91312-77b2-4f55-bfbd-d77c6bf161c1">
+  <name>ПФ_MXL_ТТН</name>
+  <synonym>
+    <key>ru</key>
+    <value>ТТН</value>
+  </synonym>
+  <comment>Товарно-транспортная накладная</comment>
+</mdclass:CommonTemplate>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28f56966-c399-419a-b592-21e745f16e10">
+  <name>НовыйПоШтрихкодуИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Новый по штрихкоду ИСМПТК</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>New by barcode</value>
+  </synonym>
+</mdclass:CommonPicture>

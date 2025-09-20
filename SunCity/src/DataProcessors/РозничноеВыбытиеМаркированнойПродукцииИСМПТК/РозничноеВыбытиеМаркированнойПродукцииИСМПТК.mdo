@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a93c3c48-5157-4e4a-9e4b-2f3025f180c7">
+  <producedTypes>
+    <objectType typeId="c511aec4-4351-4274-aed7-b0c4ca2704e5" valueTypeId="b4e42081-ade4-4d61-ac71-37197b08cdcd"/>
+    <managerType typeId="80c297e9-a97a-4850-bb1e-2f61f4ebedbc" valueTypeId="e4217a70-547e-489d-b276-ec364e0b3576"/>
+  </producedTypes>
+  <name>РозничноеВыбытиеМаркированнойПродукцииИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Розничное выбытие маркированной продукции ИСМПТК</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="d7a8bb14-5ebd-423e-88ca-d00024c787fe">
+    <name>ПоискНоменклатурыПоШтрихкоду</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поиск номенклатуры по штрихкоду</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="35b6c98f-1f08-4cc0-a513-3d526e887e3c">
+    <name>ФормаВводаКодаМаркировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ввода кода маркировки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4801ea0c-041c-4202-81cc-9aed9c168d02">
+    <name>ИнформацияОНевозможностиДобавленияОтсканированного</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация о невозможности добавления отсканированного</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e3715097-1744-40cb-9a7c-7da5fead38f4">
+    <name>ПроверкаКМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка и редактирование списка кодов маркировки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ba40ad33-c7a5-44f8-b64c-2f27ad0b16a6">
+    <name>ВыборДанныхПоискаПоКМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор данных поиска по КМ</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="d72b76b1-bd3f-4c75-b1c8-0c44ee12156c">
+    <name>ПросмотрСпискаКодовМаркировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коды маркировки</value>
+    </synonym>
+    <comment>Просмотр кодов маркировки чека</comment>
+    <group>FormNavigationPanelSeeAlso</group>
+    <commandParameterType/>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.QrCodeИСМПТК</picture>
+    </picture>
+  </commands>
+</mdclass:DataProcessor>

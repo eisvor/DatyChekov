@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f777872d-3f16-47e0-9516-1748cc20c990">
+  <name>МаркироватьУпаковкуИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маркировать упаковку ИСМПТК</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Маркировать упаковку ИСМПТК</value>
+  </synonym>
+</mdclass:CommonPicture>

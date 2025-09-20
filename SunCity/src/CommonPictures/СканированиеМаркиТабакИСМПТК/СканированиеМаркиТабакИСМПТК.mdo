@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7731bbbe-12e9-4fc3-b93e-bd3680f753b5">
+  <name>СканированиеМаркиТабакИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сканирование акцизной марки</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Сканирование акцизной марки</value>
+  </synonym>
+</mdclass:CommonPicture>

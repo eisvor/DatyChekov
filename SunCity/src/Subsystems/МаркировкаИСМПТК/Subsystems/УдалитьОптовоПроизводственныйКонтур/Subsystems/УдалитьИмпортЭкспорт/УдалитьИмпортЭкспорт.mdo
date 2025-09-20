@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a8e894d-ba8f-4cfb-a1ae-69773262a448">
+  <name>УдалитьИмпортЭкспорт</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Импорт/экспорт</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <subsystems>УдалитьВзаимноеПризнаниеКМ</subsystems>
+  <parentSubsystem>Subsystem.МаркировкаИСМПТК.Subsystem.УдалитьОптовоПроизводственныйКонтур</parentSubsystem>
+</mdclass:Subsystem>

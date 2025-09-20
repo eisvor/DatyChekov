@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0bf1a420-201c-4e82-bf57-d00701ec71a4">
+  <name>ОбменДаннымиМобильноеПриложениеМаркировкаИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данными мобильное приложение маркировка ИСМПТК</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

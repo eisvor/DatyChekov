@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7e9e226-faf0-467f-a279-792e1fc6f1ac">
+  <name>СобытияФормИСМПТКПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>События форм ИС МП переопределяемый</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>События форм ИС МП переопределяемый</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

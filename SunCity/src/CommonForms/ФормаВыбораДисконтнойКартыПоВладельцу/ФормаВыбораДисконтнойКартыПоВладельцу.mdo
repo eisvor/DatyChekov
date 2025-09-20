@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99f3aaec-4793-4f4d-9d54-f5f19dc0c824">
+  <name>ФормаВыбораДисконтнойКартыПоВладельцу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выбор дисконтной карты по владельцу</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

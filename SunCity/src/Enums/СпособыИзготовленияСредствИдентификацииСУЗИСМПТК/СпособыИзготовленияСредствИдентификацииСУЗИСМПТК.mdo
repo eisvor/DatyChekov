@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2cbcb54d-95d7-415f-8f36-e029c5eb485d">
+  <producedTypes>
+    <refType typeId="af4c39b0-e7bd-477a-a3e8-9bfca2c6c2f9" valueTypeId="ef952204-a7db-4a04-bba7-7e1abd98766d"/>
+    <listType typeId="f5b9f96d-8da1-4fd2-993b-ba47acc5592b" valueTypeId="47d82992-ec50-4c4d-b910-43df96285c49"/>
+    <managerType typeId="698667f2-f124-4364-968f-e421df737fb6" valueTypeId="8b0db29a-9588-4735-ac91-c0547a17d967"/>
+  </producedTypes>
+  <name>СпособыИзготовленияСредствИдентификацииСУЗИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы изготовления средств идентификации СУЗИСМПТК</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5fe251e5-03ce-4d90-82c8-3f08a11d125d">
+    <name>Самостоятельно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Самостоятельно</value>
+    </synonym>
+    <comment>в СУЗ: SELF_MADE</comment>
+  </enumValues>
+</mdclass:Enum>

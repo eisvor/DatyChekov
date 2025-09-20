@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2d5dc05-f924-435a-923f-f1f9e688ef2c">
+  <name>КонтрольПродаж</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль продаж</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>FunctionalOption.ИспользоватьКонтрольПродаж</content>
+  <content>EventSubscription.ОбновитьСписокПалитрыКонтроляПродаж</content>
+  <content>Constant.ИспользоватьКонтрольПродаж</content>
+  <content>Catalog.ВидыКонтроля</content>
+  <content>Catalog.КонтрольПродаж</content>
+  <content>Enum.ПараметрыКонтроляПродаж</content>
+  <content>Enum.ТипыКонтроля</content>
+  <content>Role.ДобавлениеИзменениеКонтроляПродаж</content>
+  <content>Role.ЧтениеКонтроляПродаж</content>
+  <parentSubsystem>Subsystem.РМК</parentSubsystem>
+</mdclass:Subsystem>

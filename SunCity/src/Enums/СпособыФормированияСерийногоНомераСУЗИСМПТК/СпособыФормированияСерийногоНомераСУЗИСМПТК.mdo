@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="afb2cfd4-2819-41d1-9ae3-c6c4c2d7d89e">
+  <producedTypes>
+    <refType typeId="f2a7edb2-c0eb-44a8-ac5a-16eb1ae0ee74" valueTypeId="ecda1816-df1c-43a0-8fb9-61a681e7ad8b"/>
+    <listType typeId="40fe187f-811d-4c62-be9d-eb5c6a3580de" valueTypeId="f7e0452c-fff5-42ec-9b94-2eae379e1b32"/>
+    <managerType typeId="49e747a1-6747-4f61-9361-981ef50ceaac" valueTypeId="069c47c0-03fe-49bf-b663-323931fe83af"/>
+  </producedTypes>
+  <name>СпособыФормированияСерийногоНомераСУЗИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы формирования серийного номера СУЗИСМПТК</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Способы формирования серийного номера СУЗИСМПТК</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="135d8bc0-1839-49c4-805b-3c92163092c5">
+    <name>Самостоятельно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Самостоятельно</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Самостоятельно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="59a2f1e3-fb38-418c-b5d7-906c5dc822ec">
+    <name>Автоматически</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматически</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Автоматически</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

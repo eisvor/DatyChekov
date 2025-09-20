@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce2f5cd0-4f48-4a9c-9334-09a7f187e716">
+  <name>ВвестиДокументКорректировкуИСЦЭДМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ввести корректировку</value>
+  </synonym>
+  <group>CommandGroup.ИСЦЭДМ</group>
+  <commandParameterType>
+    <types>DocumentRef.УведомлениеОРасхожденияхИСЦЭДМ</types>
+  </commandParameterType>
+  <parameterUseMode>Multiple</parameterUseMode>
+  <representation>PictureAndText</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.CreateListItem</picture>
+  </picture>
+</mdclass:CommonCommand>

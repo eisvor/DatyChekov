@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a461ceec-254b-444d-ad32-99e66bbf665f">
+  <producedTypes>
+    <refType typeId="24bd8671-4864-45ff-a57d-84f1e8e27a7e" valueTypeId="37b8108f-cf95-4f66-8cf9-59ce34ad0288"/>
+    <listType typeId="24afdcc0-c128-4808-8621-e993f69be1b8" valueTypeId="48120b15-4c91-4efd-8931-80bd55f50847"/>
+    <managerType typeId="a1940297-6337-436b-8307-0b614f662e49" valueTypeId="cee59fb7-b10d-4dd0-8dd6-6cce55c4d5aa"/>
+  </producedTypes>
+  <name>ПричиныПовторногоВводаКМВОборотИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины повторного ввода КМВОборот ИСМПТК</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f3c5e0c3-602d-48f7-9e1e-ae66a71ce5ce">
+    <name>Излишки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод в оборот товаров при обнаружении излишков</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c781b167-e1fe-4d18-b5fb-0e5a01441815">
+    <name>ДоДатыОбязательнойМаркировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод в оборот маркированной продукции (до даты введения обязательной маркировки)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a399dad9-00fc-47d3-a6cb-0223e812790a">
+    <name>Конфискат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод в оборот ранее конфискованной продукции</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

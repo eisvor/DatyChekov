@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e713629f-68e6-47ad-9345-877cf7f94310">
+  <name>ПечатьКодовМаркировкиИСМПТККлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>УправлениеПечатью ИС МП Клиент</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Print management TM client</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

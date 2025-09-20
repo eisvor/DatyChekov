@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2789c26c-cef0-4c2c-b5a9-b5e2e7e13437">
+  <producedTypes>
+    <refType typeId="4b960fb9-d2af-46cb-ae4a-fbc1220285c7" valueTypeId="a5cda52b-6bc1-4888-bf6e-ea8c1d3985b4"/>
+    <listType typeId="29a8a853-7b13-49b4-95f9-fe6be94d3889" valueTypeId="cf1a986c-d59e-4b32-9fe6-eabd2971edd8"/>
+    <managerType typeId="9d2496e0-3766-4bb5-a41b-edc76275ed08" valueTypeId="29e43a8b-8dcb-40c0-b271-decea57334d8"/>
+  </producedTypes>
+  <name>ТипыИдентификаторовШКТовараИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы идентификаторов ШКТовара ИСМПТК</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="981ffdcc-9298-43ac-a0e2-b3b9026c817f">
+    <name>КодТовараНеРаспознан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код товара не распознан</value>
+    </synonym>
+    <comment>Код товара, который не распознан</comment>
+  </enumValues>
+  <enumValues uuid="c92deae6-76b9-4c62-b339-36552c7a3a00">
+    <name>КодТовараВФорматеEAN8</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код товара в формате EAN-8</value>
+    </synonym>
+    <comment>Код товара в формате EAN-8, UPC-E</comment>
+  </enumValues>
+  <enumValues uuid="3e917d51-add3-41f4-b77a-5cec88525ea6">
+    <name>КодТовараВФорматеEAN13</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код товара в формате EAN-13</value>
+    </synonym>
+    <comment>Код товара в формате EAN-13, UPC-A</comment>
+  </enumValues>
+  <enumValues uuid="5166e9b5-bbd0-402a-8110-03ea62400011">
+    <name>КодТовараВФорматеITF14</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код товара в формате ITF-14</value>
+    </synonym>
+    <comment>Код товара в формате ITF-14</comment>
+  </enumValues>
+  <enumValues uuid="2aa0f17f-dbe3-4f42-9241-8f28ae501a64">
+    <name>КодТовараВФорматеDataMatrixGS1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код товара в формате Data Matrix</value>
+    </synonym>
+    <comment>Код товара в формате GS1 Data Matrix или Data Matrix маркировки</comment>
+  </enumValues>
+</mdclass:Enum>

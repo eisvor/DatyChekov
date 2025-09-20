@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="486cf17b-4491-43c6-b08d-d73c228ded1c">
+  <name>ЧтениеШаблоновРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение шаблонов РМК</value>
+  </synonym>
+</mdclass:Role>

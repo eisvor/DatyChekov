@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b06ceb6-ff85-49c1-b223-7c30d61f59e5">
+  <name>Криптография</name>
+  <synonym>
+    <key>ru</key>
+    <value>Криптография</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.КриптографияВызовСервера</content>
+  <content>CommonModule.КриптографияКлиентСервер</content>
+  <content>CommonModule.КриптографияКлиентСерверПовтИсп</content>
+  <content>CommonTemplate.КомпонентаКриптографииWSCrypto</content>
+  <content>CommonModule.КриптографияКлиентСерверПереопределяемый</content>
+  <content>CommonForm.НастройкаКриптографии</content>
+  <content>Enum.ТипПровайдераКриптографии</content>
+  <content>Constant.ПровайдерКриптографии</content>
+  <content>CommonForm.ВводДанныхКриптографии</content>
+  <content>CommonModule.ОбновлениеИнформационнойБазыКриптография</content>
+  <content>CommonModule.КриптографияКлиентПовтИспАсинх</content>
+  <content>CommonModule.КриптографияКлиентАсинх</content>
+  <content>CommonModule.КриптографияКлиент</content>
+  <content>Constant.МестоВыполненияКриптографическихОпераций</content>
+  <content>Enum.МестаВыполненияКриптографическихОпераций</content>
+  <content>Role.ДобавлениеИзменениеКриптография</content>
+  <content>Role.ЧтениеКриптография</content>
+  <content>CommonPicture.КриптографияКомпонентаУстановлена</content>
+  <content>CommonPicture.КриптографияКомпонентаНеОбновлена</content>
+  <content>CommonModule.КриптографияСервер</content>
+  <content>CommonModule.КриптографияСерверПереопределяемый</content>
+  <content>CommonPicture.КриптографияПредупреждение</content>
+  <content>CommonPicture.КриптографияИнформация</content>
+</mdclass:Subsystem>

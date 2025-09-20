@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86b8fcaf-bea3-4abe-b844-7fc306dd8742">
+  <producedTypes>
+    <refType typeId="3effdc50-cadc-4aa8-9362-5720f744bea5" valueTypeId="3c330636-4a11-442a-8144-aec2ce998803"/>
+    <listType typeId="94d31e8c-e68a-41a7-908f-1aedba6c4e3d" valueTypeId="56971052-13fa-42c2-a7b5-1f0d87761904"/>
+    <managerType typeId="555b5a7c-2841-4791-9549-041731179e40" valueTypeId="a3a892c1-1c1e-40f5-a17c-e51021b029fb"/>
+  </producedTypes>
+  <name>НазначенияШаблоновЭтикетокИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Назначения шаблонов этикеток ИСМПТК</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Assignments of templates of price tags and labels</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="643b0d9d-c06a-47d3-8342-5eb02c3ce56f">
+    <name>ЭтикеткаДляШтрихкодовУпаковок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этикетка для кодов упаковок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d1220d73-2f82-4974-899e-224ce7e8b087">
+    <name>ЭтикеткаКодМаркировкиИСМП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этикетка ИС МПТ (обувь, молочная продукция)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Label (shoes/tobacco)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

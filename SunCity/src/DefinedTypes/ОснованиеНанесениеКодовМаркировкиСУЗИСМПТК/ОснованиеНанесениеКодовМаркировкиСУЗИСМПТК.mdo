@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e125ee49-96c0-4dce-a294-9d8abf0a3814">
+  <producedTypes>
+    <containerType typeId="3d71db54-cbcf-4c1f-887a-2f79b5974962" valueTypeId="ea362078-6a6f-47ad-b74f-73951b295ad7"/>
+  </producedTypes>
+  <name>ОснованиеНанесениеКодовМаркировкиСУЗИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основание нанесение КМ</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.ЗаказКодовМаркировкиСУЗИСМПТК</types>
+  </type>
+</mdclass:DefinedType>

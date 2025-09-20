@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>DataProcessor.ПанельАдминистрированияИСМПТК.Command.ПанельАдминистрированияИСМП</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Constant.ИспользоватьСервис1СМаркировкаИСМПТК.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>DataProcessor.ПанельАдминистрированияИСМПТК.Command.ПанельАдминистрированияИСМП</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>DataProcessor.ПанельАдминистрированияИСМПТК.Command.ПанельАдминистрированияИСМП</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Catalog.ХранилищеШаблоновИСМПТК.StandardCommand.OpenList</commands>
+      <commands>Catalog.СтанцииУправленияЗаказамиИСМПТК.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ШтрихкодыSSCCИСМПТК.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

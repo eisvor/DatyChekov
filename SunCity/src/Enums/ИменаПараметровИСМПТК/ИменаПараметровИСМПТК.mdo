@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="655c8ac9-330b-4ebb-84fe-a3a8a5abaa51">
+  <producedTypes>
+    <refType typeId="3dc6a21a-38e8-49cf-8f83-5446d4141df6" valueTypeId="b9622fad-7dea-4011-a1a8-58dbc587f37d"/>
+    <listType typeId="30ace7b8-8e01-4d9f-9c77-5abe0e9e773f" valueTypeId="aec50790-f893-4c40-a722-5812b3d18fcb"/>
+    <managerType typeId="e9bcdb11-2c2a-4fdd-9113-72c4718e551f" valueTypeId="b2ca356e-7977-4b10-8c92-42361e07f789"/>
+  </producedTypes>
+  <name>ИменаПараметровИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Имена параметров ИСМПТК</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="62c363d6-876e-48b6-b5c7-8a76a0172518">
+    <name>СоздаватьСДаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создавать с даты</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

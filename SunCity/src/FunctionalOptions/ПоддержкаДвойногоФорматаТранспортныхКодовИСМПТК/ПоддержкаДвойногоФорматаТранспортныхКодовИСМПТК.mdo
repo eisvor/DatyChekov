@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="929eac24-6f22-4139-b729-9b21f47ebb8f">
+  <name>ПоддержкаДвойногоФорматаТранспортныхКодовИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поддержка двойного формата транспортных кодов ИСМПТК</value>
+  </synonym>
+  <location>Constant.ПоддержкаДвойногоФорматаТранспортныхКодовИСМПТК</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

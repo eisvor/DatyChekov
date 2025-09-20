@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b02a8c4-f912-41d8-99cd-8d266c6cb1c1">
+  <producedTypes>
+    <managerType typeId="58a2a59e-c293-417d-a93d-137ba6ba025d" valueTypeId="15cbf818-29bd-4ab0-8d9b-fb370515dac6"/>
+    <valueManagerType typeId="e4ad9254-2ad8-4e91-986e-de373b2b93ec" valueTypeId="4db60edd-66aa-430f-a178-d5a4dffbe050"/>
+    <valueKeyType typeId="77749812-e89c-598b-a75b-2abc5d4ebc10" valueTypeId="bfa86a62-4fda-57ec-ad91-1f39eccc0804"/>
+  </producedTypes>
+  <name>АвтоОпределениеЛогистическихКодовИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автоматически запрашивать данные упаковок с сервера ИС МПТ</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

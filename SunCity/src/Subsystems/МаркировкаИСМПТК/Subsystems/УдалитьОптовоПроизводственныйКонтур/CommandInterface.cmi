@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <subsystemsOrder>
+    <subsystems>Subsystem.МаркировкаИСМПТК.Subsystem.УдалитьОптовоПроизводственныйКонтур.Subsystem.УдалитьТовародвижение</subsystems>
+    <subsystems>Subsystem.МаркировкаИСМПТК.Subsystem.УдалитьОптовоПроизводственныйКонтур.Subsystem.УдалитьИмпортЭкспорт</subsystems>
+    <subsystems>Subsystem.МаркировкаИСМПТК.Subsystem.УдалитьОптовоПроизводственныйКонтур.Subsystem.УдалитьИнвентаризация</subsystems>
+    <subsystems>Subsystem.МаркировкаИСМПТК.Subsystem.УдалитьОптовоПроизводственныйКонтур.Subsystem.УдалитьПроизводство</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4dc00b6-1837-4f62-b4e6-2e4fb2264613">
+  <name>ДобавлениеИзменениеРозничноеВыбытиеМаркированнойПродукцииИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение Маркируемой продукции в Чеках ККМ (ИС МПТ)</value>
+  </synonym>
+</mdclass:Role>

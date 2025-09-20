@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9eac94fa-64db-4ab5-b205-bcf148ff31e3">
+  <name>ИспользоватьКонтрольПродаж</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать контроль продаж</value>
+  </synonym>
+  <location>Constant.ИспользоватьКонтрольПродаж</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.РМК.Subsystem.КонтрольПродаж</content>
+  <content>Catalog.ВидыКонтроля</content>
+  <content>Catalog.КонтрольПродаж</content>
+  <content>Enum.ПараметрыКонтроляПродаж</content>
+  <content>Enum.ТипыКонтроля</content>
+  <content>Catalog.ПалитраТоваровРМК.Attribute.Служебная</content>
+</mdclass:FunctionalOption>

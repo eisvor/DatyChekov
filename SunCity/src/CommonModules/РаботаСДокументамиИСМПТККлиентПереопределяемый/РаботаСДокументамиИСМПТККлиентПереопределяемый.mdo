@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="829db64a-ae69-40ee-bae8-184e7c83bef5">
+  <name>РаботаСДокументамиИСМПТККлиентПереопределяемый</name>
+  <synonym>
+    <key>en</key>
+    <value>Интеграция ИС клиент переопределяемый</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с документами ИСМПТККлиент переопределяемый</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

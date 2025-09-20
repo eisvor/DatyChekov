@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc766330-271d-4212-a86d-8676122f7f7e">
+  <producedTypes>
+    <containerType typeId="ae631ae5-0681-4d62-ba93-fad869ce3666" valueTypeId="93124a63-3128-4b52-9bd6-090360af2fbd"/>
+  </producedTypes>
+  <name>СкладыИСЦЭДМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Склады ИСЦЭДМ</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Склады</types>
+  </type>
+</mdclass:DefinedType>

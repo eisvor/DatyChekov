@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96662526-8bb0-40d0-b563-aa1ea6faad96">
+  <producedTypes>
+    <managerType typeId="d068ce26-04ef-49bb-9832-8ece69d71f4b" valueTypeId="97b09037-1504-47f7-86fd-57b5b773ef37"/>
+    <valueManagerType typeId="a59f4959-4877-4d2e-9736-e1ab95a57746" valueTypeId="9e391924-9bad-46cd-b6cf-a132272639a6"/>
+    <valueKeyType typeId="36b5737c-0fe9-4ab9-a86e-d2f82a217a7a" valueTypeId="d13b6ce1-1a16-43b1-8cd9-72c6cca4af07"/>
+  </producedTypes>
+  <name>СпособОтраженияЗачетаАванса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ отражения зачета аванса</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ВариантыОтраженияЗачетаАванса</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

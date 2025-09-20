@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84fcfd60-a791-46d1-872b-4199cbaddfb5">
+  <name>ОтправкаПолучениеДанныхИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка и получение данных ИС МП</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Отправка и получение данных ИС МП</value>
+  </synonym>
+  <methodName>CommonModule.ИнтеграцияИСМПТК.ВыполнитьОбменРегламентноеЗадание</methodName>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

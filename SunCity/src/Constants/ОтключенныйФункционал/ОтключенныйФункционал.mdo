@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="451e8334-2107-40e8-becb-2b1d75dc99d9">
+  <producedTypes>
+    <managerType typeId="1678bc1e-6bc0-4b2f-8866-bb55186bb78f" valueTypeId="754fd01b-2dec-4d99-91aa-51344d5ca220"/>
+    <valueManagerType typeId="5821d574-61fd-4202-a28d-5a4ac018c5cb" valueTypeId="c124c15f-cc86-4274-b3ea-098778e62a0f"/>
+    <valueKeyType typeId="a2c39153-ab55-5bd7-8a94-3dd6579a5a40" valueTypeId="6888599c-8052-577f-82ff-cf3a06fb215f"/>
+  </producedTypes>
+  <name>ОтключенныйФункционал</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отключенный функционал</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

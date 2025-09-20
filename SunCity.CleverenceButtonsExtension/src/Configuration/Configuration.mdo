@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ce41e117-38ed-4006-9c9d-647631689805">
+  <name>CleverenceButtonsExtension</name>
+  <synonym>
+    <key>ru</key>
+    <value>Клеверенс: Расширение с кнопками</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <managedApplicationModule>Extended</managedApplicationModule>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="035c77e1-1f0a-43fa-b91e-be65ab25c615"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="29c3a9b9-997b-43fe-8de5-4582bc3dd763"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="316f22f8-65dc-44c2-b11a-22564b8b3755"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="ad6a661a-d534-428b-ac00-fa786d688879"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="084f7a18-abf0-4776-8958-cc744cf6997c"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="e6687be0-acb8-4bd9-88de-64cc8bac9bc3"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="49007652-7a9a-492f-a874-3328da6ee3c8"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>Cleverence</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Клеверенс</vendor>
+  <version>1.3.19.339_Core(1.3.19.66)</version>
+  <compatibilityMode>8.3.25</compatibilityMode>
+  <languages uuid="be8145d6-f7e9-4267-bdb3-43cf827af9a0">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <commonModules>CommonModule.ПодключаемыеКоманды</commonModules>
+  <commonModules>CommonModule.ВерсионированиеОбъектов</commonModules>
+  <commonModules>CommonModule.ПодключаемыеКомандыКлиент</commonModules>
+  <commonModules>CommonModule.Клеверенс_ОбщегоНазначенияВызовСервера</commonModules>
+  <commonModules>CommonModule.Клеверенс_ОбщегоНазначенияКлиент</commonModules>
+  <commonModules>CommonModule.Клеверенс_ОбщегоНазначенияКлиентСервер</commonModules>
+  <commonModules>CommonModule.Клеверенс_ОбщегоНазначенияСервер</commonModules>
+  <commonModules>CommonModule.Клеверенс_ИзменениеФорм</commonModules>
+  <dataProcessors>DataProcessor.КлеверенсТСД_МодульКнопки</dataProcessors>
+</mdclass:Configuration>

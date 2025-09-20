@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc1a72cc-7486-4e52-8649-584e41e08587">
+  <producedTypes>
+    <objectType typeId="4d530e2d-e4f1-48e4-a9ed-e27d3f86a050" valueTypeId="857bba41-7720-4bc8-9140-31ead2bb8903"/>
+    <managerType typeId="8dad2dac-824c-49d3-8019-da191acb6025" valueTypeId="99ac1d98-4b3c-48cf-8d75-f073b57bef06"/>
+  </producedTypes>
+  <name>ПанельОбменИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маркировка и прослеживаемость товаров (ИС МПТ)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Exchange with LTIS</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПанельОбменИСМПТК.Form.Форма</defaultForm>
+  <explanation>
+    <key>ru</key>
+    <value>Общее рабочее место модуля маркировки</value>
+  </explanation>
+  <forms uuid="89bd7365-2020-4491-ab6b-c8f42e93488f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <comment>Рабочее место ИС МПТ и СУЗ</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="9ba87ce9-1e90-4822-acfe-8628ae87bf9a">
+    <name>РММаркировкаИПрослеживаемостьТоваровИСМПТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маркировка и прослеживаемость товаров (ИС МПТ)</value>
+    </synonym>
+    <group>NavigationPanelSeeAlso</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Общее рабочее место модуля маркировки</value>
+    </toolTip>
+  </commands>
+</mdclass:DataProcessor>

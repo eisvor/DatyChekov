@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad5572f2-2c92-47d9-8e4e-aae12f045ecf">
+  <producedTypes>
+    <refType typeId="b10048b6-6b43-4fc2-8777-38153b02deb4" valueTypeId="60346440-8e0f-4308-9c1d-8a557f55f734"/>
+    <listType typeId="1b7763aa-2d6a-4d67-8c2a-7ebae77fc2a1" valueTypeId="371434d8-578b-49a7-ad3f-c5abf3dac061"/>
+    <managerType typeId="d486c2a0-d0dd-4e19-a44a-852adc75277f" valueTypeId="d1f52b64-5f5c-4fb7-96f3-89bdeaed2cb0"/>
+  </producedTypes>
+  <name>СпособыВводаВОборотСУЗИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы ввода в оборот СУЗИСМПТК</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Способы ввода в оборот СУЗИСМПТК</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="77b3f764-5ad0-4665-ad39-39a2d5152c22">
+    <name>Производство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производство в Казахстане</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Производство в РФ</value>
+    </synonym>
+    <comment>PRODUCTION</comment>
+  </enumValues>
+  <enumValues uuid="f5223c6a-eb64-470b-91b8-9279d40de95b">
+    <name>Импорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввезен в Казахстан (импорт)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Импорт в РФ</value>
+    </synonym>
+    <comment>IMPORT</comment>
+  </enumValues>
+  <enumValues uuid="dae85cc3-dd46-454c-adae-3c234e995446">
+    <name>МаркировкаОстатков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маркировка остатков</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Маркировка остатков</value>
+    </synonym>
+    <comment>REMAINS  (только Обувь, Текстиль)</comment>
+  </enumValues>
+  <enumValues uuid="15026442-54bc-4b54-b8cc-ba860bee1234">
+    <name>ПринятНаКомиссию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принят на комиссию от физ.лица</value>
+    </synonym>
+    <comment>COMMISSION (только Обувь, Текстиль)</comment>
+  </enumValues>
+  <enumValues uuid="cbf198ea-278a-494f-bcca-abcf94df1804">
+    <name>Перемаркировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемаркировка</value>
+    </synonym>
+    <comment>REMARK (только Обувь)</comment>
+  </enumValues>
+</mdclass:Enum>

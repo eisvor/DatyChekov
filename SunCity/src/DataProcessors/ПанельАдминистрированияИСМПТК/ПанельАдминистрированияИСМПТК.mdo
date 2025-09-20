@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf9c2180-c8e9-41d5-8393-03f6fb13ce07">
+  <producedTypes>
+    <objectType typeId="1b14bbc3-b7c5-4534-883c-96b0479abba9" valueTypeId="601dcadd-98ce-4d0d-a576-1ba540ef7bea"/>
+    <managerType typeId="4194a6b7-df90-4e7e-babc-857d98b1c8fa" valueTypeId="97bfab9f-c377-4385-a437-68ddc79c2bf8"/>
+  </producedTypes>
+  <name>ПанельАдминистрированияИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Панель администрирования </value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>LTIS administration panel</value>
+  </synonym>
+  <defaultForm>DataProcessor.ПанельАдминистрированияИСМПТК.Form.РабочееМестоНастройкиИСМП</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="ea905745-134d-4d77-96ac-147d41605f7e">
+    <name>РабочееМестоНастройкиИСМП</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИС МПТ</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>IS MTPT</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="1271b49c-ce47-40f0-88a7-738b904f3e7c">
+    <name>ПанельАдминистрированияИСМП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки учета и взаимодействия (ИС МПТ, ИС ЦЭДМ)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Settings of LTIS integration</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

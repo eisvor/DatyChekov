@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62ffe612-d87c-4a17-986f-9f9b20ddec30">
+  <producedTypes>
+    <refType typeId="0518f20d-348c-4a7b-a716-4f14ed199853" valueTypeId="cdf242c6-665a-49af-b1cd-5c4d85c0dabf"/>
+    <listType typeId="a4b27ffb-eccd-4f86-9be8-3b31a4dbd72f" valueTypeId="8e578760-69d8-435d-9415-89ca4ad2e19c"/>
+    <managerType typeId="e77b2ca1-5110-4b07-a329-8f8360dc2a9a" valueTypeId="85819af5-31ae-48c4-b555-1f42cb00c713"/>
+  </producedTypes>
+  <name>УровниУпаковокИСЦЭДМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уровни упаковок</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="66e762c3-5396-41da-81c5-e7f1ebf95edf">
+    <name>Пачка</name>
+    <synonym>
+      <key>ru</key>
+      <value>1. Пачка</value>
+    </synonym>
+    <comment>UNIT</comment>
+  </enumValues>
+  <enumValues uuid="0cb5d595-15b0-4f8b-b3e9-e2e8276342fc">
+    <name>Коробка</name>
+    <synonym>
+      <key>ru</key>
+      <value>2. Коробка</value>
+    </synonym>
+    <comment>LEVEL2</comment>
+  </enumValues>
+  <enumValues uuid="9555436e-38af-4808-8262-d49169e527d7">
+    <name>Паллета</name>
+    <synonym>
+      <key>ru</key>
+      <value>3. Паллета</value>
+    </synonym>
+    <comment>LEVEL3</comment>
+  </enumValues>
+  <enumValues uuid="705690b6-e0f8-4005-810d-188e4ae453dc">
+    <name>Упаковка4Уровень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упаковка 4-го уровня</value>
+    </synonym>
+    <comment>LEVEL4</comment>
+  </enumValues>
+  <enumValues uuid="b4fa97de-4f30-45e3-8641-109194049e0a">
+    <name>Упаковка5Уровень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упаковка 5-го уровня</value>
+    </synonym>
+    <comment>LEVEL5</comment>
+  </enumValues>
+  <enumValues uuid="5e998771-891d-4395-b51a-f94341d56783">
+    <name>Комплект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплект</value>
+    </synonym>
+    <comment>BUNDLE</comment>
+  </enumValues>
+</mdclass:Enum>

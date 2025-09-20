@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa0d1eed-eea6-415a-b0e2-197481a6bc45">
+  <producedTypes>
+    <objectType typeId="4ede2356-1fa4-4186-8ae8-7de869998cf1" valueTypeId="d05524c9-20f8-4041-b4d2-5b4c3199bf3b"/>
+    <managerType typeId="e2bd2583-df82-49f4-9239-39edab42eec7" valueTypeId="7307625a-47b4-486d-99b4-bd2803ea3852"/>
+  </producedTypes>
+  <name>КлеверенсТСД_МодульОнлайн</name>
+  <synonym>
+    <key>ru</key>
+    <value>КлеверенсТСД_МодульОнлайн</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="c29b9fa0-b0d5-4da8-90e8-20799efdcf83">
+    <name>ЭтоWebСервис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это web сервис</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ae872c48-c79c-4f70-a2d5-c86ca5f435de">
+    <name>COMЧастнойБазыMS</name>
+    <synonym>
+      <key>ru</key>
+      <value>COMЧастной базы MS</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7838cf51-f219-4e7c-97ce-a30bfea00c35">
+    <name>COMВременнойБазыMS</name>
+    <synonym>
+      <key>ru</key>
+      <value>COMВременной базы MS</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a18fb487-4d7a-4635-ae81-7dce86cfc59a">
+    <name>COMБазыMS</name>
+    <synonym>
+      <key>ru</key>
+      <value>COMБазы MS</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+</mdclass:DataProcessor>

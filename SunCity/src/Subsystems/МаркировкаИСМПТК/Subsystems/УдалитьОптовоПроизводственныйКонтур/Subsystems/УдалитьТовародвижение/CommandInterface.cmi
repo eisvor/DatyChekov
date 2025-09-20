@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Document.АктПриемаПередачиИСМПТК.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document.УведомлениеОРасхожденииИСМПТК.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Document.АктПриемаПередачиИСМПТК.StandardCommand.OpenList</commands>
+      <commands>Document.АктПриемаПередачиИСМПТК.Command.ИсходящиеАктыПриемаПередачи</commands>
+      <commands>Document.УведомлениеОРасхожденииИСМПТК.Command.ВходящиеУведомленияОРасхождениях</commands>
+      <commands>Document.УведомлениеОРасхожденииИСМПТК.StandardCommand.OpenList</commands>
+      <commands>Document.АктПриемаПередачиИСМПТК.Command.ВходящиеАктыПриемаПередачи</commands>
+      <commands>Document.УведомлениеОРасхожденииИСМПТК.Command.ИсходящиеУведомленияОРасхождениях</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

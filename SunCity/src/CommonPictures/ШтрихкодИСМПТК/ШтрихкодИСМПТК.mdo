@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8cbea66-a706-48da-9133-d12a37658d05">
+  <name>ШтрихкодИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Штрихкод ИСМПТК</value>
+  </synonym>
+</mdclass:CommonPicture>

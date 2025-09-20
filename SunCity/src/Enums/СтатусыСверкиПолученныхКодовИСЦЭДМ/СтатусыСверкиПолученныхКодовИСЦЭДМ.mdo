@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8fbbab2-7e63-4510-8bd2-784665ccdd3f">
+  <producedTypes>
+    <refType typeId="122588b6-f627-401c-87b3-c89ccbcca7a3" valueTypeId="9120238e-7e41-4fd6-8d9e-72ff0a94d3b5"/>
+    <listType typeId="9bbc0fd2-a88d-40ae-8022-cc1cf9096d08" valueTypeId="af753023-38f7-4c68-ae8d-94ea5f81da47"/>
+    <managerType typeId="9b67cc50-3b84-402e-9486-3e3637dfaf0a" valueTypeId="4da0dba3-e271-49e7-ae19-a6249b1b82ad"/>
+  </producedTypes>
+  <name>СтатусыСверкиПолученныхКодовИСЦЭДМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы сверки полученных кодов маркировки </value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4232d583-6785-4753-a53c-9bc954aaf2ee">
+    <name>СверкаНеВыполнялась</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сверка полученных товаров на сервере не выполнялась</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="56e4dbbc-7897-49b0-a787-a56114cc1de3">
+    <name>СверкаВыполненаРасхожденийНеОбнаружено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проведена сверка товаров, расхождения не обнаружены</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5066e5b7-62a4-4295-89a8-bfc7e2847b14">
+    <name>СверкаВыполненаЕстьРасхождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проведена сверка товаров, обнаружены расхождения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ec897cd5-dc25-4ca5-898e-cc0220afbc44">
+    <name>СверкаНеТребуется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сверка не требуется</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

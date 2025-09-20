@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6bdac8c7-c5fe-43d0-a199-7e6701f00e83">
+  <name>МаркируемаяПродукцияТЧИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маркируемая продукция ТЧИСМПТК</value>
+  </synonym>
+</mdclass:CommonPicture>

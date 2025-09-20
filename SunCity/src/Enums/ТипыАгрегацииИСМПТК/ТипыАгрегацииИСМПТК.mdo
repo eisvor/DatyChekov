@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa0565c1-87e5-476c-b412-2cbe973361a1">
+  <producedTypes>
+    <refType typeId="9853729d-1c0c-4249-bd19-162ec157d5b3" valueTypeId="557bd433-fb24-4849-b6fd-62662ccca15c"/>
+    <listType typeId="716ec827-b1ce-4e1d-bdaa-03beaa3644f8" valueTypeId="664afc68-973e-4596-aab3-84e027020d36"/>
+    <managerType typeId="e6ef234e-3cf7-4938-ac74-638c7d5c86ce" valueTypeId="b3bce134-6c12-476f-bcd8-9bf45a7bc2f9"/>
+  </producedTypes>
+  <name>ТипыАгрегацииИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы агрегации ИСМПТК</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d686f7e3-2d69-419a-8301-7258778bc7a2">
+    <name>НоваяАгрегация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новая агрегация</value>
+    </synonym>
+    <comment>AGGREGATION</comment>
+  </enumValues>
+  <enumValues uuid="d5644a25-8571-45b4-a57e-fc50cc6d7578">
+    <name>ОбновлениеСуществующейАгрегации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление существующей агрегации</value>
+    </synonym>
+    <comment>UPDATE</comment>
+  </enumValues>
+</mdclass:Enum>

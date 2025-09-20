@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a4d3f4d-7c5c-43ac-86e1-9d42b0cf004b">
+  <producedTypes>
+    <managerType typeId="c4743267-6d87-4100-ba10-b4fba48ac09b" valueTypeId="f2a66014-32e3-4ae6-ad8e-c9d16b768f82"/>
+    <valueManagerType typeId="ea1d82ca-0bcb-4d68-86a5-2ce007b6cce5" valueTypeId="b45b1dd9-98e0-45e5-99dc-4b61a6d5c165"/>
+    <valueKeyType typeId="3d20aa24-724a-5e7e-a210-3bcaa3337456" valueTypeId="9ecf9504-3a76-58f3-8c99-1aae50100d6b"/>
+  </producedTypes>
+  <name>СрокХраненияИспользованныхКодовМаркировкиИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Срок хранения использованных кодов маркировки в пуле, дней</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Срок хранения использованных кодов маркировки в пуле, дней</value>
+  </synonym>
+  <comment>Для полностью оформленных оснований и распечатанных кодов без основания</comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

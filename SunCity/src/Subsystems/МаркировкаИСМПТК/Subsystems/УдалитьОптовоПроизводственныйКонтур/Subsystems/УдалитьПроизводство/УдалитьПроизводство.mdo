@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5336db1-5ae4-4b85-989a-aabfd8461b0a">
+  <name>УдалитьПроизводство</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Производство (СУЗ)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <parentSubsystem>Subsystem.МаркировкаИСМПТК.Subsystem.УдалитьОптовоПроизводственныйКонтур</parentSubsystem>
+</mdclass:Subsystem>

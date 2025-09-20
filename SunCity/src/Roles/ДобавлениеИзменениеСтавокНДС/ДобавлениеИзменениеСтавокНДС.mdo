@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63227af8-0a4f-49d9-be87-65ad55e0bf73">
+  <name>ДобавлениеИзменениеСтавокНДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение ставок НДС</value>
+  </synonym>
+</mdclass:Role>

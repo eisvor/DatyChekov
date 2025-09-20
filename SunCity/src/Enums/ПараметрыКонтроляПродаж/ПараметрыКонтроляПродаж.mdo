@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70a26485-eb13-4a20-b35c-c8edd6d1ffe4">
+  <producedTypes>
+    <refType typeId="c125d332-d422-49a8-bea5-7709e254d4ac" valueTypeId="bb74e63b-aee6-4606-a9bc-2c4576e4142c"/>
+    <listType typeId="a197c798-077c-4a19-ac6c-37b2c6c57674" valueTypeId="810c8bf5-8315-4996-9a7c-a1fb5d6b09f8"/>
+    <managerType typeId="31fa405c-733a-4738-a16f-46d45fbfbab1" valueTypeId="b71441dc-7e09-4825-8f6f-029e94d39848"/>
+  </producedTypes>
+  <name>ПараметрыКонтроляПродаж</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры контроля продаж</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f846c6aa-15f1-426f-b38f-935df5eef8af">
+    <name>Возраст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возраст</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b351f9f9-6d91-49a9-9e9a-4d2167d98f7e">
+    <name>НеВыводитьСообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не выводить сообщение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

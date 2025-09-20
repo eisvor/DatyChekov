@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b205c4b9-5be3-44bb-8c0b-1b27a6bbd46a">
+  <producedTypes>
+    <managerType typeId="d13724c1-4190-46d8-a568-0220bfc797d8" valueTypeId="921b35ce-c83e-4c34-8450-e42f3240aa3c"/>
+    <valueManagerType typeId="fa54f098-ad37-4365-9968-b8e30ccd98b9" valueTypeId="7bfc3bc0-00e2-4791-ad18-79036e60b320"/>
+    <valueKeyType typeId="58e69e07-bdfc-49a0-a8c2-737781ea0d4f" valueTypeId="21049edc-c022-4622-ad19-5c13f68cefc0"/>
+  </producedTypes>
+  <name>ИспользоватьСервис1СМаркировкаИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование обмена с ИС МПТ</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

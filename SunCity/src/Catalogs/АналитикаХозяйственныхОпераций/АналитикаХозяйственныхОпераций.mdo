@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ccbc551e-9e12-429f-9b72-d3b73e8f38e6">
+  <producedTypes>
+    <objectType typeId="457e96a4-4cd8-47d5-824d-811eb917c958" valueTypeId="992ed69e-a108-47ba-9251-627a79f97582"/>
+    <refType typeId="93a90ba2-b678-46e8-ac42-0d7756e65b1d" valueTypeId="e8c8474b-b263-495b-b76e-690ba97e46e9"/>
+    <selectionType typeId="524ad3f5-d75a-488b-a99d-e870216c2aac" valueTypeId="2391ba18-8abf-4bb7-b4db-47e24aaed27b"/>
+    <listType typeId="1429358d-6c9c-4391-a64a-25480deef4ab" valueTypeId="93078a27-2f56-4d8b-ab00-b52057cbd918"/>
+    <managerType typeId="16acbdd6-4191-4325-8b2c-5b6126c61289" valueTypeId="8b2efd0b-1f1a-4cfb-bc7d-4064141120db"/>
+  </producedTypes>
+  <name>АналитикаХозяйственныхОпераций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аналитика хозяйственных операций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.АналитикаХозяйственныхОпераций.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Используется для быстрой визуальной идентификации элементов в процессе работы с программой</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Аналитики хозяйственных операций</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="3a353e87-4ba7-40c1-af86-48e5a9bea8f9">
+      <name>ВознаграждениеОтКомитента</name>
+      <description>Вознаграждение от комитента</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ad6cdf58-d916-43a1-b189-686a172b5338">
+      <name>КомплектацияНоменклатуры</name>
+      <description>Комплектация номенклатуры</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="878e0650-3e2d-4f18-b284-d7ba476bc9c6">
+      <name>ОприходованиеКомиссионныхТоваров</name>
+      <description>Оприходование комиссионных товаров</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6b192c16-bc32-495a-84c9-715824c69251">
+      <name>ОприходованиеТоваров</name>
+      <description>Оприходование товаров</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7d8660f6-dc37-43c2-ad90-3facc75b9335">
+      <name>ОтгрузкаНаВнутренниеНужды</name>
+      <description>Отгрузка на внутренние нужды</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6866ae4a-117d-4fe4-8162-782efac63240">
+      <name>ПередачаТоваровДоРеализации</name>
+      <description>Передача товаров до реализации</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6cac54ad-21ce-4aba-9f21-58832c97c752">
+      <name>ПередачаТоваровПослеРеализации</name>
+      <description>Передача товаров после реализации</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f3c89b20-ce73-4f1b-8630-29241b217603">
+      <name>ПеремещениеТоваров</name>
+      <description>Перемещение товаров</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b2f1bdcc-3624-497a-9c49-78ffea241518">
+      <name>ПересортицаТоваров</name>
+      <description>Пересортица товаров</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6e903d6d-5fe7-422f-aa4c-9d230b97a246">
+      <name>ПогашениеПодарочныхСертификатов</name>
+      <description>Погашение подарочных сертификатов</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9c9cc8e9-4b7b-4d07-8858-e9aff88fb00c">
+      <name>ПоступлениеКомиссионныхТоваров</name>
+      <description>Поступление комиссионных товаров</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d628efc8-cf1d-40bf-8ffd-2e782fc07983">
+      <name>ПоступлениеТоваров</name>
+      <description>Поступление товаров</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d420825b-a205-4707-88b2-2fcee0d33037">
+      <name>ПриемТоваровОтДругойОрганизации</name>
+      <description>Прием товаров от другой организации</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f5a0d6d5-482a-4195-a312-87b97ba94979">
+      <name>РеализацияТоваров</name>
+      <description>Реализация товаров</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="34299367-4b86-4157-9c24-381d9f8300db">
+      <name>СкидкиПодарки</name>
+      <description>Списание на затраты (подарки)</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.АналитикаХозяйственныхОпераций.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.АналитикаХозяйственныхОпераций.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.АналитикаХозяйственныхОпераций.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="ec9e15a0-391f-4d84-b5b3-35b52edb168c">
+    <name>ХозяйственнаяОперация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хозяйственная операция</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ХозяйственныеОперации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Предопределенная хозяйственная операция</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="fa0828fb-d8b7-41c9-9e18-ccc6b255ee6d">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f5668751-cfa7-4549-9cde-15498646a692">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2d3910d0-396d-49cb-a9a9-35ee2165d9c6">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

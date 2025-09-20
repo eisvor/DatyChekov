@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e91db60f-60ef-4f68-9fa5-3d41c30098c6">
+  <producedTypes>
+    <refType typeId="87e4c6f6-3026-46e1-a201-001caa1e342b" valueTypeId="f8ac8657-746c-4920-b546-2d019c8166c4"/>
+    <listType typeId="9446b190-3093-474a-9ef2-1dcc28738211" valueTypeId="41c33c09-60d1-4c49-b36f-8dec2b9a51cc"/>
+    <managerType typeId="9908caf9-21d6-4ef1-a46c-fa0191035020" valueTypeId="e3767f9c-ebdb-433c-95fd-12dc492da6a8"/>
+  </producedTypes>
+  <name>УсловиеВыводаСекцииШаблонаРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Условие вывода секции шаблона РМК</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2e0af903-1b56-47a7-b64d-1595c69ffd3b">
+    <name>ВидДисконтнойКарты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид дисконтной карты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="93d91137-4558-4b90-aa66-189bdafb86cd">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="db029e98-4554-4357-8088-f124beb1c2be">
+    <name>СуммаДоСкидок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма до скидок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d512f491-399f-4c92-8b72-c5e1253f94a4">
+    <name>СуммаАвтоматическойСкидки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма автоматической скидки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ec233b47-7ceb-4081-8eab-49df4e7c8342">
+    <name>СуммаРучнойСкидки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма ручной скидки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d58ed122-eac7-449c-be65-dad8661f2f37">
+    <name>СуммаОплатыБонусами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма оплаты бонусами</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5d5da9f6-b9aa-496d-b67b-490e633485df">
+    <name>СуммаВсехСкидок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма всех скидок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ca3c3203-09aa-4a6c-b272-1544ef07244d">
+    <name>НачисленоБонусов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начислено бонусов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="69043ef5-61d1-4265-9c3e-4eb8542e506e">
+    <name>ПокупательИдентифицирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покупатель идентифицирован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="decc9bbc-390c-4f31-a25e-b98d9ce5d9f1">
+    <name>ВыдаетсяПромокодНаСкидку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдается промокод на скидку</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13b1997c-2992-45fd-ab02-1c12bd93ee20">
+  <producedTypes>
+    <containerType typeId="46e2f86f-e4bc-4406-82c3-218726519026" valueTypeId="89e4eb4a-8c3a-4235-95eb-e4638e5bfbd6"/>
+  </producedTypes>
+  <name>УпаковкаИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Упаковка ИСМПТК</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.БазовыеЕдиницыИзмерения</types>
+    <types>CatalogRef.УпаковкиНоменклатуры</types>
+  </type>
+</mdclass:DefinedType>

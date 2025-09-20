@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d236266e-cba0-41a1-b7c5-4e12b7454f31">
+  <name>КлеверенсТСД_МодульВебМетодов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Клеверенс ТСД модуль веб методов</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

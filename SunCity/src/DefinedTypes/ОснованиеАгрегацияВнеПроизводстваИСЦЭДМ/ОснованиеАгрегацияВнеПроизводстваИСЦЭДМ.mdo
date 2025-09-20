@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10e0adc7-3e29-4f6e-9fb1-9dffe81e680f">
+  <producedTypes>
+    <containerType typeId="b7e1c54b-8eb1-43fb-aae1-ab26b2315a04" valueTypeId="1b8a27cf-5ec9-407a-a07f-692387bf03cd"/>
+  </producedTypes>
+  <name>ОснованиеАгрегацияВнеПроизводстваИСЦЭДМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основание акт внутреннего перемещения ЛС</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.АгрегацияВнеПроизводстваИСЦЭДМ</types>
+  </type>
+</mdclass:DefinedType>

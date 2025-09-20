@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d9efffd-d8ba-448a-89fc-e969439799db">
+  <producedTypes>
+    <selectionType typeId="498f104a-f874-4aa5-a215-daf54d82c178" valueTypeId="086e0a38-b6f1-4959-956e-a5f1fee6c33c"/>
+    <listType typeId="3c42cc3a-348e-4356-80b9-123364862cb2" valueTypeId="5d2a2623-2d6a-45fa-a8db-1de2c7cffdc9"/>
+    <managerType typeId="55ea53a5-6075-41da-8fb9-c64db5a3b5c4" valueTypeId="3584e01a-dd70-4975-9044-cfbb529eef0f"/>
+    <recordSetType typeId="a8fe7b2c-ee24-4729-80ab-0b757f3c26a3" valueTypeId="0ec3f7ef-2457-471f-a630-82a38ce2c521"/>
+    <recordKeyType typeId="4cd4a4d9-2c2d-4c64-a5a7-df202dd3f9bc" valueTypeId="95393f6e-c677-49e0-889d-82783474367d"/>
+    <recordType typeId="a5d3f777-dfcb-4ae7-9d44-dc93d82d9a1f" valueTypeId="944593ac-e0ef-4ee5-a5ed-94eed7acd113"/>
+    <recordManagerType typeId="af7fd09e-b94f-4280-8d2a-6c438cf0c922" valueTypeId="4e7ff224-2024-4860-ac7d-8f8724dc758a"/>
+  </producedTypes>
+  <name>КомплектацияПодключаемогоОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комплектация подключаемого оборудования</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="c6fe1ad7-1e49-485c-a269-a647950a5580">
+    <name>ОсновноеОборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основное оборудование</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ПодключаемоеОборудованиеРМК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="188f89aa-676c-45a7-bb3f-f51a0d4a4526">
+    <name>ДополнительноеОборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительное оборудование</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ПодключаемоеОборудованиеРМК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

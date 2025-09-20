@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a6402e1-03bf-42c4-bced-fbadedb67dc8">
+  <producedTypes>
+    <containerType typeId="581eaa35-6cf4-4088-961d-f94de80f02fa" valueTypeId="f60c9ca5-f18a-44ca-951b-5cdb591ef753"/>
+  </producedTypes>
+  <name>ПалитраБыстрыхТоваровУРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Палитра быстрых товаров УРМК</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ПалитраБыстрыхТоваров</types>
+  </type>
+</mdclass:DefinedType>

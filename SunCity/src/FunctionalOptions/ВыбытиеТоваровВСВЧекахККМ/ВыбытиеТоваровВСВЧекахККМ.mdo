@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7e6c629-5196-4e1f-8366-0ef31fb16484">
+  <name>ВыбытиеТоваровВСВЧекахККМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выбытие товаров ВС вЧеках ККМ</value>
+  </synonym>
+  <location>Constant.ВыбытиеТоваровВСВЧекахККМ</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Номенклатура.Attribute.ТоварВС</content>
+  <content>Document.ЧекККМ.TabularSection.Товары.Attribute.GTIN</content>
+  <content>Document.ЧекККМ.TabularSection.Товары.Attribute.ИдентификаторВС</content>
+  <content>DataProcessor.РМКУправляемыйРежим.TabularSection.Товары.Attribute.GTIN</content>
+  <content>DataProcessor.РМКУправляемыйРежим.TabularSection.Товары.Attribute.ИдентификаторВС</content>
+</mdclass:FunctionalOption>

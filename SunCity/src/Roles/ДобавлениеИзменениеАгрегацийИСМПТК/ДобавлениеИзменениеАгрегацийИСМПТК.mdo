@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1a3cc9a-d4da-455a-b53c-80f356d36c5b">
+  <name>ДобавлениеИзменениеАгрегацийИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение Агрегаций кодов маркировки (ИС МПТ)</value>
+  </synonym>
+</mdclass:Role>

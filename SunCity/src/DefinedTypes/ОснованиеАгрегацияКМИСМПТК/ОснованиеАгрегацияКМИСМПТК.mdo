@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d44867d0-22a3-49a3-9322-18b7fb652a72">
+  <producedTypes>
+    <containerType typeId="ee8a559f-2e88-4aa9-baa2-7357e2e371e8" valueTypeId="48eb4985-ca78-471d-8286-cbe6a7acb1c2"/>
+  </producedTypes>
+  <name>ОснованиеАгрегацияКМИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основание уведомление о выводе из оборота</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.АгрегацияКодовМаркировкиСУЗИСМПТК</types>
+  </type>
+</mdclass:DefinedType>

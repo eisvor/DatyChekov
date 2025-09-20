@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca2f14a5-d4cb-4608-89d3-e2690b3d9ad0">
+  <name>ЗаполнитьФормуИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнить форму ИСМПТК</value>
+  </synonym>
+</mdclass:CommonPicture>

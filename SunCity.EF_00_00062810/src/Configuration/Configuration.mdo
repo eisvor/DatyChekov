@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a3a1c1fb-8446-42ca-9a8f-64188f034d00">
+  <name>EF_00_00062810</name>
+  <synonym>
+    <key>ru</key>
+    <value>E f 00 00062810</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="b08cbe49-948b-4d72-953e-4583b07ea83f"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="c1f7c2e4-11ff-4a2e-9dbb-26e91b095a11"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="be505446-fd0f-4eae-bec5-6dbaf9e30be6"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="66d1498d-e5cc-4b48-b177-b15d4385c755"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="8d54658a-1c44-4df5-9719-dea9e64ca859"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="00963a99-2d6a-4080-9204-08d44c23a3f4"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="0a62868e-a7a3-436d-baf5-1fce39be3e19"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>EF_00_00062810_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <compatibilityMode>8.3.25</compatibilityMode>
+  <languages uuid="36ed5e25-2e3f-44dc-a7b2-21a72a70ff88">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <roles>Role.EF_00_00062810_ОсновнаяРоль</roles>
+  <commonTemplates>CommonTemplate.EF_00_00062810</commonTemplates>
+  <commonModules>CommonModule.ИнтеграцияИСМПТККлиентСервер</commonModules>
+</mdclass:Configuration>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ea5145de-1097-408e-b7db-09689f113e14">
+  <name>EF_00_00060826</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <usePurposes>Checked</usePurposes>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="20589a46-43ee-4820-a194-3f9c24f405ac"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="738e32ee-aafe-4296-869c-8ec8d61d2462"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="4e12614c-98b3-4f4b-aaa9-c559d28c80af"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="bcfa8790-f431-463d-9789-d8d712f5d39a"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="ddaa7b8d-7b67-490b-b04d-351c7b02e4e7"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="1b69ddd2-9a7b-437d-8e86-cf99ce4fe763"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="397ade9f-ea0f-43de-b13a-1afcb6de35fc"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>EF_00_00060826_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <compatibilityMode>8.3.25</compatibilityMode>
+  <languages uuid="38d806fb-8e7b-4690-962b-32cbead77844">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <styleItems>StyleItem.ФонУправляющегоПоля</styleItems>
+  <commonPictures>CommonPicture.ЗаполнитьПоШаблону</commonPictures>
+  <commonPictures>CommonPicture.Перейти</commonPictures>
+  <commonTemplates>CommonTemplate.EF_00_00060826</commonTemplates>
+  <commonModules>CommonModule.ОбменДаннымиПодключаемоеОборудованиеOfflineСобытия</commonModules>
+  <commonModules>CommonModule.ПодключаемоеОборудованиеOfflineВызовСервера</commonModules>
+  <catalogs>Catalog.КассыККМ</catalogs>
+  <enums>Enum.ТипыКассККМ</enums>
+  <enums>Enum.ТипыПодключаемогоОборудования</enums>
+</mdclass:Configuration>

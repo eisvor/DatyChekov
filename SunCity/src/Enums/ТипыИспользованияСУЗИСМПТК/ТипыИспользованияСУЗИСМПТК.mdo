@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d2ff580-c5d4-4ebd-bbf2-3e363cca017c">
+  <producedTypes>
+    <refType typeId="ab267a51-533d-4cae-b5f4-5efe0307ff93" valueTypeId="903f7530-3212-401d-83a5-6357af8a401e"/>
+    <listType typeId="8be20c9b-0062-4992-a492-9dacc8fe06e0" valueTypeId="68e96764-7b92-4c83-9e45-638550208dc2"/>
+    <managerType typeId="272751d4-aa3b-402e-ae10-ad0fd6547211" valueTypeId="82c5bb0d-1363-41e3-904c-d9adef6b1480"/>
+  </producedTypes>
+  <name>ТипыИспользованияСУЗИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы использования СУЗИСМПТК</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9f798fe0-30c8-4f7d-ac39-9edb795c9045">
+    <name>Напечатан</name>
+    <synonym>
+      <key>ru</key>
+      <value>КМ был напечатан</value>
+    </synonym>
+    <comment>PRINTED</comment>
+  </enumValues>
+  <enumValues uuid="b5ff64bf-d5a2-4b16-9472-a2c9714e8d77">
+    <name>НанесениеПодтверждено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нанесение КМ подтверждено</value>
+    </synonym>
+    <comment>VERIFIED</comment>
+  </enumValues>
+</mdclass:Enum>

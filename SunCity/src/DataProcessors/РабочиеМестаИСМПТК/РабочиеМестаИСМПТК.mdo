@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d7a802a-19bb-4155-9451-cf419642e236">
+  <producedTypes>
+    <objectType typeId="d3408738-d7b0-4b86-a4ae-bc7004d978c5" valueTypeId="cf3bd7d4-ede1-4fb2-838a-a2ca1309fad0"/>
+    <managerType typeId="cf37ebdb-e3cf-4130-b62d-ffb186d4f058" valueTypeId="4761075a-8c47-4070-89d5-1cc9e83d2807"/>
+  </producedTypes>
+  <name>РабочиеМестаИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маркировка и прослеживаемость товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="b10e2853-e5d8-4790-828d-04a68d871440">
+    <name>РабочееМестоСинхронизацияСИСМПТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Синхронизация с модулем ИС МПТ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3fe6d5ae-85d4-4b7d-9a0f-89b58b965519">
+    <name>РабочееМестоФормаОбъединениеФайлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объединение файлов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ed5d2962-1202-46f5-a73b-958d29f3c7ae">
+    <name>РабочееМестоУправлениеЛичнымиСчетами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место управление личными счетами</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="58d360dd-a1dd-4070-afd8-613825f7877a">
+    <name>РабочееМестоПолучениеИнформацииОВладельцеИСостоянииКМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получение информации о коде маркировки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b40fc210-6dbe-4593-88d3-f31d26c327f1">
+    <name>РабочееМестоПроверкаАгрегации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка наличия кодов маркировки по составу агрегаций</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dcdfed2a-72a5-4874-a09b-ad6626365378">
+    <name>РабочееМестоГрупповоеСозданиеАгрегаций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание группы агрегаций</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1d9adb50-54f9-4122-b786-28e8136671c9">
+    <name>РабочееМестоПечатьКМИзФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать загруженных кодов маркировки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7d6c3ff9-19fc-42ab-aa9c-0f831b33a197">
+    <name>РабочееМестоСинхронизацияСИСЦЭДМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Синхронизация с модулем ИС ЦЭДМ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="b97efa4e-4607-4e75-8bec-ecb2bf683204">
+    <name>ОткрытьРМОбъединениеФайлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объединение данных файлов CSV</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Обработка, позволяющая объединить данные нескольких файлов CSV в один.</value>
+    </toolTip>
+  </commands>
+  <commands uuid="aec2a335-bdab-4855-8492-73df954a3aa7">
+    <name>ОткрытьРМУправлениеЛичнымиСчетами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управление личными счетами</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Позволяет просматривать баланс на личных счетах организации, а также оформлять заявки на предоставление счетов на оплату.</value>
+    </toolTip>
+  </commands>
+  <commands uuid="c17e7a18-3f7b-45bd-be07-c219651dfefa">
+    <name>ОткрытьРМПроверкаСостоянияКодовМаркировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка текущего статуса и владельца кодов маркировки</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Рабочее место для проверки текущего состояния (статус, владелец, производитель и т.д.), а также истории движения кодов маркировки.</value>
+    </toolTip>
+  </commands>
+  <commands uuid="23133549-bac7-42ae-94a3-fa0ab4d541da">
+    <name>ОткрытьРМПроверкаАгрегации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка наличия кодов маркировки по составу агрегаций</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Рабочее место для проверки остатков вложенных позиций по коду агрегата.</value>
+    </toolTip>
+  </commands>
+  <commands uuid="8616ce33-6048-4067-8242-90289942484a">
+    <name>ОткрытьРМСозданиеГруппыАгрегаций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Групповое создание отчетов об Агрегации кодов маркировки (ИС МПТ)</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Позволяет создать группу отчетов об Агрегации кодов маркировки, использовав для их заполнения общий файл CSV с кодами агрегированных товаров.</value>
+    </toolTip>
+  </commands>
+  <commands uuid="bf879577-3c24-4966-8f96-a9300a92ae88">
+    <name>ОткрытьРМПечатьКМИзФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать кодов маркировки</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Печать кодов маркировки, отсутствующих в Пуле кодов, путем загрузки файла (или нескольких файлов) CSV.</value>
+    </toolTip>
+  </commands>
+</mdclass:DataProcessor>

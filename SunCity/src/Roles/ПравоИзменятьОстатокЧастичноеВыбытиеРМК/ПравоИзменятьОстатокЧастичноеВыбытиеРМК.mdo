@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="537a2dae-ba11-4eba-81f4-e29435432920">
+  <name>ПравоИзменятьОстатокЧастичноеВыбытиеРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Право изменять остаток частичное выбытие РМК</value>
+  </synonym>
+</mdclass:Role>

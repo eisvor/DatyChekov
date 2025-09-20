@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9d40bd4-bbaf-4d47-9f6b-3b9791a37f82">
+  <producedTypes>
+    <refType typeId="180c14eb-1be0-49b9-829c-702f495318f1" valueTypeId="69d4d402-ea5f-432d-bd62-29a2ecfa5227"/>
+    <listType typeId="c50ca416-ed6c-4c96-9120-657d2b9ca7a1" valueTypeId="8b2a3926-6e4f-4240-a76d-cec124aed725"/>
+    <managerType typeId="e78ead21-9550-4e3b-a8d3-395d8700a6ae" valueTypeId="097a154d-9931-4e9e-978d-de3733329787"/>
+  </producedTypes>
+  <name>ВидыДокументовОбязательнойСертификацииИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды документов обязательной сертификации ИС МП</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Виды документов обязательной сертификации ИС МП</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="10ed5268-7ee9-4311-86dd-fd82f198a244">
+    <name>СертификатСоответствия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сертификат соответствия</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Сертификат соответствия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0b16d8c6-b9a4-4688-817b-affa20c2798d">
+    <name>ДекларацияСоответствия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Декларация соответствия</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Декларация соответствия</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

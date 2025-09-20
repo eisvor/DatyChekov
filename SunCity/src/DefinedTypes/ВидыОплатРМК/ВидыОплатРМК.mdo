@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f826aefd-349a-4785-a2f4-39149ecf3df3">
+  <producedTypes>
+    <containerType typeId="611e12ec-f45a-41c2-a01f-572a7b5484ba" valueTypeId="6f0939b1-3641-4c97-9db6-a7471cc8f93f"/>
+  </producedTypes>
+  <name>ВидыОплатРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды оплат РМК</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ВидыОплатСерверЛояльности</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="276587c7-a172-4bf6-bb4a-3e1fbe5e4e18">
+  <name>РМКТоварыОчистить</name>
+  <synonym>
+    <key>ru</key>
+    <value>РМКТовары очистить</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

@@ -1,0 +1,10 @@
+<Patch xmlns="http://www.v8.1c.ru/ssl/patch" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Name>EF_00_00060826</Name>
+	<Description>Для Кассы ККМ с типом кассы ККМ Офлайн - отсутствет возможность указания торгового оборудования. </Description>
+	<UUID>d47d78eb-9e05-45b1-b850-3eafc356566c</UUID>
+	<ModifiedMetadata>Справочник.КассыККМ,Справочник.КассыККМ,Справочник.КассыККМ,ОбщийМодуль.ПодключаемоеОборудованиеOfflineВызовСервера,ОбщийМодуль.ОбменДаннымиПодключаемоеОборудованиеOfflineСобытия</ModifiedMetadata>
+	<AppliedFor>
+		<ConfigurationName>РозницаДляКазахстана</ConfigurationName>
+		<Versions>2.3.10.3</Versions>
+	</AppliedFor>
+</Patch>

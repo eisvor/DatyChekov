@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7eab655f-8737-43f5-b78c-05b69ea48895">
+  <producedTypes>
+    <managerType typeId="19ab13f2-7e28-42a6-b512-223f879e2c9e" valueTypeId="40e0833b-6305-494d-9d0e-b8bd092dc057"/>
+    <valueManagerType typeId="bca0cf96-bb30-4d89-89cb-9f653589c457" valueTypeId="8fd5733c-6b57-48d4-84d4-f4e97a7970a0"/>
+    <valueKeyType typeId="32ca34ce-b223-46dc-9300-76c704fb799d" valueTypeId="65b6fdc7-3b3c-4a6f-8cd5-c0b7f262bb88"/>
+  </producedTypes>
+  <name>ПечататьВстроенныйСлипЧек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печатать встроенный слип чек</value>
+  </synonym>
+  <comment>Формирует слип-чек в составе фискального чека (пакетная фискализация)</comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

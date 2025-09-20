@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3b67986-e30c-4872-8a34-d77cc0cdb19e">
+  <producedTypes>
+    <containerType typeId="4c656278-260b-4972-97af-b407ff17357d" valueTypeId="ddd69bc3-be0e-42ad-bb79-ea06903c99a6"/>
+  </producedTypes>
+  <name>ПоставщикПолучательИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Организация контрагент</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Организация контрагент ВетИС</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Контрагенты</types>
+    <types>CatalogRef.Организации</types>
+  </type>
+</mdclass:DefinedType>

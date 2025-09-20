@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3db115a-0b76-4de1-8f00-548e24d16fcc">
+  <name>ВестиУчетМаркируемогоАлкоголяИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вести учет маркируемой алкогольной продукции (ИС МПТ)</value>
+  </synonym>
+  <location>Constant.ВестиУчетМаркируемогоАлкоголяИСМПТК</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

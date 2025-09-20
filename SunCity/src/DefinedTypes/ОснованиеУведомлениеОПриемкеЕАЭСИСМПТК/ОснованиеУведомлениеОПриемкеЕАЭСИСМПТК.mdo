@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc1495a3-6413-4545-ab9f-85c8f443c1f6">
+  <producedTypes>
+    <containerType typeId="6f4db7d0-a5fd-45de-a6f2-275f06ffd464" valueTypeId="1f31872d-2900-45fa-b441-c714f1f8d046"/>
+  </producedTypes>
+  <name>ОснованиеУведомлениеОПриемкеЕАЭСИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основание экспорт КМ</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.УведомлениеОбОтгрузкеЕАЭСИСМПТК</types>
+  </type>
+</mdclass:DefinedType>

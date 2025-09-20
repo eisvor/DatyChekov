@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46e9c15b-2d57-4cc1-9f51-72209cfa2e27">
+  <producedTypes>
+    <refType typeId="6f764649-6ec7-429c-91af-3acb9ff213fa" valueTypeId="8db33bb5-c930-440e-a26b-d87aba8bc386"/>
+    <listType typeId="000a2fa4-755b-4e27-9020-768570ebd5a4" valueTypeId="0b471b8b-735e-4e0e-81cc-d6535aea94fd"/>
+    <managerType typeId="b83a5464-c872-42da-892b-b2b9c6f4c85d" valueTypeId="897d75f4-6fa4-49f6-9542-975f0a33f0b2"/>
+  </producedTypes>
+  <name>ВариантыОтраженияЗачетаАванса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты отражения зачета аванса</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="afe9a7a4-ae60-4b8e-a451-43ee9d3fd87f">
+    <name>ОтражатьСуммуАвансаВОтдельнойСекции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отражать в отдельной секции</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8f2e752f-a747-4196-80ab-09278939f021">
+    <name>ОтражатьСуммуАвансаКакСкидкуБезОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отражать как скидку</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

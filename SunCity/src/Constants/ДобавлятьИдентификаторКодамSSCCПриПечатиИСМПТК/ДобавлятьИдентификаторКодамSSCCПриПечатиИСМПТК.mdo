@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1074143b-9673-4272-b585-a24b8825a279">
+  <producedTypes>
+    <managerType typeId="5df98d20-d4ff-427b-bd9e-db19889cb5af" valueTypeId="10e60cb8-e4f7-4727-bedf-587de06823aa"/>
+    <valueManagerType typeId="fe88b4d3-b7aa-4077-80c7-9fccc9c0ecb0" valueTypeId="2129673e-c4fc-4f49-9c10-a6540ce749a7"/>
+    <valueKeyType typeId="a978258b-8c93-4594-974e-4579e2b9199d" valueTypeId="87c71915-cc0d-4ac2-965f-05249447cced"/>
+  </producedTypes>
+  <name>ДобавлятьИдентификаторКодамSSCCПриПечатиИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавлять идентификатор 18-значным кодам SSCC при печати </value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

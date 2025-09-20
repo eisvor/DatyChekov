@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15494511-9d14-4142-b7a7-88ab2fb6c700">
+  <name>ПроверитьИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверить</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>DocumentRef.УведомлениеОВвозеИзЕАЭСИСМПТК</types>
+    <types>DocumentRef.АгрегацияВнеПроизводстваИСЦЭДМ</types>
+    <types>DocumentRef.УведомлениеОВыводеИзОборотаИСМПТК</types>
+    <types>DocumentRef.АктВнутреннегоПеремещенияИСЦЭДМ</types>
+    <types>DocumentRef.УведомлениеОВвозеИзТретьихСтранИСЦЭДМ</types>
+    <types>DocumentRef.УведомлениеОРасхожденииИСМПТК</types>
+    <types>DocumentRef.УведомлениеОВводеВОборотИСМПТК</types>
+    <types>DocumentRef.ОтчетОПередачеКИОтНерезидентаРКИСЦЭДМ</types>
+    <types>DocumentRef.УведомлениеОВвозеИзЕАЭСИСЦЭДМ</types>
+    <types>DocumentRef.АктПриемаПередачиИСЦЭДМ</types>
+    <types>DocumentRef.УведомлениеОВводеВОборотИСЦЭДМ</types>
+    <types>DocumentRef.АктПриемаПередачиИСМПТК</types>
+    <types>DocumentRef.УведомлениеОВыводеИзОборотаИСЦЭДМ</types>
+    <types>DocumentRef.УведомлениеОВвозеИзТретьихСтранИСМПТК</types>
+  </commandParameterType>
+  <parameterUseMode>Multiple</parameterUseMode>
+  <representation>PictureAndText</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ОперацияВыполненаУспешноИСМПТК</picture>
+  </picture>
+</mdclass:CommonCommand>

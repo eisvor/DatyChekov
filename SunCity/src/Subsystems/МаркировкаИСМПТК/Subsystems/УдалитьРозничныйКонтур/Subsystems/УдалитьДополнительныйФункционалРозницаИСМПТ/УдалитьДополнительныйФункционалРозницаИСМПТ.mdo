@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f3d17d9-ae04-4e8b-91c1-097ac22b0a64">
+  <name>УдалитьДополнительныйФункционалРозницаИСМПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Дополнительный функционал</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <parentSubsystem>Subsystem.МаркировкаИСМПТК.Subsystem.УдалитьРозничныйКонтур</parentSubsystem>
+</mdclass:Subsystem>

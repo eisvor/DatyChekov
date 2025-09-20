@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="295874e6-a692-4af0-aeae-ea1dfe554ced">
+  <producedTypes>
+    <refType typeId="a47268b8-4f6c-4564-82a9-6b1fe47144ab" valueTypeId="95863c51-6896-4068-8ba1-6bb5501fe5a6"/>
+    <listType typeId="93bb1fc7-1a60-42f9-a672-bcc079b065e0" valueTypeId="6aa59546-892f-4e7d-b847-3795b1bfc76a"/>
+    <managerType typeId="e5d4079c-e8cc-4081-81a9-523d17a2b4d4" valueTypeId="f78860a7-fa71-40b2-bb7e-8e6a6074e9ff"/>
+  </producedTypes>
+  <name>СтатусыКодовМаркировкиИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы кодов маркировки ИСМПТК</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4f0d2b70-59d9-43ad-986e-cee7ca0ded29">
+    <name>ВведенВОборот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Введен в оборот</value>
+    </synonym>
+    <comment>INTRODUCED</comment>
+  </enumValues>
+  <enumValues uuid="f3503a74-2f8e-49a3-b574-a4a3f45e0153">
+    <name>ВозвращенВОборот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возвращен в оборот</value>
+    </synonym>
+    <comment>INTRODUCED_RETURNED </comment>
+  </enumValues>
+  <enumValues uuid="22062bb6-09e3-451a-b961-46b966a80f83">
+    <name>ВыведенИзОборота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выведен из оборота, продан</value>
+    </synonym>
+    <comment>WITHDRAWN </comment>
+  </enumValues>
+  <enumValues uuid="48e5e24c-e7a3-437c-8358-ebce22e522fd">
+    <name>ВыведенИзОборотаПриПеремаркировке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выведен из оборота при перемаркировке</value>
+    </synonym>
+    <comment>REMARK_RETIRED</comment>
+  </enumValues>
+  <enumValues uuid="00e64dc4-d2aa-4965-a181-14b74ccd0756">
+    <name>ВыведенИзОборотаРассрочка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выведен из оборота по договору рассрочки</value>
+    </synonym>
+    <comment>LOAN_RETIRED</comment>
+  </enumValues>
+  <enumValues uuid="47a67809-cecc-4a23-b325-50e34b87764b">
+    <name>Дезагрегирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дезагрегирован</value>
+    </synonym>
+    <comment>DISAGGREGATED </comment>
+  </enumValues>
+  <enumValues uuid="c5dd88b7-a00e-406f-b74c-71c996ff7b38">
+    <name>Экспорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экспортируется</value>
+    </synonym>
+    <comment>EXPORTED</comment>
+  </enumValues>
+  <enumValues uuid="ceb8f18b-4733-475d-a255-acecb9852138">
+    <name>Нанесен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нанесен</value>
+    </synonym>
+    <comment>APPLIED </comment>
+  </enumValues>
+  <enumValues uuid="47db38f8-69ce-465c-b0f2-daf0f75064ab">
+    <name>НанесенНеОплачен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нанесен, не оплачен</value>
+    </synonym>
+    <comment>APPLIED_NOT_PAID</comment>
+  </enumValues>
+  <enumValues uuid="1f979f3d-d62d-4729-b462-9cad3a6ee694">
+    <name>Утилизирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списан</value>
+    </synonym>
+    <comment>WRITTEN_OFF</comment>
+  </enumValues>
+  <enumValues uuid="c985dde5-a0ca-4049-b4a7-a59f96acfd0d">
+    <name>Эмитирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эмитирован</value>
+    </synonym>
+    <comment>EMITTED</comment>
+  </enumValues>
+  <enumValues uuid="c8e4e579-6949-4c6f-8382-d7b482ab3444">
+    <name>Зарезервировано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарезервировано. Не использовать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="615baf39-f60d-434a-af90-e8de4c2f5833">
+    <name>Активный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активный</value>
+    </synonym>
+    <comment>Статус упаковки в ИС ЦЭДМ</comment>
+  </enumValues>
+</mdclass:Enum>

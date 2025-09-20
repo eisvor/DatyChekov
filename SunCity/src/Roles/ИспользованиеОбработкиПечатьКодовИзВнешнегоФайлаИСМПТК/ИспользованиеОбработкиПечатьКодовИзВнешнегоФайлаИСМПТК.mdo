@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c32e113-5a4f-4cb6-8716-0d5f0a66b718">
+  <name>ИспользованиеОбработкиПечатьКодовИзВнешнегоФайлаИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование обработки печати этикеток кодов маркировки по списку из внешнего файла (ИС МПТ)</value>
+  </synonym>
+</mdclass:Role>

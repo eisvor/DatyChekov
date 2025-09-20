@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82a9d255-a50a-4616-b930-d50e845aefe1">
+  <producedTypes>
+    <managerType typeId="e2d95519-e1ee-4228-bf2d-f76d4f69700a" valueTypeId="e93df98a-b3b4-4eb6-a47c-5b8c0b32a57e"/>
+    <valueManagerType typeId="988813db-547b-433c-9e15-4495342b5ffa" valueTypeId="f0fecca9-63af-4670-af86-8d75bd7c8d67"/>
+    <valueKeyType typeId="5c166ac5-55b8-5c89-8d30-803459bf4989" valueTypeId="8d2d0f6e-2877-5589-8e74-ea0668c20c82"/>
+  </producedTypes>
+  <name>ОтображатьДанныеПоНоменклатуреВДокументахСУЗИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отображать данные номенклатуры в документах</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Устанавливает значение опции, регулирующей видимость полей, содержащих сведения о номенклатуре, в документах маркировки. </value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

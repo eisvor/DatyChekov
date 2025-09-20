@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a46f8b17-b894-453e-818a-5aab3c4490d1">
+  <producedTypes>
+    <containerType typeId="4997c13f-44de-4f79-b8a0-3917cd673b1d" valueTypeId="5a9296be-eade-488a-b28e-d3641f24481a"/>
+  </producedTypes>
+  <name>ОснованиеАктПриемаПередачиИСЦЭДМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основание акт приема передачи ЛС</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.РеализацияТоваров</types>
+    <types>DocumentRef.ВозвратТоваровПоставщику</types>
+    <types>DocumentRef.ПоступлениеТоваров</types>
+    <types>DocumentRef.ВозвратТоваровОтПокупателя</types>
+  </type>
+</mdclass:DefinedType>

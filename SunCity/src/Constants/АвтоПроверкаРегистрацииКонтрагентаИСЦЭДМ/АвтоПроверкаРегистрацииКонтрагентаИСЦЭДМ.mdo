@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ad861ef-31c7-4317-ae3d-191171d3a6f3">
+  <producedTypes>
+    <managerType typeId="23bccc71-bb3e-45cb-aa96-b51cdaf5737d" valueTypeId="b4425c15-2251-4a9b-b3e8-1b31e9ed2cf7"/>
+    <valueManagerType typeId="8e52ba3d-b1da-4834-a060-aac20118a454" valueTypeId="4ec17b76-5ac3-4d47-8fb2-43fe4505a1fb"/>
+    <valueKeyType typeId="7fca76b1-9435-4bee-9dc7-ae9ee5021661" valueTypeId="b7585348-670b-4b0b-a7d7-647e63bb0015"/>
+  </producedTypes>
+  <name>АвтоПроверкаРегистрацииКонтрагентаИСЦЭДМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автоматически проверять доступность контрагента по данным сервера ИС ЦЭДМ</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

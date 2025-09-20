@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2460d79-9649-45e8-a0c0-24409d8afec4">
+  <name>ПродажаМаркируемойПродукцииИСМПТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажа маркируемой продукции</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.АктПриемаПередачиИСМПТК</content>
+  <content>Document.УведомлениеОРасхожденииИСМПТК</content>
+  <content>CommandGroup.ПродажаМаркируемойПродукцииИСМПТК</content>
+  <content>Document.УведомлениеОбЭкспортеЕАЭСИСМПТК</content>
+  <content>DataProcessor.ПанельОбменИСМПТК</content>
+  <content>Document.АктПриемаПередачиИСЦЭДМ</content>
+  <content>Document.УведомлениеОРасхожденияхИСЦЭДМ</content>
+  <content>DataProcessor.ПанельОбменИСЦЭДМ</content>
+  <content>Document.ОтчетОПередачеКИОтНерезидентаРКИСЦЭДМ</content>
+  <parentSubsystem>Subsystem.Продажи</parentSubsystem>
+</mdclass:Subsystem>

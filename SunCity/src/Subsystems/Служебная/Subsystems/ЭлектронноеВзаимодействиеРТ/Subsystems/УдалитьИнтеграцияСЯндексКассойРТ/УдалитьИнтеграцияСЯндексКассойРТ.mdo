@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d54a6d9-3d5e-45bd-8f77-38c672ce8dc6">
+  <name>УдалитьИнтеграцияСЯндексКассойРТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с яндекс кассой РТ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <parentSubsystem>Subsystem.Служебная.Subsystem.ЭлектронноеВзаимодействиеРТ</parentSubsystem>
+</mdclass:Subsystem>

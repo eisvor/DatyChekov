@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a1f67f4-c2ad-42e0-9ad1-9171e0cb3748">
+  <producedTypes>
+    <refType typeId="72e67d8f-8e0b-4681-aff9-c5dde43ac99f" valueTypeId="a6358f32-ee9b-4a23-8cda-88c11502f57f"/>
+    <listType typeId="9de825ec-9ce9-46a0-bcc3-f6e815b312c3" valueTypeId="28556743-a224-491a-aab9-c37ca9f88f47"/>
+    <managerType typeId="2f73f0e9-51c9-4516-be70-06c1747ae660" valueTypeId="a34e3eb8-5976-4946-8be0-893cd0b00d30"/>
+  </producedTypes>
+  <name>ХозяйственныеОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хозяйственные операции</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="28129bde-43ad-4635-ac40-c2442efe6d7d">
+    <name>ВнутренняяПередачаДенежныхСредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутренняя передача ДС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c9b417c9-bf7c-47df-a86a-31c6720f36cd">
+    <name>ВозвратДенежныхСредствОтПоставщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат ДС от поставщика</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="44998cff-8bbd-4c88-824f-94ff9cd3151a">
+    <name>ВозвратОплатыКлиенту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат оплаты покупателю</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8ad7e20e-2715-4dad-b97e-e799e663c77a">
+    <name>ВозвратОтПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат от покупателя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9055495f-b71f-4b49-8619-4b8be6309dc8">
+    <name>ВозвратПоставщику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат поставщику</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="92b2381e-cf02-4720-8c5c-3d391006287a">
+    <name>ВыдачаДенежныхСредствВДругуюКассу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдача ДС в другую кассу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c7384ec8-21fe-4421-995a-35c8496f4bf9">
+    <name>ВыдачаДенежныхСредствВДругуюОрганизацию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдача ДС в другую организацию</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8e961b39-3981-49b3-913a-d3d566520b70">
+    <name>ВыдачаДенежныхСредствВКассуККМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдача ДС в кассу ККМ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d3764880-387a-4c8f-ad66-295a2173a473">
+    <name>ВыдачаДенежныхСредствИзКассыККМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдача ДС из кассы ККМ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c9ba6d7f-b07f-4219-9fe4-126fa30090c2">
+    <name>ВыплатаЗаработнойПлатыПоВедомостям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выплата заработной платы по ведомости</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b9030e09-f0b7-41e9-94ce-327422c4ef23">
+    <name>ВыплатаЗаработнойПлатыРаботнику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выплата заработной платы сотруднику</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d269dcdb-717f-4648-8bfa-56a21cf7d2be">
+    <name>ЗакупкаВСтранахЕАЭС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввоз из ЕАЭС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f773d36e-89bb-4972-be08-5245b2e0251d">
+    <name>ЗакупкаПоИмпорту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Импорт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2a3c944c-83e0-45fc-88ce-218a2cee34c9">
+    <name>КомплектацияНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплектация номенклатуры</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1271be74-9d55-4e79-93a6-e826c7e515fd">
+    <name>КонвертацияВалюты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация валюты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="52e2fd8e-ea85-497a-bb5b-07edfb0439d4">
+    <name>ОплатаПоставщику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата поставщику</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="497589b5-0482-4c67-93d3-75879b9d992c">
+    <name>Оприходование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оприходование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="755fc43b-df15-4abf-87e8-15ac1c5cc874">
+    <name>ОприходованиеПоИнвентаризации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оприходование по инвентаризации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4bc0efa3-6490-47dc-ae9d-7a15d1b764fc">
+    <name>ОтгрузкаНаВнутренниеНужды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отгрузка на внутренние нужды</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5a200f12-d71e-46d6-8690-0b44154635cd">
+    <name>ПередачаТоваровДоРеализации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передача до реализации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="15bcce13-0726-408e-8fdb-1aee66c57e24">
+    <name>ПередачаТоваровПослеРеализации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передача после реализации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3f3a93f3-e41d-4fc2-947e-638853aa5024">
+    <name>ПеремещениеТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещение товаров</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="237ecec2-6192-4375-9646-a751a1783bf6">
+    <name>ПересортицаТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пересортица товаров</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="296f86cb-c5a5-41dd-a72e-ccf70ac9bd6f">
+    <name>ПересортицаТоваровСПереоценкой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пересортица товаров (переоценка)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7a75f1c2-0351-4c45-83d8-a822c4a12576">
+    <name>ПогашениеПодарочныхСертификатов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Погашение подарочных сертификатов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="17275a6e-0d9b-4934-bd6d-e1305d5b74c8">
+    <name>ПоступлениеДенежныхСредствИзБанка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление ДС из банка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1e932e7e-91c3-4588-a2d7-dec809275857">
+    <name>ПоступлениеДенежныхСредствИзДругойКассы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление ДС из другой кассы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6821e285-65e8-4bb0-ab0b-6b7a9df882f5">
+    <name>ПоступлениеДенежныхСредствИзДругойОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление ДС из другой организации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="34aba05b-d67b-451a-ad8e-2f15e42c62bb">
+    <name>ПоступлениеДенежныхСредствИзКассыККМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление ДС из кассы ККМ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bc38780d-bed2-416f-a0e0-92b19155f3b3">
+    <name>ПоступлениеОплатыОтКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление оплаты от покупателя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9d0c3951-5656-4e35-a73c-b3cdabcf5431">
+    <name>ПоступлениеТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление товаров</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="07f6d1a9-274e-4a20-baab-1e320b440de9">
+    <name>ПриемТоваровОтДругойОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прием товаров от другой организации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f59e19b6-d8a2-4c0c-9a80-026028fed573">
+    <name>ПрочиеДоходы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочие доходы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ee08ea7d-f361-4756-9a0f-cede827b18c3">
+    <name>ПрочиеРасходы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочие расходы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a46b9eff-767a-45a9-8f1e-d910d2163082">
+    <name>РеализацияТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реализация товаров</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f604f718-8aa3-48a9-bdfe-834dacb618f7">
+    <name>СдачаДенежныхСредствВБанк</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сдача ДС в банк</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="866fe075-3484-497f-b72c-8c60e454e019">
+    <name>СписаниеНаЗатраты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание на затраты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="57738efe-f121-4b75-ba23-83b477a7bf36">
+    <name>СписаниеПоИнвентаризации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание по инвентаризации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="424f7473-0dde-4978-a553-ceb099295d2b">
+    <name>ПриемНаКомиссию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прием на комиссию</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2307fe48-ae42-4a10-a372-f76eeaca0044">
+    <name>ВозвратТоваровКомитенту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат товаров комитенту</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bc17cb89-e327-4e84-aae6-1a8b496a8b06">
+    <name>ОприходованиеКомиссионныхТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оприходование комиссионных товаров</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6dd2a404-d7b4-4ec9-89c8-2d9570eb9fd4">
+    <name>ВознаграждениеОтКомитента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вознаграждение от комитента</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="54907ab6-3a00-400d-a7ad-0410da1f779d">
+    <name>КорректировкаВыручки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировка выручки</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

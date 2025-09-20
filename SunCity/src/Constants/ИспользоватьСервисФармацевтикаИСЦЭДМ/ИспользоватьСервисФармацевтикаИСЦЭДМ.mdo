@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5dcaa7fb-af2d-46b5-9974-638768df17e7">
+  <producedTypes>
+    <managerType typeId="75330b4a-4299-46fc-b4ab-0bdc24fad350" valueTypeId="965e4b65-b621-4f42-9cb7-af5dbd95e2ee"/>
+    <valueManagerType typeId="61c6d787-cab0-4d8b-9d27-0fd0250003c7" valueTypeId="26b53810-7780-475d-8c0e-e5750d319495"/>
+    <valueKeyType typeId="92e7169e-4b1c-46ea-8e66-9034653e3d6d" valueTypeId="ddf4195c-ee10-4ebd-b15b-499779e50b3b"/>
+  </producedTypes>
+  <name>ИспользоватьСервисФармацевтикаИСЦЭДМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование обмена с ИС ЦЭДМ</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

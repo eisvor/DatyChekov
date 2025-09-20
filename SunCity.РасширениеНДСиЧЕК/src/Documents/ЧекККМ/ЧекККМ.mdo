@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ae702132-277f-4900-b81d-0ba73463ca60" extendedConfigurationObject="b4c9e631-8fc8-455e-8eb2-a18c8a1d1621">
+  <producedTypes>
+    <objectType typeId="467e55d3-f03b-4751-a21f-7151498e6e09" valueTypeId="976cdae9-ef5d-485b-8a83-780e2abc2d65"/>
+    <refType typeId="3c2c6a96-42a4-4c6e-8000-0ba4b69c4c57" valueTypeId="d3d2a929-c96c-47e4-9f18-597adfd5a4d3"/>
+    <selectionType typeId="b85e620b-7f35-4b13-8f24-24288013095b" valueTypeId="6874ffa9-f90f-4f0f-99eb-796050ac8950"/>
+    <listType typeId="1b382aa2-ce34-4eed-a1b0-0db71d5705c3" valueTypeId="0bef1471-64f7-4ed2-9a5b-edd81cc76ad0"/>
+    <managerType typeId="e4a11c02-1fbe-473d-b683-a7610830f68f" valueTypeId="a81ed5ec-00a2-4a9e-a3fc-5d8ed6b1a556"/>
+  </producedTypes>
+  <name>ЧекККМ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <templates uuid="12b2abcd-9fca-4da0-af0f-c7fd56f66d9c" extendedConfigurationObject="8eacc614-6362-4b1f-b363-255a5293e979">
+    <name>ПФ_MXL_ТоварныйЧекДляПД</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicTemplateExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <template>Extended</template>
+    </extension>
+  </templates>
+</mdclass:Document>

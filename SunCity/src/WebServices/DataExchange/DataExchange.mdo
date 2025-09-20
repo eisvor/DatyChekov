@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb440e74-b0b1-4195-8601-17a348daedfd">
+  <name>DataExchange</name>
+  <synonym>
+    <key>ru</key>
+    <value>Data exchange</value>
+  </synonym>
+  <namespace>DataExchange</namespace>
+  <descriptorFileName>DataExchange.1cws</descriptorFileName>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="42f43b5f-1672-47ab-a7ea-82718ed808a5">
+    <name>Test</name>
+    <synonym>
+      <key>ru</key>
+      <value>Test</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>Test</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+  </operations>
+  <operations uuid="fa4ad66c-376a-4687-9749-cb3876fe85e2">
+    <name>DataTransfer</name>
+    <synonym>
+      <key>ru</key>
+      <value>Data transfer</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <transactioned>true</transactioned>
+    <procedureName>DataTransfer</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="c5d1fdb1-c3e6-4a40-8b90-2de2ce050531">
+      <name>SerializedDataStructure</name>
+      <synonym>
+        <key>ru</key>
+        <value>Serialized data structure</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="67cbb664-43db-42d1-88a5-87b1ef7a3cca">
+    <name>GiveAllDocs</name>
+    <synonym>
+      <key>ru</key>
+      <value>Give all docs</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GiveAllDocs</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+  </operations>
+  <operations uuid="dd00ebe9-01aa-48f8-a90b-3732e1c72ed3">
+    <name>GiveDocumentMarkingCodes</name>
+    <synonym>
+      <key>ru</key>
+      <value>Give document marking codes</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GiveDocumentMarkingCodes</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="e0d6c961-a13b-4d97-a92e-a58d9b1c40c6">
+      <name>Document</name>
+      <synonym>
+        <key>ru</key>
+        <value>Document</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="9f54d443-0e9a-42ac-9bc2-1c7aa4017257">
+    <name>GiveAllTAC</name>
+    <synonym>
+      <key>ru</key>
+      <value>Give all transfer acceptance certificate</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GiveAllTAC</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="170ad7b0-57d5-41da-ad24-14cd933aa556">
+      <name>StartDate</name>
+      <synonym>
+        <key>ru</key>
+        <value>Start date</value>
+      </synonym>
+      <xdtoValueType>
+        <name>dateTime</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="624ef55b-d812-44dc-a353-a9b8aab4d3ea">
+      <name>EndDate</name>
+      <synonym>
+        <key>ru</key>
+        <value>End date</value>
+      </synonym>
+      <xdtoValueType>
+        <name>dateTime</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="6e3affe1-d9e1-4871-89b2-b2d8dcbf3b59">
+    <name>GiveTACCodes</name>
+    <synonym>
+      <key>ru</key>
+      <value>Give TAC Codes</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GiveTACCodes</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="2a15801d-f68b-4fdc-b4bb-567e78f8e833">
+      <name>Document</name>
+      <synonym>
+        <key>ru</key>
+        <value>Document</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="a8c7de36-783d-42fe-b32b-6eba896a8283">
+    <name>TakeTACDiscrepancies</name>
+    <synonym>
+      <key>ru</key>
+      <value>Take TAC discrepancies</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>TakeTACDiscrepancies</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="778db328-d6a7-4eb0-8da7-bf2519496679">
+      <name>SerializedDataStructure</name>
+      <synonym>
+        <key>ru</key>
+        <value>Serialized data structure</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+</mdclass:WebService>

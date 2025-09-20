@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c14919c-f466-4d51-878e-7ce0e9334ffb">
+  <name>ПомощникНастройкиРабочегоМестаКассира</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помощник настройки кассового места</value>
+  </synonym>
+  <group>ActionsPanelTools</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>
